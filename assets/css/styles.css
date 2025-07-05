@@ -1401,3 +1401,15 @@ button:hover {
   }
 }
 
+
+/* Orange background for CTA sections */
+.bg-orange {
+  background-color: #e67e22 !important;
+  color: white;
+}
+
+.bg-orange h2,
+.bg-orange p {
+  color: white;
+}
+
