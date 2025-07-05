@@ -233,20 +233,24 @@
 
 .content-body {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 45% 55%;
+  gap: 2rem;
   align-items: start;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .text-content {
   padding: 1rem;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .image-content {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .intro-text {
@@ -264,14 +268,10 @@
   margin-bottom: 0;
 }
 
-.image-content {
-  width: 100%;
-}
-
 .tailored-solutions-image {
   width: 100%;
-  max-width: 500px;
-  height: 300px;
+  max-width: 400px;
+  height: 280px;
   object-fit: cover;
   display: block;
   border-radius: 12px;
