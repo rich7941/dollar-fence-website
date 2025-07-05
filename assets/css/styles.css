@@ -178,35 +178,20 @@ a:hover {
 .mobile-hidden {
   display: none !important;
 }
-/* Hero Container - Not Full Width */
-.hero-container {
-  padding: 2rem 0;
-  background-color: white;
-}
 
-.hero-image {
-  width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 2rem;
-}
-
-.hero-content {
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: var(--primary-color);
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: var(--text-color);
+/* Hero Section */
+.hero {
+  background-color: var(--light-bg);
+  padding: 0 0 8rem 0;
+  text-align: left;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/hardwood-fence.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  min-height: 60vh;
+  margin-top: 0;
+  padding-top: 6rem;
 }
 
 /* Page-specific hero backgrounds */
@@ -318,7 +303,7 @@ a:hover {
 
 /* Fence Types Showcase Section - New Style */
 .fence-types-showcase {
-  padding: 3rem 0;
+  padding: 5rem 0;
   background-color: white;
 }
 
@@ -343,11 +328,18 @@ a:hover {
 
 .fence-card-image {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
   object-position: center;
   display: block;
   border-radius: 0;
+}
+
+/* Force Pool Fence image to exact same height as others */
+img[src*="pool-fence-new.jpg"] {
+  height: 200px !important;
+  max-height: 200px !important;
+  min-height: 200px !important;
 }
 
 .fence-card-content {
@@ -959,154 +951,47 @@ button:hover {
 /* Add Google Fonts link in the HTML head */
 
 
-/* Tailored Solutions - New Dynamic Layout */
-.tailored-solutions-new {
-  padding: 5rem 0;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  position: relative;
-  overflow: hidden;
+/* Tailored Solutions Section */
+.tailored-solutions {
+  background-color: var(--light-bg);
+  padding: 6rem 0;
 }
 
-.tailored-content-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
-  min-height: 500px;
-}
-
-.tailored-image-container {
-  position: relative;
-  transform: rotate(-2deg);
-  transition: transform 0.3s ease;
-}
-
-.tailored-image-container:hover {
-  transform: rotate(0deg) scale(1.02);
-}
-
-.tailored-main-image {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-  border: 8px solid white;
-}
-
-.image-overlay {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-.overlay-badge {
-  background: var(--primary-color);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 25px;
-  font-weight: 600;
-  font-size: 0.9rem;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  transform: rotate(15deg);
-}
-
-.tailored-text-container {
-  padding: 2rem;
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  position: relative;
-}
-
-.tailored-text-container::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  left: 30px;
-  width: 60px;
-  height: 4px;
-  background: var(--primary-color);
-  border-radius: 2px;
-}
-
-.text-content h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
+.tailored-solutions h2 {
   color: var(--primary-color);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
   line-height: 1.2;
 }
 
-.highlight-box {
-  background: linear-gradient(135deg, var(--primary-color), #e67e22);
-  color: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  margin: 1.5rem 0;
-  position: relative;
+.tailored-solutions p {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
-.highlight-box .lead {
-  margin: 0;
-  font-size: 1.1rem;
-  font-weight: 500;
+.tailored-solutions-image {
+  width: 100vw;
+  height: 600px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: calc(-50vw + 50%);
 }
 
-.features-list {
-  margin: 2rem 0;
-}
-
-.feature-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-  padding: 0.75rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  transition: transform 0.2s ease;
-}
-
-.feature-item:hover {
-  transform: translateX(5px);
-  background: #e9ecef;
-}
-
-.feature-icon {
-  font-size: 1.5rem;
-  margin-right: 1rem;
-  width: 30px;
-  text-align: center;
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-.commitment-text {
-  font-weight: 600;
-  color: var(--primary-color);
-  font-size: 1.1rem;
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 2px solid #e9ecef;
-}
-
-/* Mobile Responsive */
 @media (max-width: 768px) {
-  .tailored-content-wrapper {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .tailored-solutions h2 {
+    font-size: 2rem;
+    text-align: center;
   }
   
-  .tailored-image-container {
-    transform: none;
-    order: 2;
+  .tailored-solutions .col-md-6:first-child {
+    margin-bottom: 2rem;
   }
   
-  .tailored-text-container {
-    order: 1;
-  }
-  
-  .text-content h2 {
-    font-size: 1.8rem;
+  .tailored-solutions-image {
+    height: 450px;
   }
 }
 
