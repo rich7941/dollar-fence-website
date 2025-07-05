@@ -40,8 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const contactForm = document.querySelector('.contact-form form');
   if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      
       // Basic validation
       let valid = true;
       const requiredFields = contactForm.querySelectorAll('[required]');
@@ -65,15 +63,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       
-      if (valid) {
-        // In a real implementation, this would submit the form data
-        const successMessage = document.createElement('div');
-        successMessage.classList.add('form-success');
-        successMessage.textContent = 'Thank you for your message! We will contact you shortly.';
-        
-        contactForm.innerHTML = '';
-        contactForm.appendChild(successMessage);
+      if (!valid) {
+        e.preventDefault(); // Only prevent submission if validation fails
       }
+      // If valid, allow the form to submit naturally to Netlify
     });
   }
   

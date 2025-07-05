@@ -90,7 +90,8 @@
         
         <div class="contact-form">
           <h2>Request a Quote</h2>
-          <form id="lead-form">
+          <form id="lead-form" method="POST" netlify name="contact-form" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact-form" />
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Full Name *</label>
