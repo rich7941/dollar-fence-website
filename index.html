@@ -178,79 +178,29 @@
 
 <section class="tailored-solutions section-padding">
   <div class="container">
-    <div class="tailored-solutions-wrapper">
-      <div class="tailored-content">
-        <div class="content-header">
-          <h2>Tailored Fencing Solutions for Every Property Type</h2>
-        </div>
-        <div class="content-body">
-          <div class="text-content">
-            <p class="intro-text">At Dollar Fence, we know that every property has its own unique fencing needs. That's why we offer a full range of fencing services for both residential and commercial clients.</p>
-            <p class="detail-text">Whether you're aiming to boost your home's curb appeal or add security to your business, our experienced team delivers tailored solutions that match your goals and budget. With a focus on quality craftsmanship and long-term value, Dollar Fence is committed to getting the job done right.</p>
-          </div>
-          <div class="image-content">
-            <img src="/assets/images/residential-wood-fence.jpg" alt="Residential Wood Fence Installation" class="tailored-solutions-image">
-          </div>
-        </div>
+    <h2 class="text-center mb-4">Tailored Fencing Solutions for Every Property Type</h2>
+    <div class="tailored-content">
+      <div class="tailored-info">
+        <p class="intro-text">At Dollar Fence, we know that every property has its own unique fencing needs. That's why we offer a full range of fencing services for both residential and commercial clients.</p>
+        <p class="detail-text">Whether you're aiming to boost your home's curb appeal or add security to your business, our experienced team delivers tailored solutions that match your goals and budget. With a focus on quality craftsmanship and long-term value, Dollar Fence is committed to getting the job done right.</p>
+      </div>
+      <div class="tailored-image">
+        <img src="/assets/images/residential-wood-fence.jpg" alt="Residential Wood Fence Installation" class="tailored-solutions-image">
       </div>
     </div>
   </div>
 </section>
 
 <style>
-.tailored-solutions {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-}
-
-.tailored-solutions-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.content-header {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.content-header h2 {
-  font-size: 2.5rem;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-  position: relative;
-}
-
-.content-header h2::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 3px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-}
-
-.content-body {
+.tailored-content {
   display: grid;
-  grid-template-columns: 45% 55%;
-  gap: 2rem;
-  align-items: start;
-  margin-top: 2rem;
-  width: 100%;
-}
-
-.text-content {
-  padding: 1rem;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.image-content {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
   align-items: center;
+}
+
+.tailored-info {
+  padding: 1rem 0;
 }
 
 .intro-text {
@@ -270,39 +220,16 @@
 
 .tailored-solutions-image {
   width: 100%;
-  max-width: 400px;
-  height: 280px;
+  height: 350px;
   object-fit: cover;
-  display: block;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
-  .content-header h2 {
-    font-size: 2rem;
-  }
-  
-  .content-body {
+  .tailored-content {
     grid-template-columns: 1fr;
     gap: 2rem;
-  }
-  
-  .text-content {
-    padding: 1rem;
-    order: 2;
-  }
-  
-  .image-content {
-    order: 1;
-  }
-  
-  .tailored-solutions-image {
-    height: 300px;
-  }
-  
-  .intro-text {
-    font-size: 1.1rem;
   }
 }
 </style>
