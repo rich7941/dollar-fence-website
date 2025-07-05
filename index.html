@@ -178,18 +178,171 @@
 
 <section class="tailored-solutions section-padding">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h2>Tailored Fencing Solutions for Every Property Type</h2>
-        <p>At Dollar Fence, we know that every property has its own unique fencing needs. That's why we offer a full range of fencing services for both residential and commercial clients.</p>
-        <p>Whether you're aiming to boost your home's curb appeal or add security to your business, our experienced team delivers tailored solutions that match your goals and budget. With a focus on quality craftsmanship and long-term value, Dollar Fence is committed to getting the job done right.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="/assets/images/residential-wood-fence.jpg" alt="Residential Wood Fence Installation" class="tailored-solutions-image">
+    <div class="tailored-solutions-wrapper">
+      <div class="tailored-content">
+        <div class="content-header">
+          <h2>Tailored Fencing Solutions for Every Property Type</h2>
+        </div>
+        <div class="content-body">
+          <div class="text-content">
+            <p class="intro-text">At Dollar Fence, we know that every property has its own unique fencing needs. That's why we offer a full range of fencing services for both residential and commercial clients.</p>
+            <p class="detail-text">Whether you're aiming to boost your home's curb appeal or add security to your business, our experienced team delivers tailored solutions that match your goals and budget. With a focus on quality craftsmanship and long-term value, Dollar Fence is committed to getting the job done right.</p>
+          </div>
+          <div class="image-content">
+            <div class="image-wrapper">
+              <img src="/assets/images/residential-wood-fence.jpg" alt="Residential Wood Fence Installation" class="tailored-solutions-image">
+              <div class="image-overlay">
+                <div class="overlay-content">
+                  <h3>Professional Installation</h3>
+                  <p>Expert craftsmanship for lasting results</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<style>
+.tailored-solutions {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.tailored-solutions-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.content-header h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.content-header h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
+
+.content-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.text-content {
+  padding: 2rem;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.detail-text {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.image-content {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.tailored-solutions-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  padding: 2rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover .image-overlay {
+  transform: translateY(0);
+}
+
+.overlay-content h3 {
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.overlay-content p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .content-header h2 {
+    font-size: 2rem;
+  }
+  
+  .content-body {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .text-content {
+    padding: 1rem;
+    order: 2;
+  }
+  
+  .image-content {
+    order: 1;
+  }
+  
+  .tailored-solutions-image {
+    height: 300px;
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+  }
+}
+</style>
 
 <section class="commercial-fencing section-padding bg-dark">
   <div class="container">
