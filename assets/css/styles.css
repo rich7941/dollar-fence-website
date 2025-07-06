@@ -242,7 +242,7 @@ body {
 }
 
 .hero.pool-fence-hero {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.png');
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.jpg');
 }
 
 .hero.trex-fence-hero {
@@ -290,7 +290,7 @@ body {
 }
 
 .hero.pool-fence-hero {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.png');
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.jpg');
 }
 
 .hero h1 {
