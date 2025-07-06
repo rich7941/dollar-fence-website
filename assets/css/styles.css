@@ -242,7 +242,7 @@ body {
 }
 
 .hero.pool-fence-hero {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.png');
 }
 
 .hero.trex-fence-hero {
@@ -287,6 +287,10 @@ body {
 
 .hero.dog-fence-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/tall-dog-fence.jpg');
+}
+
+.hero.pool-fence-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.png');
 }
 
 .hero h1 {
