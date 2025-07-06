@@ -281,6 +281,14 @@ body {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/chain-link-fence-coated.jpg');
 }
 
+.hero.steel-fence-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/steel-fence.jpg');
+}
+
+.hero.dog-fence-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/tall-dog-fence.jpg');
+}
+
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
