@@ -622,6 +622,23 @@ button:hover {
   text-decoration: none;
 }
 
+/* Footer Logo Styles */
+.footer-logo .footer-logo-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.footer-logo .footer-tagline {
+  font-size: 1.1rem;
+  color: #D6D7D1;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
