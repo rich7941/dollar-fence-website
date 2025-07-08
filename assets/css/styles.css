@@ -464,7 +464,7 @@ img[src*="pool-fence-new.jpg"] {
 
 .location-map {
   height: 400px;
-  background-color: #ffffff;
+  background-color: var(--light-bg);
   border-radius: var(--border-radius-md);
   overflow: hidden;
   display: flex;
