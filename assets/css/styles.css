@@ -1249,15 +1249,15 @@ button:hover {
 }
 
 .why-choose-content {
-  display: flex;
-  gap: 5rem;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
   position: relative;
   z-index: 1;
 }
 
 .benefits-grid {
-  flex: 1.2;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
@@ -1353,51 +1353,29 @@ button:hover {
 }
 
 .why-choose-visual {
-  flex: 1;
-  position: relative;
-  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
 }
 
 .visual-card {
-  position: absolute;
-  width: 280px;
-  height: 200px;
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.6s ease;
-}
-
-.visual-card:nth-child(1) {
-  top: 0;
-  left: 0;
-  z-index: 3;
-  transform: rotate(-5deg);
-}
-
-.visual-card:nth-child(2) {
-  top: 120px;
-  right: 0;
-  z-index: 2;
-  transform: rotate(8deg);
-}
-
-.visual-card:nth-child(3) {
-  bottom: 0;
-  left: 50px;
-  z-index: 1;
-  transform: rotate(-3deg);
+  transition: transform 0.3s ease;
+  position: relative;
 }
 
 .visual-card:hover {
-  transform: rotate(0deg) scale(1.05);
-  z-index: 4;
+  transform: translateY(-5px);
 }
 
 .visual-card img {
   width: 100%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
+  display: block;
 }
 
 .visual-overlay {
@@ -1412,45 +1390,86 @@ button:hover {
   font-weight: 500;
 }
 
+.visual-card:nth-child(3) {
+  grid-column: 1 / -1;
+}
+
+.visual-card:nth-child(3) img {
+  height: 160px;
+}
+
+/* Responsive Design */
 @media (max-width: 1024px) {
   .why-choose-content {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 3rem;
   }
   
   .why-choose-visual {
-    height: 400px;
     order: -1;
-  }
-  
-  .visual-card {
-    width: 240px;
-    height: 160px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 768px) {
   .why-choose h2 {
     font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .why-choose-content {
+    gap: 2rem;
   }
   
   .benefit-card {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+    padding: 1.5rem;
   }
   
   .why-choose-visual {
-    height: 300px;
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
   
-  .visual-card {
-    width: 200px;
-    height: 140px;
+  .visual-card:nth-child(3) {
+    grid-column: 1;
   }
   
-  .visual-card:nth-child(2) {
-    top: 80px;
+  .visual-card img {
+    height: 180px;
+  }
+  
+  .visual-card:nth-child(3) img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-choose-content {
+    gap: 1.5rem;
+  }
+  
+  .benefit-card {
+    padding: 1rem;
+  }
+  
+  .benefit-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .benefit-icon i {
+    font-size: 1.5rem;
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .benefit-card p {
+    font-size: 0.9rem;
   }
 }
 
