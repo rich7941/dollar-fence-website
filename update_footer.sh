@@ -1,28 +1,19 @@
 #!/bin/bash
 
-# Define the new footer content
-NEW_FOOTER='          <h4>Fence Types</h4>
-          <ul>
-            <li><a href="/fence-types/vinyl-fence/">Vinyl Fence</a></li>
-            <li><a href="/fence-types/wood-fence/">Wood Fence</a></li>
-            <li><a href="/fence-types/chain-link-fence/">Chain Link Fence</a></li>
-            <li><a href="/fence-types/dog-fence/">Dog Fence</a></li>
-            <li><a href="/fence-types/gates-entry/">Gates & Entry</a></li>
-            <li><a href="/fence-types/commercial-fence/">Commercial Fence</a></li>
-            <li><a href="/fence-types/agricultural-fence/">Agricultural Fence</a></li>
-            <li><a href="/fence-types/steel-fence/">Steel Fence</a></li>
-            <li><a href="/fence-types/aluminum-fence/">Aluminum Fence</a></li>
-            <li><a href="/fence-types/pool-fence/">Pool Fence</a></li>
-            <li><a href="/fence-types/deer-fence/">Deer Fence</a></li>
-            <li><a href="/fence-types/hardwood-fence/">Hardwood Fence</a></li>
-            <li><a href="/fence-types/trex-fence/">Trex Fence</a></li>
-          </ul>'
+# Script to add privacy policy and terms links to footer copyright text
 
-# Find all HTML files and update the footer section
-find . -name "*.html" -exec sed -i '/^[[:space:]]*<h4>Fence Types<\/h4>/,/^[[:space:]]*<\/ul>/{
-  /^[[:space:]]*<h4>Fence Types<\/h4>/!{
-    /^[[:space:]]*<\/ul>/!d
-  }
-}' {} \;
+echo "Updating footer copyright text in all HTML files..."
 
-echo "Footer sections updated successfully!"
+# Find all HTML files with the copyright text and update them
+find . -name "*.html" -exec grep -l "2024 Dollar Fence" {} \; | while read file; do
+    echo "Updating: $file"
+    
+    # Replace the copyright line with the new version that includes privacy and terms links
+    sed -i 's/<p>&copy; 2024 Dollar Fence\. All rights reserved\.<\/p>/<p>\&copy; 2024 Dollar Fence. All rights reserved. | <a href="\/privacy\/">Privacy Policy<\/a> | <a href="\/terms\/">Terms \& Conditions<\/a><\/p>/g' "$file"
+done
+
+echo "Footer update complete!"
+echo "Updated files:"
+find . -name "*.html" -exec grep -l "Privacy Policy.*Terms" {} \; | wc -l
+echo "files now contain the privacy and terms links."
+
