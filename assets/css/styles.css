@@ -294,10 +294,6 @@ body {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.jpg');
 }
 
-.hero.birmingham-hero {
-  background: linear-gradient(135deg, #3A4B35 0%, #5A6B4F 100%);
-}
-
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -876,10 +872,6 @@ button:hover {
   
   h1 {
     font-size: 2rem;
-  }
-  
-  .hero h1 {
-    font-size: 3rem !important;
   }
   
   h2 {
