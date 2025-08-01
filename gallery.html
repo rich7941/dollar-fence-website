@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fence Gallery | Dollar Fence - Premium Fence Installation</title>
+
+  <meta name="description" content="Browse our comprehensive gallery of fence installations including vinyl, wood, aluminum, steel, and specialty fences. See quality workmanship examples.">
+  <!-- Favicon and SEO Meta Tags -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#2d5016">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-TileColor" content="#2d5016">
+  <link rel="canonical" href="https://dollarfence.com/gallery/">
+
+  <meta property="og:title" content="Fence Gallery | Dollar Fence">
+  <meta property="og:description" content="Browse our comprehensive gallery of fence installations including vinyl, wood, aluminum, steel, and specialty fences.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dollarfence.com/gallery/">
+  <meta property="og:image" content="/assets/images/modern-vinyl-fence.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Preload font CSS as non-render-blocking -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  </noscript>
+
+  <!-- Preload critical font files directly -->
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .gallery-item {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .gallery-image {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .gallery-content {
+      padding: 1.5rem;
+    }
+
+    .gallery-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #1f2937;
+    }
+
+    .gallery-description {
+      color: #6b7280;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .category-section {
+      margin-bottom: 4rem;
+    }
+
+    .category-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1f2937;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #3b82f6;
+      padding-bottom: 0.5rem;
+    }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .lightbox-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .lightbox img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="logo">Dollar Fence</a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav mobile-hidden">
+          <ul class="nav-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/fence-types/">Fence Types</a></li>
+            <li><a href="/reviews/">Reviews</a></li>
+            <li><a href="/locations/">Locations</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/gallery/" class="active">Gallery</a></li>
+          </ul>
+        </nav>
+        <div class="phone-number">
+          <a href="tel:+18889647778">(888) 964-7778</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero gallery-hero">
+    <div class="container">
+      <h1>Fence Gallery</h1>
+      <p>Explore our comprehensive collection of premium fence installations and see the quality craftsmanship that sets Dollar Fence apart.</p>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="container">
+
+      <!-- Residential Fences -->
+      <div class="category-section">
+        <h2 class="category-title">Residential Fences</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/assets/images/modern-vinyl-fence.jpg" alt="Modern Vinyl Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Modern Vinyl Fence</h3>
+              <p class="gallery-description">Contemporary vinyl fence design perfect for modern residential properties. Low maintenance and long-lasting.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/white-picket-fence.jpg" alt="White Picket Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Classic White Picket Fence</h3>
+              <p class="gallery-description">Traditional American picket fence that adds charm and character to any home.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/decorative-vinyl-fence.jpg" alt="Decorative Vinyl Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Decorative Vinyl Fence</h3>
+              <p class="gallery-description">Elegant vinyl fence with decorative lattice top design for enhanced privacy and style.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/tall-wooden-privacy-fence.jpg" alt="Tall Wooden Privacy Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Tall Wooden Privacy Fence</h3>
+              <p class="gallery-description">Premium wooden privacy fence providing maximum security and seclusion for residential settings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wood Fences -->
+      <div class="category-section">
+        <h2 class="category-title">Premium Wood Fences</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/assets/images/hardwood-fence.jpg" alt="Hardwood Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Premium Hardwood Fence</h3>
+              <p class="gallery-description">Superior hardwood construction offering exceptional durability and natural beauty.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/oak-wood-fence.jpg" alt="Oak Wood Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Oak Wood Fence</h3>
+              <p class="gallery-description">Classic oak wood fence with rich grain patterns and exceptional strength.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/painted-hardwood-fence.jpg" alt="Painted Hardwood Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Painted Hardwood Fence</h3>
+              <p class="gallery-description">Custom painted hardwood fence combining durability with personalized color choices.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/stained-wood-fence.jpg" alt="Stained Wood Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Stained Wood Fence</h3>
+              <p class="gallery-description">Beautiful stained wood fence that enhances natural wood grain while providing weather protection.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aluminum & Metal Fences -->
+      <div class="category-section">
+        <h2 class="category-title">Aluminum & Metal Fences</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/assets/images/aluminum-fence.jpg" alt="Aluminum Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Classic Aluminum Fence</h3>
+              <p class="gallery-description">Elegant aluminum fence offering maintenance-free beauty and long-lasting performance.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/black-aluminum-fence.jpg" alt="Black Aluminum Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Black Aluminum Fence</h3>
+              <p class="gallery-description">Sophisticated black aluminum fence that adds modern elegance to any property.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/steel-fence.jpg" alt="Steel Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Steel Security Fence</h3>
+              <p class="gallery-description">Heavy-duty steel fence providing maximum security and industrial-strength protection.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/galvanized-steel-fence.jpg" alt="Galvanized Steel Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Galvanized Steel Fence</h3>
+              <p class="gallery-description">Corrosion-resistant galvanized steel fence ideal for harsh weather conditions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Commercial & Industrial -->
+      <div class="category-section">
+        <h2 class="category-title">Commercial & Industrial Fences</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/assets/images/commercial-steel-fence.jpg" alt="Commercial Steel Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Commercial Steel Fence</h3>
+              <p class="gallery-description">Heavy-duty commercial steel fence designed for business and industrial applications.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/chain-link-fence-coated.jpg" alt="Coated Chain Link Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Coated Chain Link Fence</h3>
+              <p class="gallery-description">Durable coated chain link fence offering cost-effective security for commercial properties.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/security-fence.jpg" alt="Security Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">High-Security Fence</h3>
+              <p class="gallery-description">Professional security fence system designed for maximum protection and access control.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/aluminum-anti-climb-fence.jpg" alt="Anti-Climb Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Anti-Climb Security Fence</h3>
+              <p class="gallery-description">Specialized anti-climb fence providing enhanced security for sensitive commercial areas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specialty Fences -->
+      <div class="category-section">
+        <h2 class="category-title">Specialty Fences</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/assets/images/pool-fence.jpg" alt="Pool Safety Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Pool Safety Fence</h3>
+              <p class="gallery-description">Code-compliant pool fence ensuring safety while maintaining aesthetic appeal around pool areas.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/dog-fence-simple.jpg" alt="Dog Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Pet-Safe Dog Fence</h3>
+              <p class="gallery-description">Specialized dog fence designed to keep pets safe and secure while allowing outdoor freedom.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/deer-fence.jpg" alt="Deer Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Wildlife Deer Fence</h3>
+              <p class="gallery-description">Effective deer fence protecting gardens and landscaping from wildlife damage.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/trex-fence.jpg" alt="Trex Composite Fence" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Trex Composite Fence</h3>
+              <p class="gallery-description">Eco-friendly composite fence combining the beauty of wood with modern durability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gates & Railings -->
+      <div class="category-section">
+        <h2 class="category-title">Gates & Railings</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/assets/images/elegant-residential-gates.jpg" alt="Elegant Residential Gates" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Elegant Residential Gates</h3>
+              <p class="gallery-description">Custom residential gates combining security with sophisticated design elements.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/modern-driveway-gates.jpg" alt="Modern Driveway Gates" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Modern Driveway Gates</h3>
+              <p class="gallery-description">Contemporary driveway gates featuring clean lines and automated access systems.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/custom-wooden-gates.jpg" alt="Custom Wooden Gates" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Custom Wooden Gates</h3>
+              <p class="gallery-description">Handcrafted wooden gates designed to complement your fence and property style.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/assets/images/modern-deck-railing.jpg" alt="Modern Deck Railing" class="gallery-image" onclick="openLightbox(this.src)">
+            <div class="gallery-content">
+              <h3 class="gallery-title">Modern Deck Railing</h3>
+              <p class="gallery-description">Sleek deck railing systems that enhance safety while maintaining modern aesthetics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close">&times;</span>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+    </div>
+  </div>
+
+  <section class="cta section-padding bg-orange">
+    <div class="container text-center">
+      <h2>Ready to Install Your Dream Fence?</h2>
+      <p>Contact us today for a free consultation and quote on your fence project.</p>
+      <a href="/contact/" class="btn">Get Your Free Quote</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Dollar Fence</h3>
+          <p>Premium fence installation, manufacturing, and services for residential and commercial properties.</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/dollarfence" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/dollarfence" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/dollarfence" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/fence-types/">Fence Types</a></li>
+            <li><a href="/reviews/">Reviews</a></li>
+            <li><a href="/locations/">Locations</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Fence Types</h3>
+          <ul>
+            <li><a href="/fence-types/#vinyl">Vinyl Fence</a></li>
+            <li><a href="/fence-types/#wood">Wood Fence</a></li>
+            <li><a href="/fence-types/#aluminum">Aluminum Fence</a></li>
+            <li><a href="/fence-types/#chain-link">Chain Link Fence</a></li>
+            <li><a href="/fence-types/#steel">Steel Fence</a></li>
+            <li><a href="/fence-types/#composite">Trex Composite Fence</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-phone"></i> (888) 964-7778</p>
+
+          <p><i class="fas fa-clock"></i> Monday - Friday: 8:00 AM - 5:00 PM</p>
+          <p>Saturday: 9:00 AM - 2:00 PM</p>
+          <p>Sunday: Closed</p>
+          <a href="/contact/" class="btn">Get a Free Quote</a>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; 2025 Dollar Fence. All rights reserved. <a href="/privacy/">Privacy Policy</a> | <a href="/terms/">Terms of Service</a> | <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function openLightbox(src) {
+      document.getElementById('lightbox').style.display = 'block';
+      document.getElementById('lightbox-img').src = src;
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Close lightbox with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeLightbox();
+      }
+    });
+  </script>
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
+
