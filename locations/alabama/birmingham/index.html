@@ -128,8 +128,21 @@ h3 {
   font-size: 1.5rem; /* Reduced from 1.75rem */
 }
 
+/* Critical paragraph optimizations for LCP performance */
 p {
-  margin-bottom: 1.5rem;
+  font-family: var(--font-main);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  /* Critical LCP optimizations to fix 930ms delay */
+  contain: layout style;
+  text-rendering: optimizeSpeed;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Optimize text layout computation */
+  font-synthesis: weight;
+  font-optical-sizing: auto;
 }
 
 a {
@@ -399,8 +412,8 @@ a:hover {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <style>
-    /* Inline critical font styles with fallbacks - optimized for H2 LCP */
-    body, .hero h1, .hero p, h2, h3 {
+    /* Inline critical font styles with fallbacks - optimized for paragraph LCP */
+    body, .hero h1, .hero p, h2, h3, p {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-display: swap;
     }
@@ -409,6 +422,14 @@ a:hover {
     h2, h3, h4, h5, h6 {
       font-weight: 700;
       font-synthesis: weight; /* Allow synthetic bold if needed */
+    }
+    
+    /* Critical paragraph optimization for 930ms LCP fix */
+    p {
+      font-optical-sizing: auto;
+      text-rendering: optimizeSpeed;
+      font-display: swap;
+      contain: layout style;
     }
     
     /* Critical H2 optimization for LCP */
