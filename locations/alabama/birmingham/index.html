@@ -36,7 +36,6 @@
 
   <!-- Preload only critical resources for LCP -->
   <link rel="preload" href="/assets/css/styles.css?v=2025070502" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="/external-assets/fonts/inter.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   
   <!-- Remove non-critical image preloads that delay LCP -->
 
@@ -67,10 +66,12 @@
   box-sizing: border-box;
 }
 
-/* Optimize rendering performance */
+/* Optimize rendering performance - TBT optimization */
 html {
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeSpeed;
+  /* Reduce main-thread blocking during parsing */
+  content-visibility: auto;
 }
 
 body {
@@ -83,6 +84,9 @@ body {
   padding-top: 70px; /* Mobile first */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Optimize for main-thread performance */
+  will-change: auto;
+  contain: layout style;
 }
 
 .container {
@@ -1701,8 +1705,8 @@ a:hover {
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="/assets/js/main.js"></script>
+  <!-- Scripts - Optimized for TBT (Total Blocking Time) -->
+  <script src="/assets/js/main.js" async></script>
   <script src="/assets/js/lazy-loading.js" defer></script>
 </body>
 </html>
