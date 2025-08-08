@@ -34,20 +34,15 @@
   <!-- Performance Optimizations -->
   <link rel="dns-prefetch" href="https://dollarfence.com">
 
-  <!-- Preload critical resources -->
+  <!-- Preload only critical resources for LCP -->
   <link rel="preload" href="/assets/css/styles.css?v=2025070502" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="/assets/js/main.js" as="script">
-  <link rel="preload" href="/assets/images/hardwood-cross-slat-fence.webp" as="image" fetchpriority="high">
-  <link rel="preload" href="/assets/images/responsive/modern-vinyl-fence-small.webp" as="image">
-  <link rel="preload" href="/assets/images/responsive/wood-fence-small.webp" as="image">
-  <link rel="preload" href="/assets/images/responsive/black-aluminum-fence-small.webp" as="image">
-  <link rel="preload" href="/assets/images/responsive/chain-link-fence-coated-small.webp" as="image">
+  <link rel="preload" href="/external-assets/fonts/inter.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Remove non-critical image preloads that delay LCP -->
 
-  <!-- Preload fonts -->
-
-  <!-- Critical CSS Inlined -->
+  <!-- Critical CSS Inlined - Optimized for LCP -->
   <style>
-/* Critical CSS for Above-the-Fold Content */
+/* Critical CSS for Above-the-Fold Content - Mobile First */
 :root {
   --primary-color: #3A4B35;
   --secondary-color: #7D8471;
@@ -57,7 +52,7 @@
   --dark-bg: #2C3539;
   --border-color: #D6D7D1;
   --success-color: #3A5311;
-  --font-main: 'Inter', 'Roboto', sans-serif;
+  --font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-heading: var(--font-main);
   --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
   --shadow-md: 0 4px 8px rgba(0,0,0,0.1);
@@ -72,6 +67,12 @@
   box-sizing: border-box;
 }
 
+/* Optimize rendering performance */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeSpeed;
+}
+
 body {
   font-family: var(--font-main);
   color: var(--text-color);
@@ -79,7 +80,9 @@ body {
   font-size: 16px;
   background-color: var(--light-bg);
   margin-top: 0;
-  padding-top: 80px;
+  padding-top: 70px; /* Mobile first */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -218,34 +221,32 @@ a:hover {
   display: none !important;
 }
 
-/* Hero Section */
+/* Hero Section - Optimized for mobile LCP */
 .hero {
-  background-color: var(--light-bg);
-  padding: 0 0 8rem 0;
+  background: linear-gradient(135deg, #3A4B35 0%, #5A6B4F 100%);
+  padding: 4rem 0 6rem 0;
   text-align: left;
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll; /* Improve mobile performance */
   color: white;
   position: relative;
-  min-height: 60vh;
+  min-height: 50vh;
   margin-top: 0;
-  padding-top: 6rem;
-  will-change: transform; /* Optimize for mobile scrolling */
+  /* Remove will-change to reduce GPU usage */
+  contain: layout style paint; /* Optimize rendering */
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   color: white;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .hero p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   max-width: 600px;
   margin-bottom: 2rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .btn {
@@ -265,11 +266,16 @@ a:hover {
   color: white;
 }
 
-/* Mobile Responsive */
+/* Mobile Responsive - Optimized for LCP */
 @media (max-width: 768px) {
+  body {
+    padding-top: 70px; /* Reduced header height */
+  }
+  
   .mobile-nav-toggle {
     display: block !important;
   }
+  
   .main-nav {
     display: none !important;
     position: absolute !important;
@@ -303,19 +309,22 @@ a:hover {
 
   .nav-menu li:last-child a {
     border-bottom: none !important;
-  }* Reduced height for faster LCP */
-    padding-top: 4rem; /* Reduced padding */
-    padding-bottom: 6rem;
-    background-attachment: scroll; /* Ensure scroll performance */
+  }
+
+  /* Optimized hero for mobile LCP */
+  .hero {
+    min-height: 40vh; /* Reduced height for faster LCP */
+    padding: 3rem 0 4rem 0; /* Reduced padding */
   }
 
   .hero h1 {
-    font-size: 1.8rem; /* Slightly smaller for mobile */
+    font-size: 1.75rem; /* Optimized for mobile */
     line-height: 1.2;
   }
 
   .hero p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 
   .container {
@@ -356,14 +365,22 @@ a:hover {
 }
   </style>
 
-  <!-- Preload font CSS as non-render-blocking -->
-  <link rel="preload" as="style" href="/external-assets/fonts/inter.css">
-  <link rel="stylesheet" href="/external-assets/fonts/inter.css" media="print" onload="this.media='all'">
+  <!-- Optimized font loading for LCP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    /* Inline critical font styles with fallbacks */
+    body, .hero h1, .hero p {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-display: swap;
+    }
+  </style>
+  
+  <!-- Load fonts asynchronously after LCP -->
+  <link rel="stylesheet" href="/external-assets/fonts/inter.css" media="print" onload="this.media='all'; this.onload=null;">
   <noscript>
     <link rel="stylesheet" href="/external-assets/fonts/inter.css">
   </noscript>
-
-  <!-- Preload critical font files directly -->
 
   <!-- Non-critical CSS loaded asynchronously -->
   <noscript><link rel="stylesheet" href="/assets/css/styles.css?v=2025070502"></noscript>
