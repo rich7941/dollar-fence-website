@@ -92,25 +92,36 @@ body {
   padding: 0 20px;
 }
 
-/* Typography */
+/* Typography - Optimized for LCP */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   margin-bottom: 1rem;
   color: var(--primary-color);
   line-height: 1.2;
   font-weight: 700;
+  /* Optimize rendering performance */
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  font-display: swap;
 }
 
 h1 {
   font-size: 2.5rem;
 }
 
+/* Optimized H2 for faster LCP rendering */
 h2 {
-  font-size: 2rem;
+  font-size: 1.75rem; /* Reduced from 2rem for faster rendering */
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  /* Critical performance optimizations */
+  contain: layout style;
+  will-change: auto; /* Remove will-change to reduce GPU usage */
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem; /* Reduced from 1.75rem */
 }
 
 p {
@@ -327,6 +338,21 @@ a:hover {
     line-height: 1.4;
   }
 
+  /* Mobile-optimized H2 for faster LCP */
+  h2 {
+    font-size: 1.5rem; /* Further reduced for mobile */
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    /* Aggressive mobile optimizations */
+    text-rendering: optimizeSpeed;
+    contain: layout;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
   .container {
     padding: 0 15px;
   }
@@ -365,14 +391,26 @@ a:hover {
 }
   </style>
 
-  <!-- Optimized font loading for LCP -->
+  <!-- Optimized font loading for LCP and H2 elements -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <style>
-    /* Inline critical font styles with fallbacks */
-    body, .hero h1, .hero p {
+    /* Inline critical font styles with fallbacks - optimized for H2 LCP */
+    body, .hero h1, .hero p, h2, h3 {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-display: swap;
+    }
+    
+    /* Ensure bold weights are immediately available for H2 elements */
+    h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      font-synthesis: weight; /* Allow synthetic bold if needed */
+    }
+    
+    /* Critical H2 optimization for LCP */
+    h2 {
+      font-optical-sizing: auto;
+      text-rendering: optimizeSpeed;
     }
   </style>
   
