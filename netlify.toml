@@ -1,5 +1,6 @@
 [build]
   publish = "."
+  command = "echo 'Force rebuild to clear all caches - $(date)'"
 
 [[headers]]
   for = "/*"
@@ -9,6 +10,12 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Reduce caching for HTML files to ensure updates are visible
+[[headers]]
+  for = "*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
 
 [[headers]]
   for = "*.webp"
