@@ -209,6 +209,53 @@ h1 {
       });
     }
   </script>
+
+  <!-- Organization Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dollar Fence",
+    "alternateName": "Dollar Fence Company",
+    "url": "https://dollarfence.com",
+    "logo": "https://dollarfence.com/assets/images/logo.png",
+    "description": "America's #1 fence company providing expert installation and repair services for residential and commercial properties. Quality workmanship guaranteed.",
+    "telephone": "(888) 964-7778",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://dollarfence.com"
+    ],
+    "serviceArea": {
+      "@type": "Country",
+      "name": "United States"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Fence Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fence Installation",
+            "description": "Professional fence installation services"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fence Repair",
+            "description": "Expert fence repair services"
+          }
+        }
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
