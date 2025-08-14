@@ -2952,4 +2952,40 @@
     <ns0:changefreq>weekly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://dollarfence.com/locations/florida/port-st-lucie/</ns0:loc>
+    <ns0:lastmod>2025-08-14</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://dollarfence.com/locations/new-jersey/hamilton-township/</ns0:loc>
+    <ns0:lastmod>2025-08-14</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://dollarfence.com/locations/utah/st-george/</ns0:loc>
+    <ns0:lastmod>2025-08-14</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://dollarfence.com/locations/minnesota/saint-paul/</ns0:loc>
+    <ns0:lastmod>2025-08-14</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://dollarfence.com/locations/missouri/st-louis/</ns0:loc>
+    <ns0:lastmod>2025-08-14</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://dollarfence.com/locations/florida/st-johns/</ns0:loc>
+    <ns0:lastmod>2025-08-14</ns0:lastmod>
+    <ns0:changefreq>weekly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
 </ns0:urlset>

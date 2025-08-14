@@ -1,0 +1,84 @@
+{
+  "has_alternative": [
+    {
+      "display_name": "St. Petersburg",
+      "broken_url": "https://dollarfence.com/locations/florida/st.-petersburg/",
+      "working_url": "https://dollarfence.com/locations/florida/st-petersburg/",
+      "working_file": "locations/florida/st-petersburg/index.html",
+      "state": "florida",
+      "city": "st-petersburg"
+    },
+    {
+      "display_name": "Sandy Springs",
+      "broken_url": "https://dollarfence.com/locations/georgia/Sandy Springs/",
+      "working_url": "https://dollarfence.com/locations/georgia/sandy-springs/",
+      "working_file": "locations/georgia/sandy-springs/index.html",
+      "state": "georgia",
+      "city": "sandy-springs"
+    }
+  ],
+  "needs_creation": [
+    {
+      "display_name": "Port St. Lucie",
+      "broken_url": "https://dollarfence.com/locations/florida/port-st.-lucie/",
+      "state": "florida",
+      "city": "port-st-lucie",
+      "variations": [
+        "port-st-lucie",
+        "port-st.-lucie"
+      ]
+    },
+    {
+      "display_name": "Hamilton Township",
+      "broken_url": "https://dollarfence.com/locations/new-jersey/hamilton-twp./",
+      "state": "new-jersey",
+      "city": "hamilton-township",
+      "variations": [
+        "hamilton-twp",
+        "hamilton-township"
+      ]
+    },
+    {
+      "display_name": "St. George",
+      "broken_url": "https://dollarfence.com/locations/utah/st.-george/",
+      "state": "utah",
+      "city": "st-george",
+      "variations": [
+        "st-george",
+        "st.-george"
+      ]
+    },
+    {
+      "display_name": "St. Paul",
+      "broken_url": "https://dollarfence.com/locations/minnesota/st.-paul/",
+      "state": "minnesota",
+      "city": "saint-paul",
+      "variations": [
+        "st-paul",
+        "st.-paul",
+        "saint-paul"
+      ]
+    },
+    {
+      "display_name": "St. Louis",
+      "broken_url": "https://dollarfence.com/locations/missouri/st.-louis/",
+      "state": "missouri",
+      "city": "st-louis",
+      "variations": [
+        "st-louis",
+        "st.-louis",
+        "saint-louis"
+      ]
+    },
+    {
+      "display_name": "St. Johns",
+      "broken_url": "https://dollarfence.com/locations/florida/st.-johns/",
+      "state": "florida",
+      "city": "st-johns",
+      "variations": [
+        "st-johns",
+        "st.-johns"
+      ]
+    }
+  ]
+}

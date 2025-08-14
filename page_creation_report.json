@@ -1,0 +1,52 @@
+{
+  "created_pages": [
+    {
+      "display_name": "Port St. Lucie",
+      "location_string": "Port St. Lucie, Florida",
+      "file_path": "locations/florida/port-st-lucie/index.html",
+      "url_path": "/locations/florida/port-st-lucie/",
+      "full_url": "https://dollarfence.com/locations/florida/port-st-lucie/"
+    },
+    {
+      "display_name": "Hamilton Township",
+      "location_string": "Hamilton Township, New Jersey",
+      "file_path": "locations/new-jersey/hamilton-township/index.html",
+      "url_path": "/locations/new-jersey/hamilton-township/",
+      "full_url": "https://dollarfence.com/locations/new-jersey/hamilton-township/"
+    },
+    {
+      "display_name": "St. George",
+      "location_string": "St. George, Utah",
+      "file_path": "locations/utah/st-george/index.html",
+      "url_path": "/locations/utah/st-george/",
+      "full_url": "https://dollarfence.com/locations/utah/st-george/"
+    },
+    {
+      "display_name": "St. Paul",
+      "location_string": "St. Paul, Minnesota",
+      "file_path": "locations/minnesota/saint-paul/index.html",
+      "url_path": "/locations/minnesota/saint-paul/",
+      "full_url": "https://dollarfence.com/locations/minnesota/saint-paul/"
+    },
+    {
+      "display_name": "St. Louis",
+      "location_string": "St. Louis, Missouri",
+      "file_path": "locations/missouri/st-louis/index.html",
+      "url_path": "/locations/missouri/st-louis/",
+      "full_url": "https://dollarfence.com/locations/missouri/st-louis/"
+    },
+    {
+      "display_name": "St. Johns",
+      "location_string": "St. Johns, Florida",
+      "file_path": "locations/florida/st-johns/index.html",
+      "url_path": "/locations/florida/st-johns/",
+      "full_url": "https://dollarfence.com/locations/florida/st-johns/"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total_requested": 6,
+    "successful": 6,
+    "failed": 0
+  }
+}
