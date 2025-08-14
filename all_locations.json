@@ -1,0 +1,3602 @@
+[
+  {
+    "state": "Alabama",
+    "city": "Birmingham",
+    "state_url": "alabama",
+    "city_url": "birmingham",
+    "url_path": "/locations/alabama/birmingham/",
+    "full_url": "https://dollarfence.com/locations/alabama/birmingham/"
+  },
+  {
+    "state": "Alabama",
+    "city": "Huntsville",
+    "state_url": "alabama",
+    "city_url": "huntsville",
+    "url_path": "/locations/alabama/huntsville/",
+    "full_url": "https://dollarfence.com/locations/alabama/huntsville/"
+  },
+  {
+    "state": "Alabama",
+    "city": "Montgomery",
+    "state_url": "alabama",
+    "city_url": "montgomery",
+    "url_path": "/locations/alabama/montgomery/",
+    "full_url": "https://dollarfence.com/locations/alabama/montgomery/"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Fayetteville",
+    "state_url": "arkansas",
+    "city_url": "fayetteville",
+    "url_path": "/locations/arkansas/fayetteville/",
+    "full_url": "https://dollarfence.com/locations/arkansas/fayetteville/"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Little Rock",
+    "state_url": "arkansas",
+    "city_url": "little-rock",
+    "url_path": "/locations/arkansas/little-rock/",
+    "full_url": "https://dollarfence.com/locations/arkansas/little-rock/"
+  },
+  {
+    "state": "California",
+    "city": "Anaheim",
+    "state_url": "california",
+    "city_url": "anaheim",
+    "url_path": "/locations/california/anaheim/",
+    "full_url": "https://dollarfence.com/locations/california/anaheim/"
+  },
+  {
+    "state": "California",
+    "city": "Bakersfield",
+    "state_url": "california",
+    "city_url": "bakersfield",
+    "url_path": "/locations/california/bakersfield/",
+    "full_url": "https://dollarfence.com/locations/california/bakersfield/"
+  },
+  {
+    "state": "California",
+    "city": "Chula Vista",
+    "state_url": "california",
+    "city_url": "chula-vista",
+    "url_path": "/locations/california/chula-vista/",
+    "full_url": "https://dollarfence.com/locations/california/chula-vista/"
+  },
+  {
+    "state": "California",
+    "city": "Fresno",
+    "state_url": "california",
+    "city_url": "fresno",
+    "url_path": "/locations/california/fresno/",
+    "full_url": "https://dollarfence.com/locations/california/fresno/"
+  },
+  {
+    "state": "California",
+    "city": "Inland Empire",
+    "state_url": "california",
+    "city_url": "inland-empire",
+    "url_path": "/locations/california/inland-empire/",
+    "full_url": "https://dollarfence.com/locations/california/inland-empire/"
+  },
+  {
+    "state": "California",
+    "city": "Irvine",
+    "state_url": "california",
+    "city_url": "irvine",
+    "url_path": "/locations/california/irvine/",
+    "full_url": "https://dollarfence.com/locations/california/irvine/"
+  },
+  {
+    "state": "California",
+    "city": "Long Beach",
+    "state_url": "california",
+    "city_url": "long-beach",
+    "url_path": "/locations/california/long-beach/",
+    "full_url": "https://dollarfence.com/locations/california/long-beach/"
+  },
+  {
+    "state": "California",
+    "city": "Los Angeles",
+    "state_url": "california",
+    "city_url": "los-angeles",
+    "url_path": "/locations/california/los-angeles/",
+    "full_url": "https://dollarfence.com/locations/california/los-angeles/"
+  },
+  {
+    "state": "California",
+    "city": "North San Diego",
+    "state_url": "california",
+    "city_url": "north-san-diego",
+    "url_path": "/locations/california/north-san-diego/",
+    "full_url": "https://dollarfence.com/locations/california/north-san-diego/"
+  },
+  {
+    "state": "California",
+    "city": "Northeastern Los Angeles",
+    "state_url": "california",
+    "city_url": "northeastern-los-angeles",
+    "url_path": "/locations/california/northeastern-los-angeles/",
+    "full_url": "https://dollarfence.com/locations/california/northeastern-los-angeles/"
+  },
+  {
+    "state": "California",
+    "city": "Oakland",
+    "state_url": "california",
+    "city_url": "oakland",
+    "url_path": "/locations/california/oakland/",
+    "full_url": "https://dollarfence.com/locations/california/oakland/"
+  },
+  {
+    "state": "California",
+    "city": "Orange County",
+    "state_url": "california",
+    "city_url": "orange-county",
+    "url_path": "/locations/california/orange-county/",
+    "full_url": "https://dollarfence.com/locations/california/orange-county/"
+  },
+  {
+    "state": "California",
+    "city": "Riverside",
+    "state_url": "california",
+    "city_url": "riverside",
+    "url_path": "/locations/california/riverside/",
+    "full_url": "https://dollarfence.com/locations/california/riverside/"
+  },
+  {
+    "state": "California",
+    "city": "Riverside County",
+    "state_url": "california",
+    "city_url": "riverside-county",
+    "url_path": "/locations/california/riverside-county/",
+    "full_url": "https://dollarfence.com/locations/california/riverside-county/"
+  },
+  {
+    "state": "California",
+    "city": "Sacramento",
+    "state_url": "california",
+    "city_url": "sacramento",
+    "url_path": "/locations/california/sacramento/",
+    "full_url": "https://dollarfence.com/locations/california/sacramento/"
+  },
+  {
+    "state": "California",
+    "city": "San Diego",
+    "state_url": "california",
+    "city_url": "san-diego",
+    "url_path": "/locations/california/san-diego/",
+    "full_url": "https://dollarfence.com/locations/california/san-diego/"
+  },
+  {
+    "state": "California",
+    "city": "San Francisco",
+    "state_url": "california",
+    "city_url": "san-francisco",
+    "url_path": "/locations/california/san-francisco/",
+    "full_url": "https://dollarfence.com/locations/california/san-francisco/"
+  },
+  {
+    "state": "California",
+    "city": "San Francisco & East Bay",
+    "state_url": "california",
+    "city_url": "san-francisco-and-east-bay",
+    "url_path": "/locations/california/san-francisco-and-east-bay/",
+    "full_url": "https://dollarfence.com/locations/california/san-francisco-and-east-bay/"
+  },
+  {
+    "state": "California",
+    "city": "San Jose",
+    "state_url": "california",
+    "city_url": "san-jose",
+    "url_path": "/locations/california/san-jose/",
+    "full_url": "https://dollarfence.com/locations/california/san-jose/"
+  },
+  {
+    "state": "California",
+    "city": "Santa Ana",
+    "state_url": "california",
+    "city_url": "santa-ana",
+    "url_path": "/locations/california/santa-ana/",
+    "full_url": "https://dollarfence.com/locations/california/santa-ana/"
+  },
+  {
+    "state": "California",
+    "city": "South Bay",
+    "state_url": "california",
+    "city_url": "south-bay",
+    "url_path": "/locations/california/south-bay/",
+    "full_url": "https://dollarfence.com/locations/california/south-bay/"
+  },
+  {
+    "state": "California",
+    "city": "Stockton",
+    "state_url": "california",
+    "city_url": "stockton",
+    "url_path": "/locations/california/stockton/",
+    "full_url": "https://dollarfence.com/locations/california/stockton/"
+  },
+  {
+    "state": "California",
+    "city": "Ventura County & Santa Clarita Valley",
+    "state_url": "california",
+    "city_url": "ventura-county-and-santa-clarita-valley",
+    "url_path": "/locations/california/ventura-county-and-santa-clarita-valley/",
+    "full_url": "https://dollarfence.com/locations/california/ventura-county-and-santa-clarita-valley/"
+  },
+  {
+    "state": "California",
+    "city": "West Los Angeles",
+    "state_url": "california",
+    "city_url": "west-los-angeles",
+    "url_path": "/locations/california/west-los-angeles/",
+    "full_url": "https://dollarfence.com/locations/california/west-los-angeles/"
+  },
+  {
+    "state": "Colorado",
+    "city": "Aurora",
+    "state_url": "colorado",
+    "city_url": "aurora",
+    "url_path": "/locations/colorado/aurora/",
+    "full_url": "https://dollarfence.com/locations/colorado/aurora/"
+  },
+  {
+    "state": "Colorado",
+    "city": "Colorado Springs",
+    "state_url": "colorado",
+    "city_url": "colorado-springs",
+    "url_path": "/locations/colorado/colorado-springs/",
+    "full_url": "https://dollarfence.com/locations/colorado/colorado-springs/"
+  },
+  {
+    "state": "Colorado",
+    "city": "Denver",
+    "state_url": "colorado",
+    "city_url": "denver",
+    "url_path": "/locations/colorado/denver/",
+    "full_url": "https://dollarfence.com/locations/colorado/denver/"
+  },
+  {
+    "state": "Colorado",
+    "city": "Fort Collins",
+    "state_url": "colorado",
+    "city_url": "fort-collins",
+    "url_path": "/locations/colorado/fort-collins/",
+    "full_url": "https://dollarfence.com/locations/colorado/fort-collins/"
+  },
+  {
+    "state": "Colorado",
+    "city": "Lakewood",
+    "state_url": "colorado",
+    "city_url": "lakewood",
+    "url_path": "/locations/colorado/lakewood/",
+    "full_url": "https://dollarfence.com/locations/colorado/lakewood/"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Bridgeport",
+    "state_url": "connecticut",
+    "city_url": "bridgeport",
+    "url_path": "/locations/connecticut/bridgeport/",
+    "full_url": "https://dollarfence.com/locations/connecticut/bridgeport/"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Hartford",
+    "state_url": "connecticut",
+    "city_url": "hartford",
+    "url_path": "/locations/connecticut/hartford/",
+    "full_url": "https://dollarfence.com/locations/connecticut/hartford/"
+  },
+  {
+    "state": "Connecticut",
+    "city": "New Haven",
+    "state_url": "connecticut",
+    "city_url": "new-haven",
+    "url_path": "/locations/connecticut/new-haven/",
+    "full_url": "https://dollarfence.com/locations/connecticut/new-haven/"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Stamford",
+    "state_url": "connecticut",
+    "city_url": "stamford",
+    "url_path": "/locations/connecticut/stamford/",
+    "full_url": "https://dollarfence.com/locations/connecticut/stamford/"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Western Connecticut",
+    "state_url": "connecticut",
+    "city_url": "western-connecticut",
+    "url_path": "/locations/connecticut/western-connecticut/",
+    "full_url": "https://dollarfence.com/locations/connecticut/western-connecticut/"
+  },
+  {
+    "state": "Florida",
+    "city": "Brandon",
+    "state_url": "florida",
+    "city_url": "brandon",
+    "url_path": "/locations/florida/brandon/",
+    "full_url": "https://dollarfence.com/locations/florida/brandon/"
+  },
+  {
+    "state": "Florida",
+    "city": "Broward",
+    "state_url": "florida",
+    "city_url": "broward",
+    "url_path": "/locations/florida/broward/",
+    "full_url": "https://dollarfence.com/locations/florida/broward/"
+  },
+  {
+    "state": "Florida",
+    "city": "Cape Coral",
+    "state_url": "florida",
+    "city_url": "cape-coral",
+    "url_path": "/locations/florida/cape-coral/",
+    "full_url": "https://dollarfence.com/locations/florida/cape-coral/"
+  },
+  {
+    "state": "Florida",
+    "city": "Central Florida",
+    "state_url": "florida",
+    "city_url": "central-florida",
+    "url_path": "/locations/florida/central-florida/",
+    "full_url": "https://dollarfence.com/locations/florida/central-florida/"
+  },
+  {
+    "state": "Florida",
+    "city": "Clearwater",
+    "state_url": "florida",
+    "city_url": "clearwater",
+    "url_path": "/locations/florida/clearwater/",
+    "full_url": "https://dollarfence.com/locations/florida/clearwater/"
+  },
+  {
+    "state": "Florida",
+    "city": "Coral Springs",
+    "state_url": "florida",
+    "city_url": "coral-springs",
+    "url_path": "/locations/florida/coral-springs/",
+    "full_url": "https://dollarfence.com/locations/florida/coral-springs/"
+  },
+  {
+    "state": "Florida",
+    "city": "Fort Lauderdale",
+    "state_url": "florida",
+    "city_url": "fort-lauderdale",
+    "url_path": "/locations/florida/fort-lauderdale/",
+    "full_url": "https://dollarfence.com/locations/florida/fort-lauderdale/"
+  },
+  {
+    "state": "Florida",
+    "city": "Gainesville",
+    "state_url": "florida",
+    "city_url": "gainesville",
+    "url_path": "/locations/florida/gainesville/",
+    "full_url": "https://dollarfence.com/locations/florida/gainesville/"
+  },
+  {
+    "state": "Florida",
+    "city": "Hialeah",
+    "state_url": "florida",
+    "city_url": "hialeah",
+    "url_path": "/locations/florida/hialeah/",
+    "full_url": "https://dollarfence.com/locations/florida/hialeah/"
+  },
+  {
+    "state": "Florida",
+    "city": "Hollywood",
+    "state_url": "florida",
+    "city_url": "hollywood",
+    "url_path": "/locations/florida/hollywood/",
+    "full_url": "https://dollarfence.com/locations/florida/hollywood/"
+  },
+  {
+    "state": "Florida",
+    "city": "Jacksonville",
+    "state_url": "florida",
+    "city_url": "jacksonville",
+    "url_path": "/locations/florida/jacksonville/",
+    "full_url": "https://dollarfence.com/locations/florida/jacksonville/"
+  },
+  {
+    "state": "Florida",
+    "city": "Lake County",
+    "state_url": "florida",
+    "city_url": "lake-county",
+    "url_path": "/locations/florida/lake-county/",
+    "full_url": "https://dollarfence.com/locations/florida/lake-county/"
+  },
+  {
+    "state": "Florida",
+    "city": "Lakeland",
+    "state_url": "florida",
+    "city_url": "lakeland",
+    "url_path": "/locations/florida/lakeland/",
+    "full_url": "https://dollarfence.com/locations/florida/lakeland/"
+  },
+  {
+    "state": "Florida",
+    "city": "Lehigh Acres",
+    "state_url": "florida",
+    "city_url": "lehigh-acres",
+    "url_path": "/locations/florida/lehigh-acres/",
+    "full_url": "https://dollarfence.com/locations/florida/lehigh-acres/"
+  },
+  {
+    "state": "Florida",
+    "city": "Miami",
+    "state_url": "florida",
+    "city_url": "miami",
+    "url_path": "/locations/florida/miami/",
+    "full_url": "https://dollarfence.com/locations/florida/miami/"
+  },
+  {
+    "state": "Florida",
+    "city": "Miramar",
+    "state_url": "florida",
+    "city_url": "miramar",
+    "url_path": "/locations/florida/miramar/",
+    "full_url": "https://dollarfence.com/locations/florida/miramar/"
+  },
+  {
+    "state": "Florida",
+    "city": "North Florida",
+    "state_url": "florida",
+    "city_url": "north-florida",
+    "url_path": "/locations/florida/north-florida/",
+    "full_url": "https://dollarfence.com/locations/florida/north-florida/"
+  },
+  {
+    "state": "Florida",
+    "city": "Orlando",
+    "state_url": "florida",
+    "city_url": "orlando",
+    "url_path": "/locations/florida/orlando/",
+    "full_url": "https://dollarfence.com/locations/florida/orlando/"
+  },
+  {
+    "state": "Florida",
+    "city": "Palm Bay",
+    "state_url": "florida",
+    "city_url": "palm-bay",
+    "url_path": "/locations/florida/palm-bay/",
+    "full_url": "https://dollarfence.com/locations/florida/palm-bay/"
+  },
+  {
+    "state": "Florida",
+    "city": "Palm Beach",
+    "state_url": "florida",
+    "city_url": "palm-beach",
+    "url_path": "/locations/florida/palm-beach/",
+    "full_url": "https://dollarfence.com/locations/florida/palm-beach/"
+  },
+  {
+    "state": "Florida",
+    "city": "Pasco County",
+    "state_url": "florida",
+    "city_url": "pasco-county",
+    "url_path": "/locations/florida/pasco-county/",
+    "full_url": "https://dollarfence.com/locations/florida/pasco-county/"
+  },
+  {
+    "state": "Florida",
+    "city": "Pembroke Pines",
+    "state_url": "florida",
+    "city_url": "pembroke-pines",
+    "url_path": "/locations/florida/pembroke-pines/",
+    "full_url": "https://dollarfence.com/locations/florida/pembroke-pines/"
+  },
+  {
+    "state": "Florida",
+    "city": "Pensacola",
+    "state_url": "florida",
+    "city_url": "pensacola",
+    "url_path": "/locations/florida/pensacola/",
+    "full_url": "https://dollarfence.com/locations/florida/pensacola/"
+  },
+  {
+    "state": "Florida",
+    "city": "Pinellas County",
+    "state_url": "florida",
+    "city_url": "pinellas-county",
+    "url_path": "/locations/florida/pinellas-county/",
+    "full_url": "https://dollarfence.com/locations/florida/pinellas-county/"
+  },
+  {
+    "state": "Florida",
+    "city": "Polk County",
+    "state_url": "florida",
+    "city_url": "polk-county",
+    "url_path": "/locations/florida/polk-county/",
+    "full_url": "https://dollarfence.com/locations/florida/polk-county/"
+  },
+  {
+    "state": "Florida",
+    "city": "Port St. Lucie",
+    "state_url": "florida",
+    "city_url": "port-st-lucie",
+    "url_path": "/locations/florida/port-st-lucie/",
+    "full_url": "https://dollarfence.com/locations/florida/port-st-lucie/"
+  },
+  {
+    "state": "Florida",
+    "city": "Sarasota",
+    "state_url": "florida",
+    "city_url": "sarasota",
+    "url_path": "/locations/florida/sarasota/",
+    "full_url": "https://dollarfence.com/locations/florida/sarasota/"
+  },
+  {
+    "state": "Florida",
+    "city": "Space Coast",
+    "state_url": "florida",
+    "city_url": "space-coast",
+    "url_path": "/locations/florida/space-coast/",
+    "full_url": "https://dollarfence.com/locations/florida/space-coast/"
+  },
+  {
+    "state": "Florida",
+    "city": "Spring Hill",
+    "state_url": "florida",
+    "city_url": "spring-hill",
+    "url_path": "/locations/florida/spring-hill/",
+    "full_url": "https://dollarfence.com/locations/florida/spring-hill/"
+  },
+  {
+    "state": "Florida",
+    "city": "St. Johns",
+    "state_url": "florida",
+    "city_url": "st-johns",
+    "url_path": "/locations/florida/st-johns/",
+    "full_url": "https://dollarfence.com/locations/florida/st-johns/"
+  },
+  {
+    "state": "Florida",
+    "city": "St. Petersburg",
+    "state_url": "florida",
+    "city_url": "st-petersburg",
+    "url_path": "/locations/florida/st-petersburg/",
+    "full_url": "https://dollarfence.com/locations/florida/st-petersburg/"
+  },
+  {
+    "state": "Florida",
+    "city": "Southwest Florida",
+    "state_url": "florida",
+    "city_url": "southwest-florida",
+    "url_path": "/locations/florida/southwest-florida/",
+    "full_url": "https://dollarfence.com/locations/florida/southwest-florida/"
+  },
+  {
+    "state": "Florida",
+    "city": "Tallahassee",
+    "state_url": "florida",
+    "city_url": "tallahassee",
+    "url_path": "/locations/florida/tallahassee/",
+    "full_url": "https://dollarfence.com/locations/florida/tallahassee/"
+  },
+  {
+    "state": "Florida",
+    "city": "Tampa",
+    "state_url": "florida",
+    "city_url": "tampa",
+    "url_path": "/locations/florida/tampa/",
+    "full_url": "https://dollarfence.com/locations/florida/tampa/"
+  },
+  {
+    "state": "Florida",
+    "city": "The Villages",
+    "state_url": "florida",
+    "city_url": "the-villages",
+    "url_path": "/locations/florida/the-villages/",
+    "full_url": "https://dollarfence.com/locations/florida/the-villages/"
+  },
+  {
+    "state": "Florida",
+    "city": "Treasure Coast",
+    "state_url": "florida",
+    "city_url": "treasure-coast",
+    "url_path": "/locations/florida/treasure-coast/",
+    "full_url": "https://dollarfence.com/locations/florida/treasure-coast/"
+  },
+  {
+    "state": "Florida",
+    "city": "Volusia County",
+    "state_url": "florida",
+    "city_url": "volusia-county",
+    "url_path": "/locations/florida/volusia-county/",
+    "full_url": "https://dollarfence.com/locations/florida/volusia-county/"
+  },
+  {
+    "state": "Florida",
+    "city": "West Palm Beach",
+    "state_url": "florida",
+    "city_url": "west-palm-beach",
+    "url_path": "/locations/florida/west-palm-beach/",
+    "full_url": "https://dollarfence.com/locations/florida/west-palm-beach/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Albany",
+    "state_url": "georgia",
+    "city_url": "albany",
+    "url_path": "/locations/georgia/albany/",
+    "full_url": "https://dollarfence.com/locations/georgia/albany/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Alpharetta",
+    "state_url": "georgia",
+    "city_url": "alpharetta",
+    "url_path": "/locations/georgia/alpharetta/",
+    "full_url": "https://dollarfence.com/locations/georgia/alpharetta/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Athens-Clarke County",
+    "state_url": "georgia",
+    "city_url": "athens-clarke-county",
+    "url_path": "/locations/georgia/athens-clarke-county/",
+    "full_url": "https://dollarfence.com/locations/georgia/athens-clarke-county/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Atlanta",
+    "state_url": "georgia",
+    "city_url": "atlanta",
+    "url_path": "/locations/georgia/atlanta/",
+    "full_url": "https://dollarfence.com/locations/georgia/atlanta/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Augusta",
+    "state_url": "georgia",
+    "city_url": "augusta",
+    "url_path": "/locations/georgia/augusta/",
+    "full_url": "https://dollarfence.com/locations/georgia/augusta/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Brookhaven",
+    "state_url": "georgia",
+    "city_url": "brookhaven",
+    "url_path": "/locations/georgia/brookhaven/",
+    "full_url": "https://dollarfence.com/locations/georgia/brookhaven/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Columbus",
+    "state_url": "georgia",
+    "city_url": "columbus",
+    "url_path": "/locations/georgia/columbus/",
+    "full_url": "https://dollarfence.com/locations/georgia/columbus/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Dunwoody",
+    "state_url": "georgia",
+    "city_url": "dunwoody",
+    "url_path": "/locations/georgia/dunwoody/",
+    "full_url": "https://dollarfence.com/locations/georgia/dunwoody/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Gainesville",
+    "state_url": "georgia",
+    "city_url": "gainesville",
+    "url_path": "/locations/georgia/gainesville/",
+    "full_url": "https://dollarfence.com/locations/georgia/gainesville/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Johns Creek",
+    "state_url": "georgia",
+    "city_url": "johns-creek",
+    "url_path": "/locations/georgia/johns-creek/",
+    "full_url": "https://dollarfence.com/locations/georgia/johns-creek/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Macon-Bibb County",
+    "state_url": "georgia",
+    "city_url": "macon-bibb-county",
+    "url_path": "/locations/georgia/macon-bibb-county/",
+    "full_url": "https://dollarfence.com/locations/georgia/macon-bibb-county/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Marietta",
+    "state_url": "georgia",
+    "city_url": "marietta",
+    "url_path": "/locations/georgia/marietta/",
+    "full_url": "https://dollarfence.com/locations/georgia/marietta/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Middle Georgia",
+    "state_url": "georgia",
+    "city_url": "middle-georgia",
+    "url_path": "/locations/georgia/middle-georgia/",
+    "full_url": "https://dollarfence.com/locations/georgia/middle-georgia/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Milton",
+    "state_url": "georgia",
+    "city_url": "milton",
+    "url_path": "/locations/georgia/milton/",
+    "full_url": "https://dollarfence.com/locations/georgia/milton/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Northeast Georgia",
+    "state_url": "georgia",
+    "city_url": "northeast-georgia",
+    "url_path": "/locations/georgia/northeast-georgia/",
+    "full_url": "https://dollarfence.com/locations/georgia/northeast-georgia/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Northwest Georgia",
+    "state_url": "georgia",
+    "city_url": "northwest-georgia",
+    "url_path": "/locations/georgia/northwest-georgia/",
+    "full_url": "https://dollarfence.com/locations/georgia/northwest-georgia/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Peachtree City",
+    "state_url": "georgia",
+    "city_url": "peachtree-city",
+    "url_path": "/locations/georgia/peachtree-city/",
+    "full_url": "https://dollarfence.com/locations/georgia/peachtree-city/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Peachtree Corners",
+    "state_url": "georgia",
+    "city_url": "peachtree-corners",
+    "url_path": "/locations/georgia/peachtree-corners/",
+    "full_url": "https://dollarfence.com/locations/georgia/peachtree-corners/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Roswell",
+    "state_url": "georgia",
+    "city_url": "roswell",
+    "url_path": "/locations/georgia/roswell/",
+    "full_url": "https://dollarfence.com/locations/georgia/roswell/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Sandy Springs",
+    "state_url": "georgia",
+    "city_url": "sandy-springs",
+    "url_path": "/locations/georgia/sandy-springs/",
+    "full_url": "https://dollarfence.com/locations/georgia/sandy-springs/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Savannah",
+    "state_url": "georgia",
+    "city_url": "savannah",
+    "url_path": "/locations/georgia/savannah/",
+    "full_url": "https://dollarfence.com/locations/georgia/savannah/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Smyrna",
+    "state_url": "georgia",
+    "city_url": "smyrna",
+    "url_path": "/locations/georgia/smyrna/",
+    "full_url": "https://dollarfence.com/locations/georgia/smyrna/"
+  },
+  {
+    "state": "Georgia",
+    "city": "South Fulton",
+    "state_url": "georgia",
+    "city_url": "south-fulton",
+    "url_path": "/locations/georgia/south-fulton/",
+    "full_url": "https://dollarfence.com/locations/georgia/south-fulton/"
+  },
+  {
+    "state": "Georgia",
+    "city": "South Georgia",
+    "state_url": "georgia",
+    "city_url": "south-georgia",
+    "url_path": "/locations/georgia/south-georgia/",
+    "full_url": "https://dollarfence.com/locations/georgia/south-georgia/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Southwest Georgia",
+    "state_url": "georgia",
+    "city_url": "southwest-georgia",
+    "url_path": "/locations/georgia/southwest-georgia/",
+    "full_url": "https://dollarfence.com/locations/georgia/southwest-georgia/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Stonecrest",
+    "state_url": "georgia",
+    "city_url": "stonecrest",
+    "url_path": "/locations/georgia/stonecrest/",
+    "full_url": "https://dollarfence.com/locations/georgia/stonecrest/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Valdosta",
+    "state_url": "georgia",
+    "city_url": "valdosta",
+    "url_path": "/locations/georgia/valdosta/",
+    "full_url": "https://dollarfence.com/locations/georgia/valdosta/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Warner Robins",
+    "state_url": "georgia",
+    "city_url": "warner-robins",
+    "url_path": "/locations/georgia/warner-robins/",
+    "full_url": "https://dollarfence.com/locations/georgia/warner-robins/"
+  },
+  {
+    "state": "Georgia",
+    "city": "Woodstock",
+    "state_url": "georgia",
+    "city_url": "woodstock",
+    "url_path": "/locations/georgia/woodstock/",
+    "full_url": "https://dollarfence.com/locations/georgia/woodstock/"
+  },
+  {
+    "state": "Idaho",
+    "city": "Boise",
+    "state_url": "idaho",
+    "city_url": "boise",
+    "url_path": "/locations/idaho/boise/",
+    "full_url": "https://dollarfence.com/locations/idaho/boise/"
+  },
+  {
+    "state": "Idaho",
+    "city": "Caldwell",
+    "state_url": "idaho",
+    "city_url": "caldwell",
+    "url_path": "/locations/idaho/caldwell/",
+    "full_url": "https://dollarfence.com/locations/idaho/caldwell/"
+  },
+  {
+    "state": "Idaho",
+    "city": "Meridian",
+    "state_url": "idaho",
+    "city_url": "meridian",
+    "url_path": "/locations/idaho/meridian/",
+    "full_url": "https://dollarfence.com/locations/idaho/meridian/"
+  },
+  {
+    "state": "Idaho",
+    "city": "Nampa",
+    "state_url": "idaho",
+    "city_url": "nampa",
+    "url_path": "/locations/idaho/nampa/",
+    "full_url": "https://dollarfence.com/locations/idaho/nampa/"
+  },
+  {
+    "state": "Idaho",
+    "city": "Treasure Valley",
+    "state_url": "idaho",
+    "city_url": "treasure-valley",
+    "url_path": "/locations/idaho/treasure-valley/",
+    "full_url": "https://dollarfence.com/locations/idaho/treasure-valley/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Aurora",
+    "state_url": "illinois",
+    "city_url": "aurora",
+    "url_path": "/locations/illinois/aurora/",
+    "full_url": "https://dollarfence.com/locations/illinois/aurora/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Champaign",
+    "state_url": "illinois",
+    "city_url": "champaign",
+    "url_path": "/locations/illinois/champaign/",
+    "full_url": "https://dollarfence.com/locations/illinois/champaign/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Chicago",
+    "state_url": "illinois",
+    "city_url": "chicago",
+    "url_path": "/locations/illinois/chicago/",
+    "full_url": "https://dollarfence.com/locations/illinois/chicago/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Chicagoland",
+    "state_url": "illinois",
+    "city_url": "chicagoland",
+    "url_path": "/locations/illinois/chicagoland/",
+    "full_url": "https://dollarfence.com/locations/illinois/chicagoland/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Elgin",
+    "state_url": "illinois",
+    "city_url": "elgin",
+    "url_path": "/locations/illinois/elgin/",
+    "full_url": "https://dollarfence.com/locations/illinois/elgin/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Joliet",
+    "state_url": "illinois",
+    "city_url": "joliet",
+    "url_path": "/locations/illinois/joliet/",
+    "full_url": "https://dollarfence.com/locations/illinois/joliet/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Naperville",
+    "state_url": "illinois",
+    "city_url": "naperville",
+    "url_path": "/locations/illinois/naperville/",
+    "full_url": "https://dollarfence.com/locations/illinois/naperville/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Peoria",
+    "state_url": "illinois",
+    "city_url": "peoria",
+    "url_path": "/locations/illinois/peoria/",
+    "full_url": "https://dollarfence.com/locations/illinois/peoria/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Rockford & Madison",
+    "state_url": "illinois",
+    "city_url": "rockford-and-madison",
+    "url_path": "/locations/illinois/rockford-and-madison/",
+    "full_url": "https://dollarfence.com/locations/illinois/rockford-and-madison/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Schaumburg",
+    "state_url": "illinois",
+    "city_url": "schaumburg",
+    "url_path": "/locations/illinois/schaumburg/",
+    "full_url": "https://dollarfence.com/locations/illinois/schaumburg/"
+  },
+  {
+    "state": "Illinois",
+    "city": "Springfield",
+    "state_url": "illinois",
+    "city_url": "springfield",
+    "url_path": "/locations/illinois/springfield/",
+    "full_url": "https://dollarfence.com/locations/illinois/springfield/"
+  },
+  {
+    "state": "Indiana",
+    "city": "Carmel",
+    "state_url": "indiana",
+    "city_url": "carmel",
+    "url_path": "/locations/indiana/carmel/",
+    "full_url": "https://dollarfence.com/locations/indiana/carmel/"
+  },
+  {
+    "state": "Indiana",
+    "city": "Evansville",
+    "state_url": "indiana",
+    "city_url": "evansville",
+    "url_path": "/locations/indiana/evansville/",
+    "full_url": "https://dollarfence.com/locations/indiana/evansville/"
+  },
+  {
+    "state": "Indiana",
+    "city": "Fishers",
+    "state_url": "indiana",
+    "city_url": "fishers",
+    "url_path": "/locations/indiana/fishers/",
+    "full_url": "https://dollarfence.com/locations/indiana/fishers/"
+  },
+  {
+    "state": "Indiana",
+    "city": "Fort Wayne",
+    "state_url": "indiana",
+    "city_url": "fort-wayne",
+    "url_path": "/locations/indiana/fort-wayne/",
+    "full_url": "https://dollarfence.com/locations/indiana/fort-wayne/"
+  },
+  {
+    "state": "Indiana",
+    "city": "Indianapolis",
+    "state_url": "indiana",
+    "city_url": "indianapolis",
+    "url_path": "/locations/indiana/indianapolis/",
+    "full_url": "https://dollarfence.com/locations/indiana/indianapolis/"
+  },
+  {
+    "state": "Indiana",
+    "city": "South Bend",
+    "state_url": "indiana",
+    "city_url": "south-bend",
+    "url_path": "/locations/indiana/south-bend/",
+    "full_url": "https://dollarfence.com/locations/indiana/south-bend/"
+  },
+  {
+    "state": "Iowa",
+    "city": "Cedar Rapids",
+    "state_url": "iowa",
+    "city_url": "cedar-rapids",
+    "url_path": "/locations/iowa/cedar-rapids/",
+    "full_url": "https://dollarfence.com/locations/iowa/cedar-rapids/"
+  },
+  {
+    "state": "Iowa",
+    "city": "Central Iowa",
+    "state_url": "iowa",
+    "city_url": "central-iowa",
+    "url_path": "/locations/iowa/central-iowa/",
+    "full_url": "https://dollarfence.com/locations/iowa/central-iowa/"
+  },
+  {
+    "state": "Iowa",
+    "city": "Davenport",
+    "state_url": "iowa",
+    "city_url": "davenport",
+    "url_path": "/locations/iowa/davenport/",
+    "full_url": "https://dollarfence.com/locations/iowa/davenport/"
+  },
+  {
+    "state": "Iowa",
+    "city": "Des Moines",
+    "state_url": "iowa",
+    "city_url": "des-moines",
+    "url_path": "/locations/iowa/des-moines/",
+    "full_url": "https://dollarfence.com/locations/iowa/des-moines/"
+  },
+  {
+    "state": "Kansas",
+    "city": "Kansas City",
+    "state_url": "kansas",
+    "city_url": "kansas-city",
+    "url_path": "/locations/kansas/kansas-city/",
+    "full_url": "https://dollarfence.com/locations/kansas/kansas-city/"
+  },
+  {
+    "state": "Kansas",
+    "city": "Lawrence",
+    "state_url": "kansas",
+    "city_url": "lawrence",
+    "url_path": "/locations/kansas/lawrence/",
+    "full_url": "https://dollarfence.com/locations/kansas/lawrence/"
+  },
+  {
+    "state": "Kansas",
+    "city": "Olathe",
+    "state_url": "kansas",
+    "city_url": "olathe",
+    "url_path": "/locations/kansas/olathe/",
+    "full_url": "https://dollarfence.com/locations/kansas/olathe/"
+  },
+  {
+    "state": "Kansas",
+    "city": "Overland Park",
+    "state_url": "kansas",
+    "city_url": "overland-park",
+    "url_path": "/locations/kansas/overland-park/",
+    "full_url": "https://dollarfence.com/locations/kansas/overland-park/"
+  },
+  {
+    "state": "Kansas",
+    "city": "Topeka",
+    "state_url": "kansas",
+    "city_url": "topeka",
+    "url_path": "/locations/kansas/topeka/",
+    "full_url": "https://dollarfence.com/locations/kansas/topeka/"
+  },
+  {
+    "state": "Kansas",
+    "city": "Wichita",
+    "state_url": "kansas",
+    "city_url": "wichita",
+    "url_path": "/locations/kansas/wichita/",
+    "full_url": "https://dollarfence.com/locations/kansas/wichita/"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Bowling Green",
+    "state_url": "kentucky",
+    "city_url": "bowling-green",
+    "url_path": "/locations/kentucky/bowling-green/",
+    "full_url": "https://dollarfence.com/locations/kentucky/bowling-green/"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Greater Lexington",
+    "state_url": "kentucky",
+    "city_url": "greater-lexington",
+    "url_path": "/locations/kentucky/greater-lexington/",
+    "full_url": "https://dollarfence.com/locations/kentucky/greater-lexington/"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Greater Louisville",
+    "state_url": "kentucky",
+    "city_url": "greater-louisville",
+    "url_path": "/locations/kentucky/greater-louisville/",
+    "full_url": "https://dollarfence.com/locations/kentucky/greater-louisville/"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Lexington-Fayette",
+    "state_url": "kentucky",
+    "city_url": "lexington-fayette",
+    "url_path": "/locations/kentucky/lexington-fayette/",
+    "full_url": "https://dollarfence.com/locations/kentucky/lexington-fayette/"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Louisville",
+    "state_url": "kentucky",
+    "city_url": "louisville",
+    "url_path": "/locations/kentucky/louisville/",
+    "full_url": "https://dollarfence.com/locations/kentucky/louisville/"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Northern Kentucky",
+    "state_url": "kentucky",
+    "city_url": "northern-kentucky",
+    "url_path": "/locations/kentucky/northern-kentucky/",
+    "full_url": "https://dollarfence.com/locations/kentucky/northern-kentucky/"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Owensboro",
+    "state_url": "kentucky",
+    "city_url": "owensboro",
+    "url_path": "/locations/kentucky/owensboro/",
+    "full_url": "https://dollarfence.com/locations/kentucky/owensboro/"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Baton Rouge",
+    "state_url": "louisiana",
+    "city_url": "baton-rouge",
+    "url_path": "/locations/louisiana/baton-rouge/",
+    "full_url": "https://dollarfence.com/locations/louisiana/baton-rouge/"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Lafayette",
+    "state_url": "louisiana",
+    "city_url": "lafayette",
+    "url_path": "/locations/louisiana/lafayette/",
+    "full_url": "https://dollarfence.com/locations/louisiana/lafayette/"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Metairie",
+    "state_url": "louisiana",
+    "city_url": "metairie",
+    "url_path": "/locations/louisiana/metairie/",
+    "full_url": "https://dollarfence.com/locations/louisiana/metairie/"
+  },
+  {
+    "state": "Louisiana",
+    "city": "New Orleans",
+    "state_url": "louisiana",
+    "city_url": "new-orleans",
+    "url_path": "/locations/louisiana/new-orleans/",
+    "full_url": "https://dollarfence.com/locations/louisiana/new-orleans/"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Shreveport",
+    "state_url": "louisiana",
+    "city_url": "shreveport",
+    "url_path": "/locations/louisiana/shreveport/",
+    "full_url": "https://dollarfence.com/locations/louisiana/shreveport/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Annapolis",
+    "state_url": "maryland",
+    "city_url": "annapolis",
+    "url_path": "/locations/maryland/annapolis/",
+    "full_url": "https://dollarfence.com/locations/maryland/annapolis/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Baltimore",
+    "state_url": "maryland",
+    "city_url": "baltimore",
+    "url_path": "/locations/maryland/baltimore/",
+    "full_url": "https://dollarfence.com/locations/maryland/baltimore/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Columbia",
+    "state_url": "maryland",
+    "city_url": "columbia",
+    "url_path": "/locations/maryland/columbia/",
+    "full_url": "https://dollarfence.com/locations/maryland/columbia/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Frederick",
+    "state_url": "maryland",
+    "city_url": "frederick",
+    "url_path": "/locations/maryland/frederick/",
+    "full_url": "https://dollarfence.com/locations/maryland/frederick/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Gaithersburg",
+    "state_url": "maryland",
+    "city_url": "gaithersburg",
+    "url_path": "/locations/maryland/gaithersburg/",
+    "full_url": "https://dollarfence.com/locations/maryland/gaithersburg/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Germantown",
+    "state_url": "maryland",
+    "city_url": "germantown",
+    "url_path": "/locations/maryland/germantown/",
+    "full_url": "https://dollarfence.com/locations/maryland/germantown/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Rockville",
+    "state_url": "maryland",
+    "city_url": "rockville",
+    "url_path": "/locations/maryland/rockville/",
+    "full_url": "https://dollarfence.com/locations/maryland/rockville/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Silver Spring",
+    "state_url": "maryland",
+    "city_url": "silver-spring",
+    "url_path": "/locations/maryland/silver-spring/",
+    "full_url": "https://dollarfence.com/locations/maryland/silver-spring/"
+  },
+  {
+    "state": "Maryland",
+    "city": "Waldorf",
+    "state_url": "maryland",
+    "city_url": "waldorf",
+    "url_path": "/locations/maryland/waldorf/",
+    "full_url": "https://dollarfence.com/locations/maryland/waldorf/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Boston",
+    "state_url": "massachusetts",
+    "city_url": "boston",
+    "url_path": "/locations/massachusetts/boston/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/boston/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Brockton",
+    "state_url": "massachusetts",
+    "city_url": "brockton",
+    "url_path": "/locations/massachusetts/brockton/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/brockton/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Cambridge",
+    "state_url": "massachusetts",
+    "city_url": "cambridge",
+    "url_path": "/locations/massachusetts/cambridge/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/cambridge/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Fall River",
+    "state_url": "massachusetts",
+    "city_url": "fall-river",
+    "url_path": "/locations/massachusetts/fall-river/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/fall-river/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Lowell",
+    "state_url": "massachusetts",
+    "city_url": "lowell",
+    "url_path": "/locations/massachusetts/lowell/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/lowell/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Lynn",
+    "state_url": "massachusetts",
+    "city_url": "lynn",
+    "url_path": "/locations/massachusetts/lynn/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/lynn/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "New Bedford",
+    "state_url": "massachusetts",
+    "city_url": "new-bedford",
+    "url_path": "/locations/massachusetts/new-bedford/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/new-bedford/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Newton",
+    "state_url": "massachusetts",
+    "city_url": "newton",
+    "url_path": "/locations/massachusetts/newton/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/newton/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Quincy",
+    "state_url": "massachusetts",
+    "city_url": "quincy",
+    "url_path": "/locations/massachusetts/quincy/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/quincy/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Somerville",
+    "state_url": "massachusetts",
+    "city_url": "somerville",
+    "url_path": "/locations/massachusetts/somerville/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/somerville/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Springfield",
+    "state_url": "massachusetts",
+    "city_url": "springfield",
+    "url_path": "/locations/massachusetts/springfield/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/springfield/"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Worcester",
+    "state_url": "massachusetts",
+    "city_url": "worcester",
+    "url_path": "/locations/massachusetts/worcester/",
+    "full_url": "https://dollarfence.com/locations/massachusetts/worcester/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Ann Arbor",
+    "state_url": "michigan",
+    "city_url": "ann-arbor",
+    "url_path": "/locations/michigan/ann-arbor/",
+    "full_url": "https://dollarfence.com/locations/michigan/ann-arbor/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Dearborn",
+    "state_url": "michigan",
+    "city_url": "dearborn",
+    "url_path": "/locations/michigan/dearborn/",
+    "full_url": "https://dollarfence.com/locations/michigan/dearborn/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Detroit",
+    "state_url": "michigan",
+    "city_url": "detroit",
+    "url_path": "/locations/michigan/detroit/",
+    "full_url": "https://dollarfence.com/locations/michigan/detroit/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Flint",
+    "state_url": "michigan",
+    "city_url": "flint",
+    "url_path": "/locations/michigan/flint/",
+    "full_url": "https://dollarfence.com/locations/michigan/flint/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Grand Rapids",
+    "state_url": "michigan",
+    "city_url": "grand-rapids",
+    "url_path": "/locations/michigan/grand-rapids/",
+    "full_url": "https://dollarfence.com/locations/michigan/grand-rapids/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Lansing",
+    "state_url": "michigan",
+    "city_url": "lansing",
+    "url_path": "/locations/michigan/lansing/",
+    "full_url": "https://dollarfence.com/locations/michigan/lansing/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Livonia",
+    "state_url": "michigan",
+    "city_url": "livonia",
+    "url_path": "/locations/michigan/livonia/",
+    "full_url": "https://dollarfence.com/locations/michigan/livonia/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Sterling Heights",
+    "state_url": "michigan",
+    "city_url": "sterling-heights",
+    "url_path": "/locations/michigan/sterling-heights/",
+    "full_url": "https://dollarfence.com/locations/michigan/sterling-heights/"
+  },
+  {
+    "state": "Michigan",
+    "city": "Warren",
+    "state_url": "michigan",
+    "city_url": "warren",
+    "url_path": "/locations/michigan/warren/",
+    "full_url": "https://dollarfence.com/locations/michigan/warren/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Bloomington",
+    "state_url": "minnesota",
+    "city_url": "bloomington",
+    "url_path": "/locations/minnesota/bloomington/",
+    "full_url": "https://dollarfence.com/locations/minnesota/bloomington/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Brooklyn Park",
+    "state_url": "minnesota",
+    "city_url": "brooklyn-park",
+    "url_path": "/locations/minnesota/brooklyn-park/",
+    "full_url": "https://dollarfence.com/locations/minnesota/brooklyn-park/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Duluth",
+    "state_url": "minnesota",
+    "city_url": "duluth",
+    "url_path": "/locations/minnesota/duluth/",
+    "full_url": "https://dollarfence.com/locations/minnesota/duluth/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Minneapolis",
+    "state_url": "minnesota",
+    "city_url": "minneapolis",
+    "url_path": "/locations/minnesota/minneapolis/",
+    "full_url": "https://dollarfence.com/locations/minnesota/minneapolis/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Plymouth",
+    "state_url": "minnesota",
+    "city_url": "plymouth",
+    "url_path": "/locations/minnesota/plymouth/",
+    "full_url": "https://dollarfence.com/locations/minnesota/plymouth/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Rochester",
+    "state_url": "minnesota",
+    "city_url": "rochester",
+    "url_path": "/locations/minnesota/rochester/",
+    "full_url": "https://dollarfence.com/locations/minnesota/rochester/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Saint Paul",
+    "state_url": "minnesota",
+    "city_url": "saint-paul",
+    "url_path": "/locations/minnesota/saint-paul/",
+    "full_url": "https://dollarfence.com/locations/minnesota/saint-paul/"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Woodbury",
+    "state_url": "minnesota",
+    "city_url": "woodbury",
+    "url_path": "/locations/minnesota/woodbury/",
+    "full_url": "https://dollarfence.com/locations/minnesota/woodbury/"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Biloxi",
+    "state_url": "mississippi",
+    "city_url": "biloxi",
+    "url_path": "/locations/mississippi/biloxi/",
+    "full_url": "https://dollarfence.com/locations/mississippi/biloxi/"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Gulfport",
+    "state_url": "mississippi",
+    "city_url": "gulfport",
+    "url_path": "/locations/mississippi/gulfport/",
+    "full_url": "https://dollarfence.com/locations/mississippi/gulfport/"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Hattiesburg",
+    "state_url": "mississippi",
+    "city_url": "hattiesburg",
+    "url_path": "/locations/mississippi/hattiesburg/",
+    "full_url": "https://dollarfence.com/locations/mississippi/hattiesburg/"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Jackson",
+    "state_url": "mississippi",
+    "city_url": "jackson",
+    "url_path": "/locations/mississippi/jackson/",
+    "full_url": "https://dollarfence.com/locations/mississippi/jackson/"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Meridian",
+    "state_url": "mississippi",
+    "city_url": "meridian",
+    "url_path": "/locations/mississippi/meridian/",
+    "full_url": "https://dollarfence.com/locations/mississippi/meridian/"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Southaven",
+    "state_url": "mississippi",
+    "city_url": "southaven",
+    "url_path": "/locations/mississippi/southaven/",
+    "full_url": "https://dollarfence.com/locations/mississippi/southaven/"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Tupelo",
+    "state_url": "mississippi",
+    "city_url": "tupelo",
+    "url_path": "/locations/mississippi/tupelo/",
+    "full_url": "https://dollarfence.com/locations/mississippi/tupelo/"
+  },
+  {
+    "state": "Missouri",
+    "city": "Columbia",
+    "state_url": "missouri",
+    "city_url": "columbia",
+    "url_path": "/locations/missouri/columbia/",
+    "full_url": "https://dollarfence.com/locations/missouri/columbia/"
+  },
+  {
+    "state": "Missouri",
+    "city": "Independence",
+    "state_url": "missouri",
+    "city_url": "independence",
+    "url_path": "/locations/missouri/independence/",
+    "full_url": "https://dollarfence.com/locations/missouri/independence/"
+  },
+  {
+    "state": "Missouri",
+    "city": "Kansas City",
+    "state_url": "missouri",
+    "city_url": "kansas-city",
+    "url_path": "/locations/missouri/kansas-city/",
+    "full_url": "https://dollarfence.com/locations/missouri/kansas-city/"
+  },
+  {
+    "state": "Missouri",
+    "city": "Lee's Summit",
+    "state_url": "missouri",
+    "city_url": "lees-summit",
+    "url_path": "/locations/missouri/lees-summit/",
+    "full_url": "https://dollarfence.com/locations/missouri/lees-summit/"
+  },
+  {
+    "state": "Missouri",
+    "city": "O'Fallon",
+    "state_url": "missouri",
+    "city_url": "ofallon",
+    "url_path": "/locations/missouri/ofallon/",
+    "full_url": "https://dollarfence.com/locations/missouri/ofallon/"
+  },
+  {
+    "state": "Missouri",
+    "city": "Springfield",
+    "state_url": "missouri",
+    "city_url": "springfield",
+    "url_path": "/locations/missouri/springfield/",
+    "full_url": "https://dollarfence.com/locations/missouri/springfield/"
+  },
+  {
+    "state": "Missouri",
+    "city": "St. Charles",
+    "state_url": "missouri",
+    "city_url": "st-charles",
+    "url_path": "/locations/missouri/st-charles/",
+    "full_url": "https://dollarfence.com/locations/missouri/st-charles/"
+  },
+  {
+    "state": "Missouri",
+    "city": "St. Joseph",
+    "state_url": "missouri",
+    "city_url": "st-joseph",
+    "url_path": "/locations/missouri/st-joseph/",
+    "full_url": "https://dollarfence.com/locations/missouri/st-joseph/"
+  },
+  {
+    "state": "Missouri",
+    "city": "St. Louis",
+    "state_url": "missouri",
+    "city_url": "st-louis",
+    "url_path": "/locations/missouri/st-louis/",
+    "full_url": "https://dollarfence.com/locations/missouri/st-louis/"
+  },
+  {
+    "state": "Montana",
+    "city": "Billings",
+    "state_url": "montana",
+    "city_url": "billings",
+    "url_path": "/locations/montana/billings/",
+    "full_url": "https://dollarfence.com/locations/montana/billings/"
+  },
+  {
+    "state": "Montana",
+    "city": "Bozeman",
+    "state_url": "montana",
+    "city_url": "bozeman",
+    "url_path": "/locations/montana/bozeman/",
+    "full_url": "https://dollarfence.com/locations/montana/bozeman/"
+  },
+  {
+    "state": "Montana",
+    "city": "Great Falls",
+    "state_url": "montana",
+    "city_url": "great-falls",
+    "url_path": "/locations/montana/great-falls/",
+    "full_url": "https://dollarfence.com/locations/montana/great-falls/"
+  },
+  {
+    "state": "Montana",
+    "city": "Helena",
+    "state_url": "montana",
+    "city_url": "helena",
+    "url_path": "/locations/montana/helena/",
+    "full_url": "https://dollarfence.com/locations/montana/helena/"
+  },
+  {
+    "state": "Montana",
+    "city": "Missoula",
+    "state_url": "montana",
+    "city_url": "missoula",
+    "url_path": "/locations/montana/missoula/",
+    "full_url": "https://dollarfence.com/locations/montana/missoula/"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Bellevue",
+    "state_url": "nebraska",
+    "city_url": "bellevue",
+    "url_path": "/locations/nebraska/bellevue/",
+    "full_url": "https://dollarfence.com/locations/nebraska/bellevue/"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Grand Island",
+    "state_url": "nebraska",
+    "city_url": "grand-island",
+    "url_path": "/locations/nebraska/grand-island/",
+    "full_url": "https://dollarfence.com/locations/nebraska/grand-island/"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Lincoln",
+    "state_url": "nebraska",
+    "city_url": "lincoln",
+    "url_path": "/locations/nebraska/lincoln/",
+    "full_url": "https://dollarfence.com/locations/nebraska/lincoln/"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Omaha",
+    "state_url": "nebraska",
+    "city_url": "omaha",
+    "url_path": "/locations/nebraska/omaha/",
+    "full_url": "https://dollarfence.com/locations/nebraska/omaha/"
+  },
+  {
+    "state": "Nevada",
+    "city": "Carson City",
+    "state_url": "nevada",
+    "city_url": "carson-city",
+    "url_path": "/locations/nevada/carson-city/",
+    "full_url": "https://dollarfence.com/locations/nevada/carson-city/"
+  },
+  {
+    "state": "Nevada",
+    "city": "Henderson",
+    "state_url": "nevada",
+    "city_url": "henderson",
+    "url_path": "/locations/nevada/henderson/",
+    "full_url": "https://dollarfence.com/locations/nevada/henderson/"
+  },
+  {
+    "state": "Nevada",
+    "city": "Las Vegas",
+    "state_url": "nevada",
+    "city_url": "las-vegas",
+    "url_path": "/locations/nevada/las-vegas/",
+    "full_url": "https://dollarfence.com/locations/nevada/las-vegas/"
+  },
+  {
+    "state": "Nevada",
+    "city": "North Las Vegas",
+    "state_url": "nevada",
+    "city_url": "north-las-vegas",
+    "url_path": "/locations/nevada/north-las-vegas/",
+    "full_url": "https://dollarfence.com/locations/nevada/north-las-vegas/"
+  },
+  {
+    "state": "Nevada",
+    "city": "Reno",
+    "state_url": "nevada",
+    "city_url": "reno",
+    "url_path": "/locations/nevada/reno/",
+    "full_url": "https://dollarfence.com/locations/nevada/reno/"
+  },
+  {
+    "state": "Nevada",
+    "city": "Sparks",
+    "state_url": "nevada",
+    "city_url": "sparks",
+    "url_path": "/locations/nevada/sparks/",
+    "full_url": "https://dollarfence.com/locations/nevada/sparks/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Concord",
+    "state_url": "new-hampshire",
+    "city_url": "concord",
+    "url_path": "/locations/new-hampshire/concord/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/concord/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Derry",
+    "state_url": "new-hampshire",
+    "city_url": "derry",
+    "url_path": "/locations/new-hampshire/derry/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/derry/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Dover",
+    "state_url": "new-hampshire",
+    "city_url": "dover",
+    "url_path": "/locations/new-hampshire/dover/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/dover/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Manchester",
+    "state_url": "new-hampshire",
+    "city_url": "manchester",
+    "url_path": "/locations/new-hampshire/manchester/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/manchester/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Merrimack",
+    "state_url": "new-hampshire",
+    "city_url": "merrimack",
+    "url_path": "/locations/new-hampshire/merrimack/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/merrimack/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Nashua",
+    "state_url": "new-hampshire",
+    "city_url": "nashua",
+    "url_path": "/locations/new-hampshire/nashua/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/nashua/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Rochester",
+    "state_url": "new-hampshire",
+    "city_url": "rochester",
+    "url_path": "/locations/new-hampshire/rochester/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/rochester/"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Salem",
+    "state_url": "new-hampshire",
+    "city_url": "salem",
+    "url_path": "/locations/new-hampshire/salem/",
+    "full_url": "https://dollarfence.com/locations/new-hampshire/salem/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Camden",
+    "state_url": "new-jersey",
+    "city_url": "camden",
+    "url_path": "/locations/new-jersey/camden/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/camden/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Clifton",
+    "state_url": "new-jersey",
+    "city_url": "clifton",
+    "url_path": "/locations/new-jersey/clifton/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/clifton/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Edison",
+    "state_url": "new-jersey",
+    "city_url": "edison",
+    "url_path": "/locations/new-jersey/edison/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/edison/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Elizabeth",
+    "state_url": "new-jersey",
+    "city_url": "elizabeth",
+    "url_path": "/locations/new-jersey/elizabeth/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/elizabeth/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Jersey City",
+    "state_url": "new-jersey",
+    "city_url": "jersey-city",
+    "url_path": "/locations/new-jersey/jersey-city/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/jersey-city/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Newark",
+    "state_url": "new-jersey",
+    "city_url": "newark",
+    "url_path": "/locations/new-jersey/newark/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/newark/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Paterson",
+    "state_url": "new-jersey",
+    "city_url": "paterson",
+    "url_path": "/locations/new-jersey/paterson/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/paterson/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Toms River",
+    "state_url": "new-jersey",
+    "city_url": "toms-river",
+    "url_path": "/locations/new-jersey/toms-river/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/toms-river/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Trenton",
+    "state_url": "new-jersey",
+    "city_url": "trenton",
+    "url_path": "/locations/new-jersey/trenton/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/trenton/"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Woodbridge",
+    "state_url": "new-jersey",
+    "city_url": "woodbridge",
+    "url_path": "/locations/new-jersey/woodbridge/",
+    "full_url": "https://dollarfence.com/locations/new-jersey/woodbridge/"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Albuquerque",
+    "state_url": "new-mexico",
+    "city_url": "albuquerque",
+    "url_path": "/locations/new-mexico/albuquerque/",
+    "full_url": "https://dollarfence.com/locations/new-mexico/albuquerque/"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Las Cruces",
+    "state_url": "new-mexico",
+    "city_url": "las-cruces",
+    "url_path": "/locations/new-mexico/las-cruces/",
+    "full_url": "https://dollarfence.com/locations/new-mexico/las-cruces/"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Rio Rancho",
+    "state_url": "new-mexico",
+    "city_url": "rio-rancho",
+    "url_path": "/locations/new-mexico/rio-rancho/",
+    "full_url": "https://dollarfence.com/locations/new-mexico/rio-rancho/"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Roswell",
+    "state_url": "new-mexico",
+    "city_url": "roswell",
+    "url_path": "/locations/new-mexico/roswell/",
+    "full_url": "https://dollarfence.com/locations/new-mexico/roswell/"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Santa Fe",
+    "state_url": "new-mexico",
+    "city_url": "santa-fe",
+    "url_path": "/locations/new-mexico/santa-fe/",
+    "full_url": "https://dollarfence.com/locations/new-mexico/santa-fe/"
+  },
+  {
+    "state": "New York",
+    "city": "Albany",
+    "state_url": "new-york",
+    "city_url": "albany",
+    "url_path": "/locations/new-york/albany/",
+    "full_url": "https://dollarfence.com/locations/new-york/albany/"
+  },
+  {
+    "state": "New York",
+    "city": "Buffalo",
+    "state_url": "new-york",
+    "city_url": "buffalo",
+    "url_path": "/locations/new-york/buffalo/",
+    "full_url": "https://dollarfence.com/locations/new-york/buffalo/"
+  },
+  {
+    "state": "New York",
+    "city": "Mount Vernon",
+    "state_url": "new-york",
+    "city_url": "mount-vernon",
+    "url_path": "/locations/new-york/mount-vernon/",
+    "full_url": "https://dollarfence.com/locations/new-york/mount-vernon/"
+  },
+  {
+    "state": "New York",
+    "city": "New Rochelle",
+    "state_url": "new-york",
+    "city_url": "new-rochelle",
+    "url_path": "/locations/new-york/new-rochelle/",
+    "full_url": "https://dollarfence.com/locations/new-york/new-rochelle/"
+  },
+  {
+    "state": "New York",
+    "city": "New York City",
+    "state_url": "new-york",
+    "city_url": "new-york-city",
+    "url_path": "/locations/new-york/new-york-city/",
+    "full_url": "https://dollarfence.com/locations/new-york/new-york-city/"
+  },
+  {
+    "state": "New York",
+    "city": "Niagara Falls",
+    "state_url": "new-york",
+    "city_url": "niagara-falls",
+    "url_path": "/locations/new-york/niagara-falls/",
+    "full_url": "https://dollarfence.com/locations/new-york/niagara-falls/"
+  },
+  {
+    "state": "New York",
+    "city": "Rochester",
+    "state_url": "new-york",
+    "city_url": "rochester",
+    "url_path": "/locations/new-york/rochester/",
+    "full_url": "https://dollarfence.com/locations/new-york/rochester/"
+  },
+  {
+    "state": "New York",
+    "city": "Schenectady",
+    "state_url": "new-york",
+    "city_url": "schenectady",
+    "url_path": "/locations/new-york/schenectady/",
+    "full_url": "https://dollarfence.com/locations/new-york/schenectady/"
+  },
+  {
+    "state": "New York",
+    "city": "Syracuse",
+    "state_url": "new-york",
+    "city_url": "syracuse",
+    "url_path": "/locations/new-york/syracuse/",
+    "full_url": "https://dollarfence.com/locations/new-york/syracuse/"
+  },
+  {
+    "state": "New York",
+    "city": "Utica",
+    "state_url": "new-york",
+    "city_url": "utica",
+    "url_path": "/locations/new-york/utica/",
+    "full_url": "https://dollarfence.com/locations/new-york/utica/"
+  },
+  {
+    "state": "New York",
+    "city": "White Plains",
+    "state_url": "new-york",
+    "city_url": "white-plains",
+    "url_path": "/locations/new-york/white-plains/",
+    "full_url": "https://dollarfence.com/locations/new-york/white-plains/"
+  },
+  {
+    "state": "New York",
+    "city": "Yonkers",
+    "state_url": "new-york",
+    "city_url": "yonkers",
+    "url_path": "/locations/new-york/yonkers/",
+    "full_url": "https://dollarfence.com/locations/new-york/yonkers/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Asheville",
+    "state_url": "north-carolina",
+    "city_url": "asheville",
+    "url_path": "/locations/north-carolina/asheville/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/asheville/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Cary",
+    "state_url": "north-carolina",
+    "city_url": "cary",
+    "url_path": "/locations/north-carolina/cary/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/cary/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Charlotte",
+    "state_url": "north-carolina",
+    "city_url": "charlotte",
+    "url_path": "/locations/north-carolina/charlotte/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/charlotte/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Concord",
+    "state_url": "north-carolina",
+    "city_url": "concord",
+    "url_path": "/locations/north-carolina/concord/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/concord/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Durham",
+    "state_url": "north-carolina",
+    "city_url": "durham",
+    "url_path": "/locations/north-carolina/durham/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/durham/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Fayetteville",
+    "state_url": "north-carolina",
+    "city_url": "fayetteville",
+    "url_path": "/locations/north-carolina/fayetteville/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/fayetteville/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Gastonia",
+    "state_url": "north-carolina",
+    "city_url": "gastonia",
+    "url_path": "/locations/north-carolina/gastonia/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/gastonia/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Greensboro",
+    "state_url": "north-carolina",
+    "city_url": "greensboro",
+    "url_path": "/locations/north-carolina/greensboro/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/greensboro/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Greenville",
+    "state_url": "north-carolina",
+    "city_url": "greenville",
+    "url_path": "/locations/north-carolina/greenville/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/greenville/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "High Point",
+    "state_url": "north-carolina",
+    "city_url": "high-point",
+    "url_path": "/locations/north-carolina/high-point/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/high-point/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Huntersville",
+    "state_url": "north-carolina",
+    "city_url": "huntersville",
+    "url_path": "/locations/north-carolina/huntersville/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/huntersville/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Jacksonville",
+    "state_url": "north-carolina",
+    "city_url": "jacksonville",
+    "url_path": "/locations/north-carolina/jacksonville/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/jacksonville/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Kannapolis",
+    "state_url": "north-carolina",
+    "city_url": "kannapolis",
+    "url_path": "/locations/north-carolina/kannapolis/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/kannapolis/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Monroe",
+    "state_url": "north-carolina",
+    "city_url": "monroe",
+    "url_path": "/locations/north-carolina/monroe/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/monroe/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Raleigh",
+    "state_url": "north-carolina",
+    "city_url": "raleigh",
+    "url_path": "/locations/north-carolina/raleigh/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/raleigh/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Rocky Mount",
+    "state_url": "north-carolina",
+    "city_url": "rocky-mount",
+    "url_path": "/locations/north-carolina/rocky-mount/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/rocky-mount/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Wilmington",
+    "state_url": "north-carolina",
+    "city_url": "wilmington",
+    "url_path": "/locations/north-carolina/wilmington/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/wilmington/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Wilson",
+    "state_url": "north-carolina",
+    "city_url": "wilson",
+    "url_path": "/locations/north-carolina/wilson/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/wilson/"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Winston-Salem",
+    "state_url": "north-carolina",
+    "city_url": "winston-salem",
+    "url_path": "/locations/north-carolina/winston-salem/",
+    "full_url": "https://dollarfence.com/locations/north-carolina/winston-salem/"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Bismarck",
+    "state_url": "north-dakota",
+    "city_url": "bismarck",
+    "url_path": "/locations/north-dakota/bismarck/",
+    "full_url": "https://dollarfence.com/locations/north-dakota/bismarck/"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Fargo",
+    "state_url": "north-dakota",
+    "city_url": "fargo",
+    "url_path": "/locations/north-dakota/fargo/",
+    "full_url": "https://dollarfence.com/locations/north-dakota/fargo/"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Grand Forks",
+    "state_url": "north-dakota",
+    "city_url": "grand-forks",
+    "url_path": "/locations/north-dakota/grand-forks/",
+    "full_url": "https://dollarfence.com/locations/north-dakota/grand-forks/"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Minot",
+    "state_url": "north-dakota",
+    "city_url": "minot",
+    "url_path": "/locations/north-dakota/minot/",
+    "full_url": "https://dollarfence.com/locations/north-dakota/minot/"
+  },
+  {
+    "state": "North Dakota",
+    "city": "West Fargo",
+    "state_url": "north-dakota",
+    "city_url": "west-fargo",
+    "url_path": "/locations/north-dakota/west-fargo/",
+    "full_url": "https://dollarfence.com/locations/north-dakota/west-fargo/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Akron",
+    "state_url": "ohio",
+    "city_url": "akron",
+    "url_path": "/locations/ohio/akron/",
+    "full_url": "https://dollarfence.com/locations/ohio/akron/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Canton",
+    "state_url": "ohio",
+    "city_url": "canton",
+    "url_path": "/locations/ohio/canton/",
+    "full_url": "https://dollarfence.com/locations/ohio/canton/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "state_url": "ohio",
+    "city_url": "cincinnati",
+    "url_path": "/locations/ohio/cincinnati/",
+    "full_url": "https://dollarfence.com/locations/ohio/cincinnati/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Cleveland",
+    "state_url": "ohio",
+    "city_url": "cleveland",
+    "url_path": "/locations/ohio/cleveland/",
+    "full_url": "https://dollarfence.com/locations/ohio/cleveland/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Columbus",
+    "state_url": "ohio",
+    "city_url": "columbus",
+    "url_path": "/locations/ohio/columbus/",
+    "full_url": "https://dollarfence.com/locations/ohio/columbus/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Dayton",
+    "state_url": "ohio",
+    "city_url": "dayton",
+    "url_path": "/locations/ohio/dayton/",
+    "full_url": "https://dollarfence.com/locations/ohio/dayton/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Elyria",
+    "state_url": "ohio",
+    "city_url": "elyria",
+    "url_path": "/locations/ohio/elyria/",
+    "full_url": "https://dollarfence.com/locations/ohio/elyria/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Hamilton",
+    "state_url": "ohio",
+    "city_url": "hamilton",
+    "url_path": "/locations/ohio/hamilton/",
+    "full_url": "https://dollarfence.com/locations/ohio/hamilton/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Kettering",
+    "state_url": "ohio",
+    "city_url": "kettering",
+    "url_path": "/locations/ohio/kettering/",
+    "full_url": "https://dollarfence.com/locations/ohio/kettering/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Lakewood",
+    "state_url": "ohio",
+    "city_url": "lakewood",
+    "url_path": "/locations/ohio/lakewood/",
+    "full_url": "https://dollarfence.com/locations/ohio/lakewood/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Lorain",
+    "state_url": "ohio",
+    "city_url": "lorain",
+    "url_path": "/locations/ohio/lorain/",
+    "full_url": "https://dollarfence.com/locations/ohio/lorain/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Parma",
+    "state_url": "ohio",
+    "city_url": "parma",
+    "url_path": "/locations/ohio/parma/",
+    "full_url": "https://dollarfence.com/locations/ohio/parma/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Springfield",
+    "state_url": "ohio",
+    "city_url": "springfield",
+    "url_path": "/locations/ohio/springfield/",
+    "full_url": "https://dollarfence.com/locations/ohio/springfield/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Toledo",
+    "state_url": "ohio",
+    "city_url": "toledo",
+    "url_path": "/locations/ohio/toledo/",
+    "full_url": "https://dollarfence.com/locations/ohio/toledo/"
+  },
+  {
+    "state": "Ohio",
+    "city": "Youngstown",
+    "state_url": "ohio",
+    "city_url": "youngstown",
+    "url_path": "/locations/ohio/youngstown/",
+    "full_url": "https://dollarfence.com/locations/ohio/youngstown/"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Broken Arrow",
+    "state_url": "oklahoma",
+    "city_url": "broken-arrow",
+    "url_path": "/locations/oklahoma/broken-arrow/",
+    "full_url": "https://dollarfence.com/locations/oklahoma/broken-arrow/"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Edmond",
+    "state_url": "oklahoma",
+    "city_url": "edmond",
+    "url_path": "/locations/oklahoma/edmond/",
+    "full_url": "https://dollarfence.com/locations/oklahoma/edmond/"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Lawton",
+    "state_url": "oklahoma",
+    "city_url": "lawton",
+    "url_path": "/locations/oklahoma/lawton/",
+    "full_url": "https://dollarfence.com/locations/oklahoma/lawton/"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Moore",
+    "state_url": "oklahoma",
+    "city_url": "moore",
+    "url_path": "/locations/oklahoma/moore/",
+    "full_url": "https://dollarfence.com/locations/oklahoma/moore/"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Norman",
+    "state_url": "oklahoma",
+    "city_url": "norman",
+    "url_path": "/locations/oklahoma/norman/",
+    "full_url": "https://dollarfence.com/locations/oklahoma/norman/"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Oklahoma City",
+    "state_url": "oklahoma",
+    "city_url": "oklahoma-city",
+    "url_path": "/locations/oklahoma/oklahoma-city/",
+    "full_url": "https://dollarfence.com/locations/oklahoma/oklahoma-city/"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Tulsa",
+    "state_url": "oklahoma",
+    "city_url": "tulsa",
+    "url_path": "/locations/oklahoma/tulsa/",
+    "full_url": "https://dollarfence.com/locations/oklahoma/tulsa/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Beaverton",
+    "state_url": "oregon",
+    "city_url": "beaverton",
+    "url_path": "/locations/oregon/beaverton/",
+    "full_url": "https://dollarfence.com/locations/oregon/beaverton/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Bend",
+    "state_url": "oregon",
+    "city_url": "bend",
+    "url_path": "/locations/oregon/bend/",
+    "full_url": "https://dollarfence.com/locations/oregon/bend/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Corvallis",
+    "state_url": "oregon",
+    "city_url": "corvallis",
+    "url_path": "/locations/oregon/corvallis/",
+    "full_url": "https://dollarfence.com/locations/oregon/corvallis/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Eugene",
+    "state_url": "oregon",
+    "city_url": "eugene",
+    "url_path": "/locations/oregon/eugene/",
+    "full_url": "https://dollarfence.com/locations/oregon/eugene/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Gresham",
+    "state_url": "oregon",
+    "city_url": "gresham",
+    "url_path": "/locations/oregon/gresham/",
+    "full_url": "https://dollarfence.com/locations/oregon/gresham/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Hillsboro",
+    "state_url": "oregon",
+    "city_url": "hillsboro",
+    "url_path": "/locations/oregon/hillsboro/",
+    "full_url": "https://dollarfence.com/locations/oregon/hillsboro/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Lake Oswego",
+    "state_url": "oregon",
+    "city_url": "lake-oswego",
+    "url_path": "/locations/oregon/lake-oswego/",
+    "full_url": "https://dollarfence.com/locations/oregon/lake-oswego/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Medford",
+    "state_url": "oregon",
+    "city_url": "medford",
+    "url_path": "/locations/oregon/medford/",
+    "full_url": "https://dollarfence.com/locations/oregon/medford/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Portland",
+    "state_url": "oregon",
+    "city_url": "portland",
+    "url_path": "/locations/oregon/portland/",
+    "full_url": "https://dollarfence.com/locations/oregon/portland/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Salem",
+    "state_url": "oregon",
+    "city_url": "salem",
+    "url_path": "/locations/oregon/salem/",
+    "full_url": "https://dollarfence.com/locations/oregon/salem/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Springfield",
+    "state_url": "oregon",
+    "city_url": "springfield",
+    "url_path": "/locations/oregon/springfield/",
+    "full_url": "https://dollarfence.com/locations/oregon/springfield/"
+  },
+  {
+    "state": "Oregon",
+    "city": "Tigard",
+    "state_url": "oregon",
+    "city_url": "tigard",
+    "url_path": "/locations/oregon/tigard/",
+    "full_url": "https://dollarfence.com/locations/oregon/tigard/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Allentown",
+    "state_url": "pennsylvania",
+    "city_url": "allentown",
+    "url_path": "/locations/pennsylvania/allentown/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/allentown/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Bethlehem",
+    "state_url": "pennsylvania",
+    "city_url": "bethlehem",
+    "url_path": "/locations/pennsylvania/bethlehem/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/bethlehem/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Erie",
+    "state_url": "pennsylvania",
+    "city_url": "erie",
+    "url_path": "/locations/pennsylvania/erie/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/erie/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Harrisburg",
+    "state_url": "pennsylvania",
+    "city_url": "harrisburg",
+    "url_path": "/locations/pennsylvania/harrisburg/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/harrisburg/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Lancaster",
+    "state_url": "pennsylvania",
+    "city_url": "lancaster",
+    "url_path": "/locations/pennsylvania/lancaster/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/lancaster/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "state_url": "pennsylvania",
+    "city_url": "philadelphia",
+    "url_path": "/locations/pennsylvania/philadelphia/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/philadelphia/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Pittsburgh",
+    "state_url": "pennsylvania",
+    "city_url": "pittsburgh",
+    "url_path": "/locations/pennsylvania/pittsburgh/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/pittsburgh/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Reading",
+    "state_url": "pennsylvania",
+    "city_url": "reading",
+    "url_path": "/locations/pennsylvania/reading/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/reading/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Scranton",
+    "state_url": "pennsylvania",
+    "city_url": "scranton",
+    "url_path": "/locations/pennsylvania/scranton/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/scranton/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Upper Darby",
+    "state_url": "pennsylvania",
+    "city_url": "upper-darby",
+    "url_path": "/locations/pennsylvania/upper-darby/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/upper-darby/"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "York",
+    "state_url": "pennsylvania",
+    "city_url": "york",
+    "url_path": "/locations/pennsylvania/york/",
+    "full_url": "https://dollarfence.com/locations/pennsylvania/york/"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Cranston",
+    "state_url": "rhode-island",
+    "city_url": "cranston",
+    "url_path": "/locations/rhode-island/cranston/",
+    "full_url": "https://dollarfence.com/locations/rhode-island/cranston/"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Newport",
+    "state_url": "rhode-island",
+    "city_url": "newport",
+    "url_path": "/locations/rhode-island/newport/",
+    "full_url": "https://dollarfence.com/locations/rhode-island/newport/"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Pawtucket",
+    "state_url": "rhode-island",
+    "city_url": "pawtucket",
+    "url_path": "/locations/rhode-island/pawtucket/",
+    "full_url": "https://dollarfence.com/locations/rhode-island/pawtucket/"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Providence",
+    "state_url": "rhode-island",
+    "city_url": "providence",
+    "url_path": "/locations/rhode-island/providence/",
+    "full_url": "https://dollarfence.com/locations/rhode-island/providence/"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Warwick",
+    "state_url": "rhode-island",
+    "city_url": "warwick",
+    "url_path": "/locations/rhode-island/warwick/",
+    "full_url": "https://dollarfence.com/locations/rhode-island/warwick/"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Woonsocket",
+    "state_url": "rhode-island",
+    "city_url": "woonsocket",
+    "url_path": "/locations/rhode-island/woonsocket/",
+    "full_url": "https://dollarfence.com/locations/rhode-island/woonsocket/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Charleston",
+    "state_url": "south-carolina",
+    "city_url": "charleston",
+    "url_path": "/locations/south-carolina/charleston/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/charleston/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Columbia",
+    "state_url": "south-carolina",
+    "city_url": "columbia",
+    "url_path": "/locations/south-carolina/columbia/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/columbia/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Florence",
+    "state_url": "south-carolina",
+    "city_url": "florence",
+    "url_path": "/locations/south-carolina/florence/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/florence/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Greenville",
+    "state_url": "south-carolina",
+    "city_url": "greenville",
+    "url_path": "/locations/south-carolina/greenville/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/greenville/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Mount Pleasant",
+    "state_url": "south-carolina",
+    "city_url": "mount-pleasant",
+    "url_path": "/locations/south-carolina/mount-pleasant/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/mount-pleasant/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "North Charleston",
+    "state_url": "south-carolina",
+    "city_url": "north-charleston",
+    "url_path": "/locations/south-carolina/north-charleston/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/north-charleston/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Rock Hill",
+    "state_url": "south-carolina",
+    "city_url": "rock-hill",
+    "url_path": "/locations/south-carolina/rock-hill/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/rock-hill/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Spartanburg",
+    "state_url": "south-carolina",
+    "city_url": "spartanburg",
+    "url_path": "/locations/south-carolina/spartanburg/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/spartanburg/"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Summerville",
+    "state_url": "south-carolina",
+    "city_url": "summerville",
+    "url_path": "/locations/south-carolina/summerville/",
+    "full_url": "https://dollarfence.com/locations/south-carolina/summerville/"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Aberdeen",
+    "state_url": "south-dakota",
+    "city_url": "aberdeen",
+    "url_path": "/locations/south-dakota/aberdeen/",
+    "full_url": "https://dollarfence.com/locations/south-dakota/aberdeen/"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Brookings",
+    "state_url": "south-dakota",
+    "city_url": "brookings",
+    "url_path": "/locations/south-dakota/brookings/",
+    "full_url": "https://dollarfence.com/locations/south-dakota/brookings/"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Pierre",
+    "state_url": "south-dakota",
+    "city_url": "pierre",
+    "url_path": "/locations/south-dakota/pierre/",
+    "full_url": "https://dollarfence.com/locations/south-dakota/pierre/"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Rapid City",
+    "state_url": "south-dakota",
+    "city_url": "rapid-city",
+    "url_path": "/locations/south-dakota/rapid-city/",
+    "full_url": "https://dollarfence.com/locations/south-dakota/rapid-city/"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Sioux Falls",
+    "state_url": "south-dakota",
+    "city_url": "sioux-falls",
+    "url_path": "/locations/south-dakota/sioux-falls/",
+    "full_url": "https://dollarfence.com/locations/south-dakota/sioux-falls/"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Watertown",
+    "state_url": "south-dakota",
+    "city_url": "watertown",
+    "url_path": "/locations/south-dakota/watertown/",
+    "full_url": "https://dollarfence.com/locations/south-dakota/watertown/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Bartlett",
+    "state_url": "tennessee",
+    "city_url": "bartlett",
+    "url_path": "/locations/tennessee/bartlett/",
+    "full_url": "https://dollarfence.com/locations/tennessee/bartlett/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Chattanooga",
+    "state_url": "tennessee",
+    "city_url": "chattanooga",
+    "url_path": "/locations/tennessee/chattanooga/",
+    "full_url": "https://dollarfence.com/locations/tennessee/chattanooga/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Clarksville",
+    "state_url": "tennessee",
+    "city_url": "clarksville",
+    "url_path": "/locations/tennessee/clarksville/",
+    "full_url": "https://dollarfence.com/locations/tennessee/clarksville/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Franklin",
+    "state_url": "tennessee",
+    "city_url": "franklin",
+    "url_path": "/locations/tennessee/franklin/",
+    "full_url": "https://dollarfence.com/locations/tennessee/franklin/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Germantown",
+    "state_url": "tennessee",
+    "city_url": "germantown",
+    "url_path": "/locations/tennessee/germantown/",
+    "full_url": "https://dollarfence.com/locations/tennessee/germantown/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Hendersonville",
+    "state_url": "tennessee",
+    "city_url": "hendersonville",
+    "url_path": "/locations/tennessee/hendersonville/",
+    "full_url": "https://dollarfence.com/locations/tennessee/hendersonville/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Jackson",
+    "state_url": "tennessee",
+    "city_url": "jackson",
+    "url_path": "/locations/tennessee/jackson/",
+    "full_url": "https://dollarfence.com/locations/tennessee/jackson/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Johnson City",
+    "state_url": "tennessee",
+    "city_url": "johnson-city",
+    "url_path": "/locations/tennessee/johnson-city/",
+    "full_url": "https://dollarfence.com/locations/tennessee/johnson-city/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Kingsport",
+    "state_url": "tennessee",
+    "city_url": "kingsport",
+    "url_path": "/locations/tennessee/kingsport/",
+    "full_url": "https://dollarfence.com/locations/tennessee/kingsport/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Knoxville",
+    "state_url": "tennessee",
+    "city_url": "knoxville",
+    "url_path": "/locations/tennessee/knoxville/",
+    "full_url": "https://dollarfence.com/locations/tennessee/knoxville/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Memphis",
+    "state_url": "tennessee",
+    "city_url": "memphis",
+    "url_path": "/locations/tennessee/memphis/",
+    "full_url": "https://dollarfence.com/locations/tennessee/memphis/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Murfreesboro",
+    "state_url": "tennessee",
+    "city_url": "murfreesboro",
+    "url_path": "/locations/tennessee/murfreesboro/",
+    "full_url": "https://dollarfence.com/locations/tennessee/murfreesboro/"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Nashville",
+    "state_url": "tennessee",
+    "city_url": "nashville",
+    "url_path": "/locations/tennessee/nashville/",
+    "full_url": "https://dollarfence.com/locations/tennessee/nashville/"
+  },
+  {
+    "state": "Texas",
+    "city": "Abilene",
+    "state_url": "texas",
+    "city_url": "abilene",
+    "url_path": "/locations/texas/abilene/",
+    "full_url": "https://dollarfence.com/locations/texas/abilene/"
+  },
+  {
+    "state": "Texas",
+    "city": "Allen",
+    "state_url": "texas",
+    "city_url": "allen",
+    "url_path": "/locations/texas/allen/",
+    "full_url": "https://dollarfence.com/locations/texas/allen/"
+  },
+  {
+    "state": "Texas",
+    "city": "Amarillo",
+    "state_url": "texas",
+    "city_url": "amarillo",
+    "url_path": "/locations/texas/amarillo/",
+    "full_url": "https://dollarfence.com/locations/texas/amarillo/"
+  },
+  {
+    "state": "Texas",
+    "city": "Arlington",
+    "state_url": "texas",
+    "city_url": "arlington",
+    "url_path": "/locations/texas/arlington/",
+    "full_url": "https://dollarfence.com/locations/texas/arlington/"
+  },
+  {
+    "state": "Texas",
+    "city": "Austin",
+    "state_url": "texas",
+    "city_url": "austin",
+    "url_path": "/locations/texas/austin/",
+    "full_url": "https://dollarfence.com/locations/texas/austin/"
+  },
+  {
+    "state": "Texas",
+    "city": "Beaumont",
+    "state_url": "texas",
+    "city_url": "beaumont",
+    "url_path": "/locations/texas/beaumont/",
+    "full_url": "https://dollarfence.com/locations/texas/beaumont/"
+  },
+  {
+    "state": "Texas",
+    "city": "Brownsville",
+    "state_url": "texas",
+    "city_url": "brownsville",
+    "url_path": "/locations/texas/brownsville/",
+    "full_url": "https://dollarfence.com/locations/texas/brownsville/"
+  },
+  {
+    "state": "Texas",
+    "city": "Carrollton",
+    "state_url": "texas",
+    "city_url": "carrollton",
+    "url_path": "/locations/texas/carrollton/",
+    "full_url": "https://dollarfence.com/locations/texas/carrollton/"
+  },
+  {
+    "state": "Texas",
+    "city": "College Station",
+    "state_url": "texas",
+    "city_url": "college-station",
+    "url_path": "/locations/texas/college-station/",
+    "full_url": "https://dollarfence.com/locations/texas/college-station/"
+  },
+  {
+    "state": "Texas",
+    "city": "Corpus Christi",
+    "state_url": "texas",
+    "city_url": "corpus-christi",
+    "url_path": "/locations/texas/corpus-christi/",
+    "full_url": "https://dollarfence.com/locations/texas/corpus-christi/"
+  },
+  {
+    "state": "Texas",
+    "city": "Dallas",
+    "state_url": "texas",
+    "city_url": "dallas",
+    "url_path": "/locations/texas/dallas/",
+    "full_url": "https://dollarfence.com/locations/texas/dallas/"
+  },
+  {
+    "state": "Texas",
+    "city": "Denton",
+    "state_url": "texas",
+    "city_url": "denton",
+    "url_path": "/locations/texas/denton/",
+    "full_url": "https://dollarfence.com/locations/texas/denton/"
+  },
+  {
+    "state": "Texas",
+    "city": "El Paso",
+    "state_url": "texas",
+    "city_url": "el-paso",
+    "url_path": "/locations/texas/el-paso/",
+    "full_url": "https://dollarfence.com/locations/texas/el-paso/"
+  },
+  {
+    "state": "Texas",
+    "city": "Fort Worth",
+    "state_url": "texas",
+    "city_url": "fort-worth",
+    "url_path": "/locations/texas/fort-worth/",
+    "full_url": "https://dollarfence.com/locations/texas/fort-worth/"
+  },
+  {
+    "state": "Texas",
+    "city": "Frisco",
+    "state_url": "texas",
+    "city_url": "frisco",
+    "url_path": "/locations/texas/frisco/",
+    "full_url": "https://dollarfence.com/locations/texas/frisco/"
+  },
+  {
+    "state": "Texas",
+    "city": "Garland",
+    "state_url": "texas",
+    "city_url": "garland",
+    "url_path": "/locations/texas/garland/",
+    "full_url": "https://dollarfence.com/locations/texas/garland/"
+  },
+  {
+    "state": "Texas",
+    "city": "Grand Prairie",
+    "state_url": "texas",
+    "city_url": "grand-prairie",
+    "url_path": "/locations/texas/grand-prairie/",
+    "full_url": "https://dollarfence.com/locations/texas/grand-prairie/"
+  },
+  {
+    "state": "Texas",
+    "city": "Houston",
+    "state_url": "texas",
+    "city_url": "houston",
+    "url_path": "/locations/texas/houston/",
+    "full_url": "https://dollarfence.com/locations/texas/houston/"
+  },
+  {
+    "state": "Texas",
+    "city": "Irving",
+    "state_url": "texas",
+    "city_url": "irving",
+    "url_path": "/locations/texas/irving/",
+    "full_url": "https://dollarfence.com/locations/texas/irving/"
+  },
+  {
+    "state": "Texas",
+    "city": "Killeen",
+    "state_url": "texas",
+    "city_url": "killeen",
+    "url_path": "/locations/texas/killeen/",
+    "full_url": "https://dollarfence.com/locations/texas/killeen/"
+  },
+  {
+    "state": "Texas",
+    "city": "Laredo",
+    "state_url": "texas",
+    "city_url": "laredo",
+    "url_path": "/locations/texas/laredo/",
+    "full_url": "https://dollarfence.com/locations/texas/laredo/"
+  },
+  {
+    "state": "Texas",
+    "city": "League City",
+    "state_url": "texas",
+    "city_url": "league-city",
+    "url_path": "/locations/texas/league-city/",
+    "full_url": "https://dollarfence.com/locations/texas/league-city/"
+  },
+  {
+    "state": "Texas",
+    "city": "Lewisville",
+    "state_url": "texas",
+    "city_url": "lewisville",
+    "url_path": "/locations/texas/lewisville/",
+    "full_url": "https://dollarfence.com/locations/texas/lewisville/"
+  },
+  {
+    "state": "Texas",
+    "city": "Lubbock",
+    "state_url": "texas",
+    "city_url": "lubbock",
+    "url_path": "/locations/texas/lubbock/",
+    "full_url": "https://dollarfence.com/locations/texas/lubbock/"
+  },
+  {
+    "state": "Texas",
+    "city": "McKinney",
+    "state_url": "texas",
+    "city_url": "mckinney",
+    "url_path": "/locations/texas/mckinney/",
+    "full_url": "https://dollarfence.com/locations/texas/mckinney/"
+  },
+  {
+    "state": "Texas",
+    "city": "Mesquite",
+    "state_url": "texas",
+    "city_url": "mesquite",
+    "url_path": "/locations/texas/mesquite/",
+    "full_url": "https://dollarfence.com/locations/texas/mesquite/"
+  },
+  {
+    "state": "Texas",
+    "city": "Midland",
+    "state_url": "texas",
+    "city_url": "midland",
+    "url_path": "/locations/texas/midland/",
+    "full_url": "https://dollarfence.com/locations/texas/midland/"
+  },
+  {
+    "state": "Texas",
+    "city": "Odessa",
+    "state_url": "texas",
+    "city_url": "odessa",
+    "url_path": "/locations/texas/odessa/",
+    "full_url": "https://dollarfence.com/locations/texas/odessa/"
+  },
+  {
+    "state": "Texas",
+    "city": "Pasadena",
+    "state_url": "texas",
+    "city_url": "pasadena",
+    "url_path": "/locations/texas/pasadena/",
+    "full_url": "https://dollarfence.com/locations/texas/pasadena/"
+  },
+  {
+    "state": "Texas",
+    "city": "Pearland",
+    "state_url": "texas",
+    "city_url": "pearland",
+    "url_path": "/locations/texas/pearland/",
+    "full_url": "https://dollarfence.com/locations/texas/pearland/"
+  },
+  {
+    "state": "Texas",
+    "city": "Plano",
+    "state_url": "texas",
+    "city_url": "plano",
+    "url_path": "/locations/texas/plano/",
+    "full_url": "https://dollarfence.com/locations/texas/plano/"
+  },
+  {
+    "state": "Texas",
+    "city": "Richardson",
+    "state_url": "texas",
+    "city_url": "richardson",
+    "url_path": "/locations/texas/richardson/",
+    "full_url": "https://dollarfence.com/locations/texas/richardson/"
+  },
+  {
+    "state": "Texas",
+    "city": "Round Rock",
+    "state_url": "texas",
+    "city_url": "round-rock",
+    "url_path": "/locations/texas/round-rock/",
+    "full_url": "https://dollarfence.com/locations/texas/round-rock/"
+  },
+  {
+    "state": "Texas",
+    "city": "San Antonio",
+    "state_url": "texas",
+    "city_url": "san-antonio",
+    "url_path": "/locations/texas/san-antonio/",
+    "full_url": "https://dollarfence.com/locations/texas/san-antonio/"
+  },
+  {
+    "state": "Texas",
+    "city": "Sugar Land",
+    "state_url": "texas",
+    "city_url": "sugar-land",
+    "url_path": "/locations/texas/sugar-land/",
+    "full_url": "https://dollarfence.com/locations/texas/sugar-land/"
+  },
+  {
+    "state": "Texas",
+    "city": "Tyler",
+    "state_url": "texas",
+    "city_url": "tyler",
+    "url_path": "/locations/texas/tyler/",
+    "full_url": "https://dollarfence.com/locations/texas/tyler/"
+  },
+  {
+    "state": "Texas",
+    "city": "Waco",
+    "state_url": "texas",
+    "city_url": "waco",
+    "url_path": "/locations/texas/waco/",
+    "full_url": "https://dollarfence.com/locations/texas/waco/"
+  },
+  {
+    "state": "Texas",
+    "city": "Wichita Falls",
+    "state_url": "texas",
+    "city_url": "wichita-falls",
+    "url_path": "/locations/texas/wichita-falls/",
+    "full_url": "https://dollarfence.com/locations/texas/wichita-falls/"
+  },
+  {
+    "state": "Utah",
+    "city": "Layton",
+    "state_url": "utah",
+    "city_url": "layton",
+    "url_path": "/locations/utah/layton/",
+    "full_url": "https://dollarfence.com/locations/utah/layton/"
+  },
+  {
+    "state": "Utah",
+    "city": "Logan",
+    "state_url": "utah",
+    "city_url": "logan",
+    "url_path": "/locations/utah/logan/",
+    "full_url": "https://dollarfence.com/locations/utah/logan/"
+  },
+  {
+    "state": "Utah",
+    "city": "Ogden",
+    "state_url": "utah",
+    "city_url": "ogden",
+    "url_path": "/locations/utah/ogden/",
+    "full_url": "https://dollarfence.com/locations/utah/ogden/"
+  },
+  {
+    "state": "Utah",
+    "city": "Orem",
+    "state_url": "utah",
+    "city_url": "orem",
+    "url_path": "/locations/utah/orem/",
+    "full_url": "https://dollarfence.com/locations/utah/orem/"
+  },
+  {
+    "state": "Utah",
+    "city": "Provo",
+    "state_url": "utah",
+    "city_url": "provo",
+    "url_path": "/locations/utah/provo/",
+    "full_url": "https://dollarfence.com/locations/utah/provo/"
+  },
+  {
+    "state": "Utah",
+    "city": "Salt Lake City",
+    "state_url": "utah",
+    "city_url": "salt-lake-city",
+    "url_path": "/locations/utah/salt-lake-city/",
+    "full_url": "https://dollarfence.com/locations/utah/salt-lake-city/"
+  },
+  {
+    "state": "Utah",
+    "city": "Sandy",
+    "state_url": "utah",
+    "city_url": "sandy",
+    "url_path": "/locations/utah/sandy/",
+    "full_url": "https://dollarfence.com/locations/utah/sandy/"
+  },
+  {
+    "state": "Utah",
+    "city": "St. George",
+    "state_url": "utah",
+    "city_url": "st-george",
+    "url_path": "/locations/utah/st-george/",
+    "full_url": "https://dollarfence.com/locations/utah/st-george/"
+  },
+  {
+    "state": "Utah",
+    "city": "West Jordan",
+    "state_url": "utah",
+    "city_url": "west-jordan",
+    "url_path": "/locations/utah/west-jordan/",
+    "full_url": "https://dollarfence.com/locations/utah/west-jordan/"
+  },
+  {
+    "state": "Utah",
+    "city": "West Valley City",
+    "state_url": "utah",
+    "city_url": "west-valley-city",
+    "url_path": "/locations/utah/west-valley-city/",
+    "full_url": "https://dollarfence.com/locations/utah/west-valley-city/"
+  },
+  {
+    "state": "Vermont",
+    "city": "Burlington",
+    "state_url": "vermont",
+    "city_url": "burlington",
+    "url_path": "/locations/vermont/burlington/",
+    "full_url": "https://dollarfence.com/locations/vermont/burlington/"
+  },
+  {
+    "state": "Vermont",
+    "city": "Essex",
+    "state_url": "vermont",
+    "city_url": "essex",
+    "url_path": "/locations/vermont/essex/",
+    "full_url": "https://dollarfence.com/locations/vermont/essex/"
+  },
+  {
+    "state": "Vermont",
+    "city": "Montpelier",
+    "state_url": "vermont",
+    "city_url": "montpelier",
+    "url_path": "/locations/vermont/montpelier/",
+    "full_url": "https://dollarfence.com/locations/vermont/montpelier/"
+  },
+  {
+    "state": "Vermont",
+    "city": "Rutland",
+    "state_url": "vermont",
+    "city_url": "rutland",
+    "url_path": "/locations/vermont/rutland/",
+    "full_url": "https://dollarfence.com/locations/vermont/rutland/"
+  },
+  {
+    "state": "Vermont",
+    "city": "South Burlington",
+    "state_url": "vermont",
+    "city_url": "south-burlington",
+    "url_path": "/locations/vermont/south-burlington/",
+    "full_url": "https://dollarfence.com/locations/vermont/south-burlington/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Alexandria",
+    "state_url": "virginia",
+    "city_url": "alexandria",
+    "url_path": "/locations/virginia/alexandria/",
+    "full_url": "https://dollarfence.com/locations/virginia/alexandria/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Chesapeake",
+    "state_url": "virginia",
+    "city_url": "chesapeake",
+    "url_path": "/locations/virginia/chesapeake/",
+    "full_url": "https://dollarfence.com/locations/virginia/chesapeake/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Hampton",
+    "state_url": "virginia",
+    "city_url": "hampton",
+    "url_path": "/locations/virginia/hampton/",
+    "full_url": "https://dollarfence.com/locations/virginia/hampton/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Newport News",
+    "state_url": "virginia",
+    "city_url": "newport-news",
+    "url_path": "/locations/virginia/newport-news/",
+    "full_url": "https://dollarfence.com/locations/virginia/newport-news/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Norfolk",
+    "state_url": "virginia",
+    "city_url": "norfolk",
+    "url_path": "/locations/virginia/norfolk/",
+    "full_url": "https://dollarfence.com/locations/virginia/norfolk/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Portsmouth",
+    "state_url": "virginia",
+    "city_url": "portsmouth",
+    "url_path": "/locations/virginia/portsmouth/",
+    "full_url": "https://dollarfence.com/locations/virginia/portsmouth/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Richmond",
+    "state_url": "virginia",
+    "city_url": "richmond",
+    "url_path": "/locations/virginia/richmond/",
+    "full_url": "https://dollarfence.com/locations/virginia/richmond/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Roanoke",
+    "state_url": "virginia",
+    "city_url": "roanoke",
+    "url_path": "/locations/virginia/roanoke/",
+    "full_url": "https://dollarfence.com/locations/virginia/roanoke/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Suffolk",
+    "state_url": "virginia",
+    "city_url": "suffolk",
+    "url_path": "/locations/virginia/suffolk/",
+    "full_url": "https://dollarfence.com/locations/virginia/suffolk/"
+  },
+  {
+    "state": "Virginia",
+    "city": "Virginia Beach",
+    "state_url": "virginia",
+    "city_url": "virginia-beach",
+    "url_path": "/locations/virginia/virginia-beach/",
+    "full_url": "https://dollarfence.com/locations/virginia/virginia-beach/"
+  },
+  {
+    "state": "Washington",
+    "city": "Bellevue",
+    "state_url": "washington",
+    "city_url": "bellevue",
+    "url_path": "/locations/washington/bellevue/",
+    "full_url": "https://dollarfence.com/locations/washington/bellevue/"
+  },
+  {
+    "state": "Washington",
+    "city": "Bellingham",
+    "state_url": "washington",
+    "city_url": "bellingham",
+    "url_path": "/locations/washington/bellingham/",
+    "full_url": "https://dollarfence.com/locations/washington/bellingham/"
+  },
+  {
+    "state": "Washington",
+    "city": "Everett",
+    "state_url": "washington",
+    "city_url": "everett",
+    "url_path": "/locations/washington/everett/",
+    "full_url": "https://dollarfence.com/locations/washington/everett/"
+  },
+  {
+    "state": "Washington",
+    "city": "Federal Way",
+    "state_url": "washington",
+    "city_url": "federal-way",
+    "url_path": "/locations/washington/federal-way/",
+    "full_url": "https://dollarfence.com/locations/washington/federal-way/"
+  },
+  {
+    "state": "Washington",
+    "city": "Kent",
+    "state_url": "washington",
+    "city_url": "kent",
+    "url_path": "/locations/washington/kent/",
+    "full_url": "https://dollarfence.com/locations/washington/kent/"
+  },
+  {
+    "state": "Washington",
+    "city": "Renton",
+    "state_url": "washington",
+    "city_url": "renton",
+    "url_path": "/locations/washington/renton/",
+    "full_url": "https://dollarfence.com/locations/washington/renton/"
+  },
+  {
+    "state": "Washington",
+    "city": "Seattle",
+    "state_url": "washington",
+    "city_url": "seattle",
+    "url_path": "/locations/washington/seattle/",
+    "full_url": "https://dollarfence.com/locations/washington/seattle/"
+  },
+  {
+    "state": "Washington",
+    "city": "Spokane",
+    "state_url": "washington",
+    "city_url": "spokane",
+    "url_path": "/locations/washington/spokane/",
+    "full_url": "https://dollarfence.com/locations/washington/spokane/"
+  },
+  {
+    "state": "Washington",
+    "city": "Tacoma",
+    "state_url": "washington",
+    "city_url": "tacoma",
+    "url_path": "/locations/washington/tacoma/",
+    "full_url": "https://dollarfence.com/locations/washington/tacoma/"
+  },
+  {
+    "state": "Washington",
+    "city": "Vancouver",
+    "state_url": "washington",
+    "city_url": "vancouver",
+    "url_path": "/locations/washington/vancouver/",
+    "full_url": "https://dollarfence.com/locations/washington/vancouver/"
+  },
+  {
+    "state": "Washington",
+    "city": "Yakima",
+    "state_url": "washington",
+    "city_url": "yakima",
+    "url_path": "/locations/washington/yakima/",
+    "full_url": "https://dollarfence.com/locations/washington/yakima/"
+  },
+  {
+    "state": "West Virginia",
+    "city": "Charleston",
+    "state_url": "west-virginia",
+    "city_url": "charleston",
+    "url_path": "/locations/west-virginia/charleston/",
+    "full_url": "https://dollarfence.com/locations/west-virginia/charleston/"
+  },
+  {
+    "state": "West Virginia",
+    "city": "Huntington",
+    "state_url": "west-virginia",
+    "city_url": "huntington",
+    "url_path": "/locations/west-virginia/huntington/",
+    "full_url": "https://dollarfence.com/locations/west-virginia/huntington/"
+  },
+  {
+    "state": "West Virginia",
+    "city": "Morgantown",
+    "state_url": "west-virginia",
+    "city_url": "morgantown",
+    "url_path": "/locations/west-virginia/morgantown/",
+    "full_url": "https://dollarfence.com/locations/west-virginia/morgantown/"
+  },
+  {
+    "state": "West Virginia",
+    "city": "Parkersburg",
+    "state_url": "west-virginia",
+    "city_url": "parkersburg",
+    "url_path": "/locations/west-virginia/parkersburg/",
+    "full_url": "https://dollarfence.com/locations/west-virginia/parkersburg/"
+  },
+  {
+    "state": "West Virginia",
+    "city": "Wheeling",
+    "state_url": "west-virginia",
+    "city_url": "wheeling",
+    "url_path": "/locations/west-virginia/wheeling/",
+    "full_url": "https://dollarfence.com/locations/west-virginia/wheeling/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Appleton",
+    "state_url": "wisconsin",
+    "city_url": "appleton",
+    "url_path": "/locations/wisconsin/appleton/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/appleton/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Eau Claire",
+    "state_url": "wisconsin",
+    "city_url": "eau-claire",
+    "url_path": "/locations/wisconsin/eau-claire/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/eau-claire/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Green Bay",
+    "state_url": "wisconsin",
+    "city_url": "green-bay",
+    "url_path": "/locations/wisconsin/green-bay/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/green-bay/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Kenosha",
+    "state_url": "wisconsin",
+    "city_url": "kenosha",
+    "url_path": "/locations/wisconsin/kenosha/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/kenosha/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Madison",
+    "state_url": "wisconsin",
+    "city_url": "madison",
+    "url_path": "/locations/wisconsin/madison/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/madison/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Milwaukee",
+    "state_url": "wisconsin",
+    "city_url": "milwaukee",
+    "url_path": "/locations/wisconsin/milwaukee/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/milwaukee/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Oshkosh",
+    "state_url": "wisconsin",
+    "city_url": "oshkosh",
+    "url_path": "/locations/wisconsin/oshkosh/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/oshkosh/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Racine",
+    "state_url": "wisconsin",
+    "city_url": "racine",
+    "url_path": "/locations/wisconsin/racine/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/racine/"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Waukesha",
+    "state_url": "wisconsin",
+    "city_url": "waukesha",
+    "url_path": "/locations/wisconsin/waukesha/",
+    "full_url": "https://dollarfence.com/locations/wisconsin/waukesha/"
+  },
+  {
+    "state": "Wyoming",
+    "city": "Casper",
+    "state_url": "wyoming",
+    "city_url": "casper",
+    "url_path": "/locations/wyoming/casper/",
+    "full_url": "https://dollarfence.com/locations/wyoming/casper/"
+  },
+  {
+    "state": "Wyoming",
+    "city": "Cheyenne",
+    "state_url": "wyoming",
+    "city_url": "cheyenne",
+    "url_path": "/locations/wyoming/cheyenne/",
+    "full_url": "https://dollarfence.com/locations/wyoming/cheyenne/"
+  },
+  {
+    "state": "Wyoming",
+    "city": "Gillette",
+    "state_url": "wyoming",
+    "city_url": "gillette",
+    "url_path": "/locations/wyoming/gillette/",
+    "full_url": "https://dollarfence.com/locations/wyoming/gillette/"
+  },
+  {
+    "state": "Wyoming",
+    "city": "Laramie",
+    "state_url": "wyoming",
+    "city_url": "laramie",
+    "url_path": "/locations/wyoming/laramie/",
+    "full_url": "https://dollarfence.com/locations/wyoming/laramie/"
+  },
+  {
+    "state": "Wyoming",
+    "city": "Rock Springs",
+    "state_url": "wyoming",
+    "city_url": "rock-springs",
+    "url_path": "/locations/wyoming/rock-springs/",
+    "full_url": "https://dollarfence.com/locations/wyoming/rock-springs/"
+  }
+]
