@@ -1,13 +1,137 @@
 #!/usr/bin/env python3
 """
-Script to generate a single location page based on the Birmingham template
-This will be used by parallel processing to create all location pages
+Enhanced Location Page Generator with Integrated Review System
+Generates complete location pages with unique, location-specific customer reviews
 """
 
 import os
 import re
 import json
+import random
 from pathlib import Path
+
+# Import the review generation functions
+def generate_location_reviews(city, state):
+    """Generate unique reviews for a specific location"""
+    
+    # Pool of realistic customer names
+    first_names = [
+        "Michael", "Sarah", "Robert", "Jennifer", "David", "Lisa", "James", "Maria",
+        "John", "Patricia", "Christopher", "Linda", "Matthew", "Elizabeth", "Anthony",
+        "Barbara", "Mark", "Susan", "Donald", "Jessica", "Steven", "Karen", "Paul",
+        "Nancy", "Andrew", "Betty", "Joshua", "Helen", "Kenneth", "Sandra", "Kevin",
+        "Donna", "Brian", "Carol", "George", "Ruth", "Timothy", "Sharon", "Ronald",
+        "Michelle", "Jason", "Laura", "Edward", "Sarah", "Jeffrey", "Kimberly",
+        "Ryan", "Jacob", "Gary", "Nicholas", "Eric", "Jonathan", "Stephen", "Larry",
+        "Justin", "Scott", "Brandon", "Benjamin", "Samuel", "Gregory", "Alexander",
+        "Patrick", "Frank", "Raymond", "Jack", "Dennis", "Jerry", "Tyler", "Aaron"
+    ]
+    
+    last_names = [
+        "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis",
+        "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson",
+        "Thomas", "Taylor", "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson",
+        "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker",
+        "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", "Hill",
+        "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell",
+        "Mitchell", "Carter", "Roberts", "Gomez", "Phillips", "Evans", "Turner",
+        "Diaz", "Parker", "Cruz", "Edwards", "Collins", "Reyes", "Stewart", "Morris",
+        "Morales", "Murphy", "Cook", "Rogers", "Gutierrez", "Ortiz", "Morgan", "Cooper"
+    ]
+    
+    # Pool of fence types and features
+    fence_types = [
+        "vinyl fence", "wood fence", "composite fence", "aluminum fence", 
+        "chain link fence", "privacy fence", "pool fence", "decorative fence",
+        "security fence", "garden fence", "picket fence", "ranch fence"
+    ]
+    
+    # Pool of positive descriptors
+    descriptors = [
+        "outstanding", "excellent", "amazing", "fantastic", "superb", "exceptional",
+        "professional", "high-quality", "beautiful", "perfect", "impressive",
+        "top-notch", "wonderful", "incredible", "remarkable", "superior"
+    ]
+    
+    # Pool of service aspects
+    service_aspects = [
+        "installation", "workmanship", "customer service", "communication", 
+        "attention to detail", "professionalism", "quality", "craftsmanship",
+        "project management", "cleanup", "efficiency", "expertise"
+    ]
+    
+    # Pool of positive outcomes
+    outcomes = [
+        "exceeded our expectations", "looks fantastic", "transformed our yard",
+        "added great value to our home", "provides perfect privacy", 
+        "enhanced our property", "solved our needs perfectly", "looks amazing",
+        "completed efficiently", "finished beautifully", "works perfectly",
+        "improved our outdoor space", "gave us peace of mind"
+    ]
+    
+    # Generate 3 unique reviews
+    reviews = []
+    used_names = set()
+    
+    for i in range(3):
+        # Generate unique name
+        while True:
+            first = random.choice(first_names)
+            last = random.choice(last_names)
+            full_name = f"{first} {last}"
+            if full_name not in used_names:
+                used_names.add(full_name)
+                break
+        
+        # Select random elements for variety
+        fence_type = random.choice(fence_types)
+        descriptor = random.choice(descriptors)
+        service_aspect = random.choice(service_aspects)
+        outcome = random.choice(outcomes)
+        
+        # Generate review templates with variety
+        review_templates = [
+            f"{descriptor.title()} results! The {fence_type} installation {outcome}. The crew was respectful of our {city} property and completed the work efficiently. Very satisfied with Dollar Fence.",
+            
+            f"Dollar Fence transformed our {city} backyard with a beautiful {fence_type}. The installation was quick and clean, and the final result {outcome}. Highly recommend their services in the {city} area.",
+            
+            f"Excellent {service_aspect} and superior craftsmanship. The new {fence_type} around our {city} home {outcome}. Dollar Fence made the entire process smooth and stress-free.",
+            
+            f"We needed a {fence_type} quickly for our {city} property, and Dollar Fence delivered perfectly. Fast installation, great communication, and the fence {outcome}. Highly recommend for any {city} residents!",
+            
+            f"{descriptor.title()} experience from start to finish! The {fence_type} they installed has completely {outcome}. Fair pricing, excellent workmanship, and they cleaned up perfectly. Five stars!",
+            
+            f"Dollar Fence provided {descriptor} {service_aspect} for our {fence_type} project in {city}. The team was professional, punctual, and the quality is outstanding. Our neighbors have been asking for their contact information!",
+            
+            f"Amazing {service_aspect} and {descriptor} results! The {fence_type} installation {outcome}. The crew was respectful and completed the work efficiently. Very satisfied with Dollar Fence in {city}.",
+            
+            f"We're thrilled with our new {fence_type} from Dollar Fence! The installation in {city} was seamless, and the final result {outcome}. Professional team and {descriptor} quality throughout.",
+            
+            f"Outstanding {service_aspect}! Dollar Fence installed our {fence_type} with precision and care. The project in {city} {outcome} and added great value to our property. Highly recommended!",
+            
+            f"Excellent choice for {fence_type} installation in {city}! The team's {service_aspect} was {descriptor}, and the finished product {outcome}. Clean, professional, and reliable service."
+        ]
+        
+        # Select random template and create review
+        review_text = random.choice(review_templates)
+        
+        # Create nearby cities for location variety
+        nearby_locations = [
+            f"{city}, {state}",
+            f"Near {city}, {state}",
+            f"{city} area, {state}",
+            f"Greater {city}, {state}"
+        ]
+        
+        review = {
+            "name": full_name,
+            "location": random.choice(nearby_locations),
+            "review": review_text
+        }
+        
+        reviews.append(review)
+    
+    return reviews
 
 def get_county_info(city, state):
     """Get county information for major cities"""
@@ -56,6 +180,7 @@ def get_county_info(city, state):
         "Lakeland": "Polk County",
         "Pompano Beach": "Broward County",
         "Davie": "Broward County",
+        "St. Johns": "St. Johns County",
         
         # Texas
         "Houston": "Harris County",
@@ -96,6 +221,7 @@ def get_county_info(city, state):
         "Carrollton": "Dallas County",
         "Amarillo": "Potter County",
         "Wichita Falls": "Wichita County",
+        "St. Louis": "St. Louis County",
         
         # Georgia
         "Atlanta": "Fulton County",
@@ -114,13 +240,81 @@ def get_county_info(city, state):
         "Smyrna": "Cobb County",
         "Dunwoody": "DeKalb County",
         
-        # Add more as needed - this covers major cities
+        # New Jersey
+        "Newark": "Essex County",
+        "Jersey City": "Hudson County",
+        "Paterson": "Passaic County",
+        "Elizabeth": "Union County",
+        "Edison": "Middlesex County",
+        "Woodbridge": "Middlesex County",
+        "Lakewood": "Ocean County",
+        "Toms River": "Ocean County",
+        "Hamilton Township": "Mercer County",
+        "Trenton": "Mercer County",
+        
+        # Utah
+        "Salt Lake City": "Salt Lake County",
+        "West Valley City": "Salt Lake County",
+        "Provo": "Utah County",
+        "West Jordan": "Salt Lake County",
+        "Orem": "Utah County",
+        "Sandy": "Salt Lake County",
+        "Ogden": "Weber County",
+        "St. George": "Washington County",
+        "Layton": "Davis County",
+        "Taylorsville": "Salt Lake County",
+        
+        # Minnesota
+        "Minneapolis": "Hennepin County",
+        "Saint Paul": "Ramsey County",
+        "Rochester": "Olmsted County",
+        "Duluth": "St. Louis County",
+        "Bloomington": "Hennepin County",
+        "Brooklyn Park": "Hennepin County",
+        "Plymouth": "Hennepin County",
+        "St. Cloud": "Stearns County",
+        "Eagan": "Dakota County",
+        "Woodbury": "Washington County",
+        
+        # Add more as needed
     }
     
     return county_map.get(city, f"{city} County")
 
-def generate_location_page(location_input):
-    """Generate a complete HTML page for a specific location"""
+def apply_reviews_to_content(content, reviews):
+    """Apply generated reviews to the HTML content"""
+    
+    # Replace reviews in JSON-LD schema
+    for i, review in enumerate(reviews, 1):
+        # Replace author name in JSON-LD schema
+        pattern = rf'"name": "Customer {i}"'
+        replacement = f'"name": "{review["name"]}"'
+        content = re.sub(pattern, replacement, content)
+        
+        # Replace review body in JSON-LD schema
+        pattern = rf'"reviewBody": "[^"]*"'
+        escaped_review = review["review"].replace('"', '\\"')
+        
+        if i == 1:
+            replacement = f'"reviewBody": "{escaped_review}"'
+            content = re.sub(pattern, replacement, content, count=1)
+        elif i == 2:
+            # Find the second occurrence
+            matches = list(re.finditer(pattern, content))
+            if len(matches) >= 2:
+                start, end = matches[1].span()
+                content = content[:start] + f'"reviewBody": "{escaped_review}"' + content[end:]
+        elif i == 3:
+            # Find the third occurrence
+            matches = list(re.finditer(pattern, content))
+            if len(matches) >= 3:
+                start, end = matches[2].span()
+                content = content[:start] + f'"reviewBody": "{escaped_review}"' + content[end:]
+    
+    return content
+
+def generate_location_page_with_reviews(location_input, output_base_dir=None):
+    """Generate a complete HTML page for a specific location with unique reviews"""
     
     # Parse the location input (format: "City, State")
     try:
@@ -142,6 +336,9 @@ def generate_location_page(location_input):
             template_content = f.read()
     except FileNotFoundError:
         return {"error": f"Template file not found: {template_path}"}
+    
+    # Generate unique reviews for this location
+    reviews = generate_location_reviews(city, state)
     
     # Replace all Birmingham-specific content with the new location
     content = template_content
@@ -169,18 +366,13 @@ def generate_location_page(location_input):
     content = content.replace('"addressRegion": "Alabama"', f'"addressRegion": "{state}"')
     content = content.replace('"url": "https://dollarfence.com/locations/alabama/birmingham/"', f'"url": "https://dollarfence.com/locations/{state_url}/{city_url}/"')
     
-    # Update coordinates (approximate - in real implementation you'd use a geocoding service)
-    # For now, we'll use generic coordinates
-    content = content.replace('"latitude": 33.5186', '"latitude": 39.8283')
-    content = content.replace('"longitude": -86.8104', '"longitude": -98.5795')
+    # Apply the generated reviews to the content
+    content = apply_reviews_to_content(content, reviews)
     
     # Main content replacements
     content = content.replace("Birmingham", city)
     content = content.replace("Alabama", state)
     content = content.replace("Jefferson County", county)
-    
-    # Handle specific cases where we don't want to replace state names in certain contexts
-    # This is a simplified approach - in production you'd want more sophisticated text processing
     
     # Hero section
     content = re.sub(
@@ -196,24 +388,20 @@ def generate_location_page(location_input):
     )
     
     # Update all instances of "Birmingham fence company" to "{city} fence company"
-    content = re.sub(r'\bBirmingham fence company\b', f'{city} fence company', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham fence contractor\b', f'{city} fence contractor', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham customers\b', f'{city} customers', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham properties\b', f'{city} properties', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham area\b', f'{city} area', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham homes\b', f'{city} homes', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham property\b', f'{city} property', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham pool area\b', f'{city} pool area', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham yard\b', f'{city} yard', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham gardens\b', f'{city} gardens', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bBirmingham fence project\b', f'{city} fence project', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bin Birmingham\b', f'in {city}', content, flags=re.IGNORECASE)
-    content = re.sub(r'\bthroughout Birmingham\b', f'throughout {city}', content, flags=re.IGNORECASE)
-    content = re.sub(r'\baround Birmingham\b', f'around {city}', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bBirmingham fence company\\b', f'{city} fence company', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bBirmingham fence contractor\\b', f'{city} fence contractor', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bBirmingham customers\\b', f'{city} customers', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bBirmingham properties\\b', f'{city} properties', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bBirmingham area\\b', f'{city} area', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bBirmingham homes\\b', f'{city} homes', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bBirmingham property\\b', f'{city} property', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bin Birmingham\\b', f'in {city}', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\bthroughout Birmingham\\b', f'throughout {city}', content, flags=re.IGNORECASE)
+    content = re.sub(r'\\baround Birmingham\\b', f'around {city}', content, flags=re.IGNORECASE)
     
     # FAQ section updates
     content = re.sub(
-        r'How much does fence installation cost in Birmingham\?',
+        r'How much does fence installation cost in Birmingham\\?',
         f'How much does fence installation cost in {city}?',
         content
     )
@@ -225,7 +413,7 @@ def generate_location_page(location_input):
     )
     
     content = re.sub(
-        r'What types of fences do you install in Birmingham\?',
+        r'What types of fences do you install in Birmingham\\?',
         f'What types of fences do you install in {city}?',
         content
     )
@@ -237,7 +425,7 @@ def generate_location_page(location_input):
     )
     
     content = re.sub(
-        r'How long does fence installation take in Birmingham\?',
+        r'How long does fence installation take in Birmingham\\?',
         f'How long does fence installation take in {city}?',
         content
     )
@@ -249,13 +437,17 @@ def generate_location_page(location_input):
     )
     
     content = re.sub(
-        r'Do you offer financing for fence installation in Birmingham\?',
+        r'Do you offer financing for fence installation in Birmingham\\?',
         f'Do you offer financing for fence installation in {city}?',
         content
     )
     
+    # Determine output directory
+    if output_base_dir is None:
+        output_base_dir = "/home/ubuntu/dollar-fence-website"
+    
     # Create the directory structure
-    output_dir = f"/home/ubuntu/generated_pages/{state_url}/{city_url}"
+    output_dir = f"{output_base_dir}/locations/{state_url}/{city_url}"
     os.makedirs(output_dir, exist_ok=True)
     
     # Write the HTML file
@@ -271,7 +463,8 @@ def generate_location_page(location_input):
         "location": f"{city}, {state}",
         "file_path": output_file,
         "url_path": f"/locations/{state_url}/{city_url}/",
-        "county": county
+        "county": county,
+        "reviews": [{"name": r["name"], "location": r["location"]} for r in reviews]
     }
 
 def main():
@@ -279,11 +472,11 @@ def main():
     import sys
     if len(sys.argv) > 1:
         location = sys.argv[1]
-        result = generate_location_page(location)
+        result = generate_location_page_with_reviews(location)
         print(json.dumps(result, indent=2))
     else:
         # Test with a sample location
-        result = generate_location_page("Atlanta, Georgia")
+        result = generate_location_page_with_reviews("Miami, Florida")
         print(json.dumps(result, indent=2))
 
 if __name__ == "__main__":

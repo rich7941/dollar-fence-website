@@ -4,7 +4,7 @@ Batch generate all location pages directly in the repository
 """
 
 import json
-from generate_repo_pages import generate_location_page
+from generate_location_page import generate_location_page_with_reviews as generate_location_page
 
 def main():
     # Read all locations
