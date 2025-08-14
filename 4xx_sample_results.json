@@ -1,0 +1,363 @@
+{
+  "timestamp": "2025-08-14 10:10:19",
+  "total_urls": 498,
+  "sample_size": 50,
+  "analysis": {
+    "successful": [
+      {
+        "url": "https://dollarfence.com/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/california/fresno/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/california/fresno/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/california/riverside-county/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/california/riverside-county/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/california/stockton/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/california/stockton/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/connecticut/hartford/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/connecticut/hartford/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/florida/clearwater/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/florida/clearwater/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/florida/lehigh-acres/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/florida/lehigh-acres/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/florida/pensacola/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/florida/pensacola/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/florida/st-petersburg/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/florida/st-petersburg/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/georgia/athens-clarke-county/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/georgia/athens-clarke-county/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/georgia/marietta/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/georgia/marietta/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/georgia/savannah/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/georgia/savannah/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/idaho/boise/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/idaho/boise/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/illinois/elgin/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/illinois/elgin/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/indiana/fishers/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/indiana/fishers/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/kansas/lawrence/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/kansas/lawrence/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/kentucky/louisville/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/kentucky/louisville/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/maryland/annapolis/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/maryland/annapolis/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/maryland/waldorf/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/maryland/waldorf/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/massachusetts/new-bedford/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/massachusetts/new-bedford/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/michigan/dearborn/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/michigan/dearborn/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/minnesota/brooklyn-park/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/minnesota/brooklyn-park/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/mississippi/hattiesburg/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/mississippi/hattiesburg/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/missouri/lees-summit/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/missouri/lees-summit/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/montana/great-falls/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/montana/great-falls/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/nevada/las-vegas/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/nevada/las-vegas/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/new-hampshire/nashua/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/new-hampshire/nashua/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/new-jersey/newark/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/new-jersey/newark/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/new-mexico/santa-fe/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/new-mexico/santa-fe/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/new-york/syracuse/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/new-york/syracuse/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/north-carolina/fayetteville/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/north-carolina/fayetteville/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/north-carolina/raleigh/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/north-carolina/raleigh/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/north-dakota/west-fargo/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/north-dakota/west-fargo/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/ohio/kettering/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/ohio/kettering/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/oklahoma/lawton/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/oklahoma/lawton/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/oregon/gresham/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/oregon/gresham/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/pennsylvania/bethlehem/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/pennsylvania/bethlehem/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/pennsylvania/york/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/pennsylvania/york/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/south-carolina/florence/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/south-carolina/florence/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/south-dakota/pierre/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/south-dakota/pierre/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/tennessee/hendersonville/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/tennessee/hendersonville/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/texas/abilene/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/texas/abilene/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/texas/corpus-christi/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/texas/corpus-christi/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/texas/irving/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/texas/irving/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/texas/odessa/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/texas/odessa/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/texas/waco/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/texas/waco/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/utah/st-george/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/utah/st-george/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/virginia/chesapeake/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/virginia/chesapeake/",
+        "redirected": false,
+        "error": null
+      },
+      {
+        "url": "https://dollarfence.com/locations/washington/bellevue/",
+        "status_code": 200,
+        "final_url": "https://dollarfence.com/locations/washington/bellevue/",
+        "redirected": false,
+        "error": null
+      }
+    ],
+    "redirects": [],
+    "client_errors": [],
+    "server_errors": [],
+    "network_errors": []
+  }
+}
