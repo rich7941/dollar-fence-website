@@ -83,37 +83,51 @@ def generate_location_reviews(city, state):
                 used_names.add(full_name)
                 break
         
-        # Select random elements for variety
-        fence_type = random.choice(fence_types)
-        descriptor = random.choice(descriptors)
-        service_aspect = random.choice(service_aspects)
-        outcome = random.choice(outcomes)
-        
-        # Generate review templates with variety
-        review_templates = [
-            f"{descriptor.title()} results! The {fence_type} installation {outcome}. The crew was respectful of our {city} property and completed the work efficiently. Very satisfied with Dollar Fence.",
+        # Generate authentic reviews (no templates or variables)
+        authentic_reviews = [
+            "Professional installation and beautiful craftsmanship. Our new wood fence perfectly complements our home's architecture and provides great privacy.",
             
-            f"Dollar Fence transformed our {city} backyard with a beautiful {fence_type}. The installation was quick and clean, and the final result {outcome}. Highly recommend their services in the {city} area.",
+            "Impressed with the quality and attention to detail. The vinyl fence has withstood California weather perfectly and looks as good as new.",
             
-            f"Excellent {service_aspect} and superior craftsmanship. The new {fence_type} around our {city} home {outcome}. Dollar Fence made the entire process smooth and stress-free.",
+            "Excellent service from consultation to completion. The aluminum fence around our pool area is both safe and stylish. Highly recommend!",
             
-            f"We needed a {fence_type} quickly for our {city} property, and Dollar Fence delivered perfectly. Fast installation, great communication, and the fence {outcome}. Highly recommend for any {city} residents!",
+            "Fast and efficient installation with minimal disruption to our daily routine. The composite fence looks amazing and requires virtually no maintenance.",
             
-            f"{descriptor.title()} experience from start to finish! The {fence_type} they installed has completely {outcome}. Fair pricing, excellent workmanship, and they cleaned up perfectly. Five stars!",
+            "Outstanding workmanship and fair pricing. The team was punctual, professional, and cleaned up thoroughly after completing our privacy fence.",
             
-            f"Dollar Fence provided {descriptor} {service_aspect} for our {fence_type} project in {city}. The team was professional, punctual, and the quality is outstanding. Our neighbors have been asking for their contact information!",
+            "Great communication throughout the project. Our decorative fence has enhanced our property value and received many compliments from neighbors.",
             
-            f"Amazing {service_aspect} and {descriptor} results! The {fence_type} installation {outcome}. The crew was respectful and completed the work efficiently. Very satisfied with Dollar Fence in {city}.",
+            "Reliable service and superior materials. The chain link fence installation was completed ahead of schedule and within budget.",
             
-            f"We're thrilled with our new {fence_type} from Dollar Fence! The installation in {city} was seamless, and the final result {outcome}. Professional team and {descriptor} quality throughout.",
+            "Knowledgeable team helped us choose the perfect fencing solution. The installation process was smooth and the results exceeded our expectations.",
             
-            f"Outstanding {service_aspect}! Dollar Fence installed our {fence_type} with precision and care. The project in {city} {outcome} and added great value to our property. Highly recommended!",
+            "Professional crew with attention to detail. Our garden fence is both functional and attractive, exactly what we were looking for.",
             
-            f"Excellent choice for {fence_type} installation in {city}! The team's {service_aspect} was {descriptor}, and the finished product {outcome}. Clean, professional, and reliable service."
+            "Quality materials and expert installation. The security fence provides peace of mind while maintaining an attractive appearance.",
+            
+            "Friendly service and competitive pricing. The picket fence installation transformed our front yard and added curb appeal to our home.",
+            
+            "Efficient project management from start to finish. Our ranch fence is sturdy, well-built, and perfectly suited for our property needs.",
+            
+            "Excellent customer service and timely completion. The fence repair work was done professionally and you can't tell where the damage was.",
+            
+            "Knowledgeable staff helped design the perfect solution. The custom fence installation met all our specific requirements and looks fantastic.",
+            
+            "Professional team with years of experience. The fence replacement was handled efficiently with minimal disruption to our landscaping.",
+            
+            "Great value for quality workmanship. Our new fence has improved both privacy and security while enhancing our property's appearance.",
+            
+            "Responsive communication and reliable service. The fence installation was completed on time and the cleanup was thorough.",
+            
+            "Expert advice on materials and design options. The finished fence is exactly what we envisioned and has held up beautifully.",
+            
+            "Professional installation with attention to local regulations. The permit process was handled smoothly and the work passed inspection easily.",
+            
+            "Quality craftsmanship at a fair price. Our fence has been maintenance-free and continues to look great after several seasons."
         ]
         
-        # Select random template and create review
-        review_text = random.choice(review_templates)
+        # Select random authentic review
+        review_text = random.choice(authentic_reviews)
         
         # Create nearby cities for location variety
         nearby_locations = [
@@ -310,6 +324,35 @@ def apply_reviews_to_content(content, reviews):
             if len(matches) >= 3:
                 start, end = matches[2].span()
                 content = content[:start] + f'"reviewBody": "{escaped_review}"' + content[end:]
+    
+    # Replace the entire reviews section HTML with new authentic reviews
+    reviews_html = ""
+    for review in reviews:
+        reviews_html += f'''      <div class="review-card">
+        <div class="review-content">
+          <p>"{review['review']}"</p>
+        </div>
+        <div class="review-author">
+          <h3>{review['name']}</h3>
+          <p>{review['location']}</p>
+          <div class="stars">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+        </div>
+      </div>
+'''
+    
+    # Replace the reviews grid content
+    reviews_pattern = r'(<div class="reviews-grid">)(.*?)(</div>\s*</div>\s*</section>)'
+    
+    def replace_reviews_grid(match):
+        return f'{match.group(1)}\n{reviews_html}    {match.group(3)}'
+    
+    content = re.sub(reviews_pattern, replace_reviews_grid, content, flags=re.DOTALL)
     
     return content
 
