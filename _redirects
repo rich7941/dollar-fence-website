@@ -1,0 +1,4 @@
+# Netlify redirects file
+# Redirect robots.txt to HTML version
+
+/robots.txt /robots.txt.html 200

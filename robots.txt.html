@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Robots.txt</title>
+    <script>
+        // Serve robots.txt content as plain text
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.innerHTML = '';
+            document.body.style.fontFamily = 'monospace';
+            document.body.style.whiteSpace = 'pre';
+            document.body.style.margin = '0';
+            document.body.style.padding = '10px';
+            
+            const robotsContent = `User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+# This helps with SEO and search engine indexing
+
+# Sitemap location
+Sitemap: https://dollarfence.com/sitemap.xml
+
+# Allow crawling of all important pages
+Allow: /locations/
+Allow: /fence-types/
+Allow: /reviews/
+Allow: /contact/
+Allow: /about/
+Allow: /assets/
+
+# Allow crawling of CSS and JS for better rendering
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Standard crawl delay (optional)
+Crawl-delay: 1`;
+            
+            document.body.textContent = robotsContent;
+            
+            // Set content type header if possible
+            if (document.querySelector('meta[http-equiv="Content-Type"]')) {
+                document.querySelector('meta[http-equiv="Content-Type"]').setAttribute('content', 'text/plain');
+            } else {
+                const meta = document.createElement('meta');
+                meta.setAttribute('http-equiv', 'Content-Type');
+                meta.setAttribute('content', 'text/plain');
+                document.head.appendChild(meta);
+            }
+        });
+    </script>
+</head>
+<body>
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+# This helps with SEO and search engine indexing
+
+# Sitemap location
+Sitemap: https://dollarfence.com/sitemap.xml
+
+# Allow crawling of all important pages
+Allow: /locations/
+Allow: /fence-types/
+Allow: /reviews/
+Allow: /contact/
+Allow: /about/
+Allow: /assets/
+
+# Allow crawling of CSS and JS for better rendering
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Standard crawl delay (optional)
+Crawl-delay: 1
+</body>
+</html>
+
