@@ -1,6 +1,6 @@
 [build]
   publish = "."
-  command = "echo 'Force rebuild to clear all caches - $(date)'"
+  command = "npm install && npm run build"
 
 [[headers]]
   for = "/*"
