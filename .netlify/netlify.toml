@@ -6,7 +6,7 @@ plugins = []
 [functions."*"]
 
 [build]
-publish = "/home/ubuntu/extracted_site/deployment_ready"
+publish = "/home/ubuntu/deployment"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "echo 'Force rebuild to clear all caches - $(date)'"
