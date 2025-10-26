@@ -1,0 +1,83 @@
+{
+  "stats": {
+    "css_files": 5,
+    "js_files": 3,
+    "original_size": 148161,
+    "minified_size": 136338,
+    "savings": 11823
+  },
+  "minified_files": [
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/external-assets/fontawesome/fontawesome.css",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/external-assets/fontawesome/fontawesome.min.css",
+      "type": "css",
+      "original_size": 102641,
+      "minified_size": 102418,
+      "savings": 223,
+      "savings_percent": 0.21726210773472587
+    },
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/external-assets/fonts/inter.css",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/external-assets/fonts/inter.min.css",
+      "type": "css",
+      "original_size": 596,
+      "minified_size": 500,
+      "savings": 96,
+      "savings_percent": 16.10738255033557
+    },
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/assets/css/location-page-fix.css",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/assets/css/location-page-fix.min.css",
+      "type": "css",
+      "original_size": 144,
+      "minified_size": 55,
+      "savings": 89,
+      "savings_percent": 61.80555555555556
+    },
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/assets/css/styles.css",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/assets/css/styles.min.css",
+      "type": "css",
+      "original_size": 34581,
+      "minified_size": 26514,
+      "savings": 8067,
+      "savings_percent": 23.327838986726814
+    },
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/assets/css/footer_locations_dropdown.css",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/assets/css/footer_locations_dropdown.min.css",
+      "type": "css",
+      "original_size": 3535,
+      "minified_size": 2768,
+      "savings": 767,
+      "savings_percent": 21.697312588401697
+    },
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/assets/js/lazy-loading.js",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/assets/js/lazy-loading.min.js",
+      "type": "js",
+      "original_size": 1834,
+      "minified_size": 1206,
+      "savings": 628,
+      "savings_percent": 34.24209378407851
+    },
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/assets/js/main.js",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/assets/js/main.min.js",
+      "type": "js",
+      "original_size": 3720,
+      "minified_size": 2162,
+      "savings": 1558,
+      "savings_percent": 41.88172043010753
+    },
+    {
+      "original": "/home/ubuntu/extracted_project/deployment/deployment/assets/js/responsive-images.js",
+      "minified": "/home/ubuntu/extracted_project/deployment/deployment/assets/js/responsive-images.min.js",
+      "type": "js",
+      "original_size": 1110,
+      "minified_size": 715,
+      "savings": 395,
+      "savings_percent": 35.585585585585584
+    }
+  ]
+}

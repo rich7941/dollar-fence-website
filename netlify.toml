@@ -1,7 +1,11 @@
+# Netlify configuration file
+
 [build]
   publish = "."
-  command = "npm install && npm run build"
 
+# Note: Main redirects are handled in _redirects file to avoid conflicts
+
+# Headers for security and performance
 [[headers]]
   for = "/*"
   [headers.values]
@@ -9,33 +13,11 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
 
-# Specific headers for robots directory
+# Cache static assets
 [[headers]]
-  for = "/robots/*"
-  [headers.values]
-    Content-Type = "text/plain"
-    Cache-Control = "public, max-age=3600"
-
-# Reduce caching for HTML files to ensure updates are visible
-[[headers]]
-  for = "*.html"
-  [headers.values]
-    Cache-Control = "public, max-age=300, must-revalidate"
-
-[[headers]]
-  for = "*.webp"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "*.jpg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "*.png"
+  for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
@@ -49,21 +31,17 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Enable image optimization
-[build.processing]
-  skip_processing = false
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
-[build.processing.css]
-  bundle = true
-  minify = true
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
-[build.processing.js]
-  bundle = true
-  minify = true
-
-[build.processing.html]
-  pretty_urls = true
-
-[build.processing.images]
-  compress = true
-
+[[headers]]
+  for = "*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

@@ -1,4 +1,22 @@
-# Netlify redirects file
-# Redirect robots.txt to HTML version
+# Netlify redirects file - Comprehensive redirect rules
+# Fix Google Search Console "Page with redirect" issues
 
-/robots.txt /robots.txt.html 200
+# Force HTTPS and redirect all WWW to non-WWW
+# This handles all combinations: http://www, https://www, http://non-www -> https://non-www
+
+# Redirect HTTP www to HTTPS non-www (covers http://www.dollarfence.com)
+http://www.dollarfence.com/* https://dollarfence.com/:splat 301!
+
+# Redirect HTTP non-www to HTTPS non-www (covers http://dollarfence.com)
+http://dollarfence.com/* https://dollarfence.com/:splat 301!
+
+# Redirect HTTPS www to HTTPS non-www (covers https://www.dollarfence.com)
+https://www.dollarfence.com/* https://dollarfence.com/:splat 301!
+
+# Additional safety redirects for edge cases
+www.dollarfence.com/* https://dollarfence.com/:splat 301!
+
+# Robots.txt redirect removed to fix indexing issues
+
+# Force HTTPS for all traffic (Netlify setting)
+# This is a fallback to ensure all HTTP traffic goes to HTTPS

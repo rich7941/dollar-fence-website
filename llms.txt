@@ -1,0 +1,43 @@
+# Dollar Fence
+
+> America's #1 fence company providing professional fence installation and repair services for residential and commercial properties across the United States. We specialize in vinyl, wood, aluminum, chain link, steel, and custom fence solutions with expert craftsmanship and authentic customer testimonials.
+
+Dollar Fence is a nationwide fence installation company serving 483 cities across all 50 US states. We offer comprehensive fence services including installation, repair, and custom solutions for both residential and commercial properties. Our website features location-specific pages for each city we serve, authentic customer reviews, and detailed information about our fence types and services.
+
+## Main Pages
+
+- [Homepage](https://dollarfence.com/): Main landing page with company overview and services
+- [About Us](https://dollarfence.com/about/): Company information and values
+- [Contact](https://dollarfence.com/contact/): Contact information and quote request form
+- [Reviews](https://dollarfence.com/reviews/): Customer testimonials and reviews
+- [Locations](https://dollarfence.com/locations/): Directory of all service locations
+
+## Fence Types
+
+- [Vinyl Fence](https://dollarfence.com/fence-types/vinyl/): Low-maintenance vinyl fence installation
+- [Wood Fence](https://dollarfence.com/fence-types/wood/): Classic wood fence installation and repair
+- [Aluminum Fence](https://dollarfence.com/fence-types/aluminum/): Elegant aluminum fence solutions
+- [Chain Link Fence](https://dollarfence.com/fence-types/chain-link/): Cost-effective chain link fencing
+- [Steel Fence](https://dollarfence.com/fence-types/steel/): Durable steel fence installation
+- [Dog Fence](https://dollarfence.com/fence-types/dog/): Pet-safe fence solutions
+- [Pool Fence](https://dollarfence.com/fence-types/pool/): Safety-compliant pool fencing
+- [Agricultural Fence](https://dollarfence.com/fence-types/agricultural/): Farm and ranch fencing
+- [Deer Fence](https://dollarfence.com/fence-types/deer/): Wildlife protection fencing
+- [Hardwood Fence](https://dollarfence.com/fence-types/hardwood/): Premium hardwood fencing
+- [Trex Fence](https://dollarfence.com/fence-types/trex/): Eco-friendly composite fencing
+- [Commercial Fence](https://dollarfence.com/fence-types/commercial/): Business and industrial fencing
+
+## Location Pages
+
+- [Alabama Locations](https://dollarfence.com/locations/alabama/): Birmingham, Huntsville, Mobile, Montgomery, Tuscaloosa
+- [California Locations](https://dollarfence.com/locations/california/): Los Angeles, San Francisco, San Diego, Sacramento, and 21 other cities
+- [Texas Locations](https://dollarfence.com/locations/texas/): Houston, Dallas, Austin, San Antonio, and 16 other cities
+- [Florida Locations](https://dollarfence.com/locations/florida/): Miami, Tampa, Orlando, Jacksonville, and 11 other cities
+- [New York Locations](https://dollarfence.com/locations/new-york/): New York City, Buffalo, Rochester, Syracuse, and 11 other cities
+
+## Optional
+
+- [Privacy Policy](https://dollarfence.com/privacy/): Privacy policy and data protection information
+- [Terms of Service](https://dollarfence.com/terms/): Terms and conditions of service
+- [Sitemap](https://dollarfence.com/sitemap.xml): Complete XML sitemap with all 503 pages
+

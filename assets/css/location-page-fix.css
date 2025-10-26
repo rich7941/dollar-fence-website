@@ -1,0 +1,4 @@
+/* CSS to hide the Premium Fence Solutions section on the locations page only */
+body.locations-page .fence-types-showcase {
+  display: none;
+}

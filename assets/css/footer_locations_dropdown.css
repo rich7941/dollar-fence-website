@@ -1,0 +1,203 @@
+/* Footer Locations Dropdown Styling */
+.footer-locations-section {
+  background: #3a4b35;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-locations-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.locations-toggle {
+  cursor: pointer;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.locations-toggle:hover {
+  background-color: rgba(255,255,255,0.05);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 -1rem;
+}
+
+.toggle-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #a25628;
+}
+
+.toggle-icon {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #a25628;
+  transition: transform 0.3s ease;
+}
+
+.locations-dropdown {
+  padding: 2rem 0;
+  background: rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+/* Custom scrollbar for locations grid */
+.locations-grid::-webkit-scrollbar {
+  width: 8px;
+}
+
+.locations-grid::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+
+.locations-grid::-webkit-scrollbar-thumb {
+  background: #a25628;
+  border-radius: 4px;
+}
+
+.locations-grid::-webkit-scrollbar-thumb:hover {
+  background: #8a4a22;
+}
+
+.state-group {
+  background: rgba(255,255,255,0.05);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #a25628;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.state-group:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  background: rgba(255,255,255,0.08);
+}
+
+.state-group h4 {
+  color: #a25628;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid rgba(162, 86, 40, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.state-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.state-group li {
+  margin-bottom: 0.6rem;
+}
+
+.state-group li:last-child {
+  margin-bottom: 0;
+}
+
+.state-group a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  display: block;
+  padding: 0.3rem 0;
+  border-radius: 4px;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.state-group a:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #a25628;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.state-group a:hover {
+  color: #a25628;
+  background: rgba(255,255,255,0.1);
+  padding-left: 1.2rem;
+  text-decoration: none;
+}
+
+.state-group a:hover:before {
+  transform: translateX(2px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .footer-locations-section .container {
+    padding: 0 0.5rem;
+  }
+  
+  .locations-toggle {
+    padding: 1rem 0.5rem;
+  }
+  
+  .toggle-text {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .locations-dropdown {
+    padding: 1rem 0.5rem;
+  }
+  
+  .locations-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    max-height: 300px;
+  }
+  
+  .state-group {
+    padding: 1rem;
+  }
+  
+  .state-group h4 {
+    font-size: 1.1rem;
+  }
+  
+  .state-group a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .locations-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+  
+  .state-group {
+    padding: 0.8rem;
+  }
+  
+  .toggle-text {
+    font-size: 0.95rem;
+  }
+}
+

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Robots.txt</title>
+<script>
+        // Serve robots.txt content as plain text
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.innerHTML = '';
+            document.body.style.fontFamily = 'monospace';
+            document.body.style.whiteSpace = 'pre';
+            document.body.style.margin = '0';
+            document.body.style.padding = '10px';
+            
+            const robotsContent = `User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+# This helps with SEO and search engine indexing
+
+# Sitemap location
+Sitemap: https://dollarfence.com/sitemap.xml
+
+# Allow crawling of all important pages
+Allow: /locations/
+Allow: /fence-types/
+Allow: /reviews/
+Allow: /contact/
+Allow: /about/
+Allow: /assets/
+
+# Allow crawling of CSS and JS for better rendering
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Standard crawl delay (optional)
+Crawl-delay: 1`;
+            
+            document.body.textContent = robotsContent;
+            
+            // Set content type header if possible
+            if (document.querySelector('meta[http-equiv="Content-Type"]')) {
+                document.querySelector('meta[http-equiv="Content-Type"]').setAttribute('content', 'text/plain');
+            } else {
+                const meta = document.createElement('meta');
+                meta.setAttribute('http-equiv', 'Content-Type');
+                meta.setAttribute('content', 'text/plain');
+                document.head.appendChild(meta);
+            }
+        });
+    </script>
+<link href="/assets/css/footer_locations_dropdown.min.css" rel="stylesheet"/></head>
+<body>
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+# This helps with SEO and search engine indexing
+
+# Sitemap location
+Sitemap: https://dollarfence.com/sitemap.xml
+
+# Allow crawling of all important pages
+Allow: /locations/
+Allow: /fence-types/
+Allow: /reviews/
+Allow: /contact/
+Allow: /about/
+Allow: /assets/
+
+# Allow crawling of CSS and JS for better rendering
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Standard crawl delay (optional)
+Crawl-delay: 1
+<div class="footer-locations-section">
+<div class="container">
+<div class="locations-toggle" onclick="toggleLocations()">
+<span class="toggle-text">We proudly serve many cities and counties throughout the Country. Click to see all our locations.</span>
+<span class="toggle-icon">▼</span>
+</div>
+<div class="locations-dropdown" id="locationsDropdown" style="display: none;">
+<div class="locations-grid">
+<!-- Alabama -->
+<div class="state-group">
+<h4>Alabama</h4>
+<ul>
+<li><a href="/locations/alabama/birmingham/">Birmingham</a></li>
+<li><a href="/locations/alabama/huntsville/">Huntsville</a></li>
+<li><a href="/locations/alabama/montgomery/">Montgomery</a></li>
+</ul>
+</div>
+<!-- Arkansas -->
+<div class="state-group">
+<h4>Arkansas</h4>
+<ul>
+<li><a href="/locations/arkansas/fayetteville/">Fayetteville</a></li>
+<li><a href="/locations/arkansas/little-rock/">Little Rock</a></li>
+</ul>
+</div>
+<!-- California -->
+<div class="state-group">
+<h4>California</h4>
+<ul>
+<li><a href="/locations/california/anaheim/">Anaheim</a></li>
+<li><a href="/locations/california/bakersfield/">Bakersfield</a></li>
+<li><a href="/locations/california/chula-vista/">Chula Vista</a></li>
+<li><a href="/locations/california/fresno/">Fresno</a></li>
+<li><a href="/locations/california/inland-empire/">Inland Empire</a></li>
+<li><a href="/locations/california/irvine/">Irvine</a></li>
+<li><a href="/locations/california/long-beach/">Long Beach</a></li>
+<li><a href="/locations/california/los-angeles/">Los Angeles</a></li>
+<li><a href="/locations/california/north-san-diego/">North San Diego</a></li>
+<li><a href="/locations/california/northeastern-los-angeles/">Northeastern Los Angeles</a></li>
+<li><a href="/locations/california/oakland/">Oakland</a></li>
+<li><a href="/locations/california/orange-county/">Orange County</a></li>
+<li><a href="/locations/california/riverside/">Riverside</a></li>
+<li><a href="/locations/california/riverside-county/">Riverside County</a></li>
+<li><a href="/locations/california/sacramento/">Sacramento</a></li>
+<li><a href="/locations/california/san-diego/">San Diego</a></li>
+<li><a href="/locations/california/san-francisco/">San Francisco</a></li>
+<li><a href="/locations/california/san-francisco-and-east-bay/">San Francisco &amp; East Bay</a></li>
+<li><a href="/locations/california/san-jose/">San Jose</a></li>
+<li><a href="/locations/california/santa-ana/">Santa Ana</a></li>
+<li><a href="/locations/california/south-bay/">South Bay</a></li>
+<li><a href="/locations/california/stockton/">Stockton</a></li>
+<li><a href="/locations/california/ventura-county-and-santa-clarita-valley/">Ventura County &amp; Santa Clarita Valley</a></li>
+<li><a href="/locations/california/west-los-angeles/">West Los Angeles</a></li>
+</ul>
+</div>
+<!-- Colorado -->
+<div class="state-group">
+<h4>Colorado</h4>
+<ul>
+<li><a href="/locations/colorado/aurora/">Aurora</a></li>
+<li><a href="/locations/colorado/colorado-springs/">Colorado Springs</a></li>
+<li><a href="/locations/colorado/denver/">Denver</a></li>
+<li><a href="/locations/colorado/fort-collins/">Fort Collins</a></li>
+<li><a href="/locations/colorado/lakewood/">Lakewood</a></li>
+</ul>
+</div>
+<!-- Connecticut -->
+<div class="state-group">
+<h4>Connecticut</h4>
+<ul>
+<li><a href="/locations/connecticut/bridgeport/">Bridgeport</a></li>
+<li><a href="/locations/connecticut/hartford/">Hartford</a></li>
+<li><a href="/locations/connecticut/new-haven/">New Haven</a></li>
+<li><a href="/locations/connecticut/stamford/">Stamford</a></li>
+<li><a href="/locations/connecticut/western-connecticut/">Western Connecticut</a></li>
+</ul>
+</div>
+<!-- Florida -->
+<div class="state-group">
+<h4>Florida</h4>
+<ul>
+<li><a href="/locations/florida/brandon/">Brandon</a></li>
+<li><a href="/locations/florida/broward/">Broward</a></li>
+<li><a href="/locations/florida/cape-coral/">Cape Coral</a></li>
+<li><a href="/locations/florida/central-florida/">Central Florida</a></li>
+<li><a href="/locations/florida/clearwater/">Clearwater</a></li>
+<li><a href="/locations/florida/coral-springs/">Coral Springs</a></li>
+<li><a href="/locations/florida/fort-lauderdale/">Fort Lauderdale</a></li>
+<li><a href="/locations/florida/gainesville/">Gainesville</a></li>
+<li><a href="/locations/florida/hialeah/">Hialeah</a></li>
+<li><a href="/locations/florida/hollywood/">Hollywood</a></li>
+<li><a href="/locations/florida/jacksonville/">Jacksonville</a></li>
+<li><a href="/locations/florida/lake-county/">Lake County</a></li>
+<li><a href="/locations/florida/lakeland/">Lakeland</a></li>
+<li><a href="/locations/florida/lehigh-acres/">Lehigh Acres</a></li>
+<li><a href="/locations/florida/miami/">Miami</a></li>
+<li><a href="/locations/florida/miramar/">Miramar</a></li>
+<li><a href="/locations/florida/north-florida/">North Florida</a></li>
+<li><a href="/locations/florida/orlando/">Orlando</a></li>
+<li><a href="/locations/florida/palm-bay/">Palm Bay</a></li>
+<li><a href="/locations/florida/palm-beach/">Palm Beach</a></li>
+<li><a href="/locations/florida/pasco-county/">Pasco County</a></li>
+<li><a href="/locations/florida/pembroke-pines/">Pembroke Pines</a></li>
+<li><a href="/locations/florida/pensacola/">Pensacola</a></li>
+<li><a href="/locations/florida/pinellas-county/">Pinellas County</a></li>
+<li><a href="/locations/florida/polk-county/">Polk County</a></li>
+<li><a href="/locations/florida/port-st-lucie/">Port St. Lucie</a></li>
+<li><a href="/locations/florida/sarasota/">Sarasota</a></li>
+<li><a href="/locations/florida/southwest-florida/">Southwest Florida</a></li>
+<li><a href="/locations/florida/space-coast/">Space Coast</a></li>
+<li><a href="/locations/florida/spring-hill/">Spring Hill</a></li>
+<li><a href="/locations/florida/st-johns/">St. Johns</a></li>
+<li><a href="/locations/florida/st-petersburg/">St. Petersburg</a></li>
+<li><a href="/locations/florida/tallahassee/">Tallahassee</a></li>
+<li><a href="/locations/florida/tampa/">Tampa</a></li>
+<li><a href="/locations/florida/the-villages/">The Villages</a></li>
+<li><a href="/locations/florida/treasure-coast/">Treasure Coast</a></li>
+<li><a href="/locations/florida/volusia-county/">Volusia County</a></li>
+<li><a href="/locations/florida/west-palm-beach/">West Palm Beach</a></li>
+</ul>
+</div>
+<!-- Georgia -->
+<div class="state-group">
+<h4>Georgia</h4>
+<ul>
+<li><a href="/locations/georgia/albany/">Albany</a></li>
+<li><a href="/locations/georgia/alpharetta/">Alpharetta</a></li>
+<li><a href="/locations/georgia/athens-clarke-county/">Athens-Clarke County</a></li>
+<li><a href="/locations/georgia/atlanta/">Atlanta</a></li>
+<li><a href="/locations/georgia/augusta/">Augusta</a></li>
+<li><a href="/locations/georgia/brookhaven/">Brookhaven</a></li>
+<li><a href="/locations/georgia/columbus/">Columbus</a></li>
+<li><a href="/locations/georgia/dunwoody/">Dunwoody</a></li>
+<li><a href="/locations/georgia/gainesville/">Gainesville</a></li>
+<li><a href="/locations/georgia/johns-creek/">Johns Creek</a></li>
+<li><a href="/locations/georgia/macon-bibb-county/">Macon-Bibb County</a></li>
+<li><a href="/locations/georgia/marietta/">Marietta</a></li>
+<li><a href="/locations/georgia/middle-georgia/">Middle Georgia</a></li>
+<li><a href="/locations/georgia/milton/">Milton</a></li>
+<li><a href="/locations/georgia/northeast-georgia/">Northeast Georgia</a></li>
+<li><a href="/locations/georgia/northwest-georgia/">Northwest Georgia</a></li>
+<li><a href="/locations/georgia/peachtree-city/">Peachtree City</a></li>
+<li><a href="/locations/georgia/peachtree-corners/">Peachtree Corners</a></li>
+<li><a href="/locations/georgia/roswell/">Roswell</a></li>
+<li><a href="/locations/georgia/sandy-springs/">Sandy Springs</a></li>
+<li><a href="/locations/georgia/savannah/">Savannah</a></li>
+<li><a href="/locations/georgia/smyrna/">Smyrna</a></li>
+<li><a href="/locations/georgia/south-fulton/">South Fulton</a></li>
+<li><a href="/locations/georgia/south-georgia/">South Georgia</a></li>
+<li><a href="/locations/georgia/southwest-georgia/">Southwest Georgia</a></li>
+<li><a href="/locations/georgia/stonecrest/">Stonecrest</a></li>
+<li><a href="/locations/georgia/valdosta/">Valdosta</a></li>
+<li><a href="/locations/georgia/warner-robins/">Warner Robins</a></li>
+<li><a href="/locations/georgia/woodstock/">Woodstock</a></li>
+</ul>
+</div>
+<!-- Idaho -->
+<div class="state-group">
+<h4>Idaho</h4>
+<ul>
+<li><a href="/locations/idaho/boise/">Boise</a></li>
+<li><a href="/locations/idaho/caldwell/">Caldwell</a></li>
+<li><a href="/locations/idaho/meridian/">Meridian</a></li>
+<li><a href="/locations/idaho/nampa/">Nampa</a></li>
+<li><a href="/locations/idaho/treasure-valley/">Treasure Valley</a></li>
+</ul>
+</div>
+<!-- Illinois -->
+<div class="state-group">
+<h4>Illinois</h4>
+<ul>
+<li><a href="/locations/illinois/aurora/">Aurora</a></li>
+<li><a href="/locations/illinois/champaign/">Champaign</a></li>
+<li><a href="/locations/illinois/chicago/">Chicago</a></li>
+<li><a href="/locations/illinois/chicagoland/">Chicagoland</a></li>
+<li><a href="/locations/illinois/elgin/">Elgin</a></li>
+<li><a href="/locations/illinois/joliet/">Joliet</a></li>
+<li><a href="/locations/illinois/naperville/">Naperville</a></li>
+<li><a href="/locations/illinois/peoria/">Peoria</a></li>
+<li><a href="/locations/illinois/rockford-and-madison/">Rockford &amp; Madison</a></li>
+<li><a href="/locations/illinois/schaumburg/">Schaumburg</a></li>
+<li><a href="/locations/illinois/springfield/">Springfield</a></li>
+</ul>
+</div>
+<!-- Indiana -->
+<div class="state-group">
+<h4>Indiana</h4>
+<ul>
+<li><a href="/locations/indiana/carmel/">Carmel</a></li>
+<li><a href="/locations/indiana/evansville/">Evansville</a></li>
+<li><a href="/locations/indiana/fishers/">Fishers</a></li>
+<li><a href="/locations/indiana/fort-wayne/">Fort Wayne</a></li>
+<li><a href="/locations/indiana/indianapolis/">Indianapolis</a></li>
+<li><a href="/locations/indiana/south-bend/">South Bend</a></li>
+</ul>
+</div>
+<!-- Iowa -->
+<div class="state-group">
+<h4>Iowa</h4>
+<ul>
+<li><a href="/locations/iowa/cedar-rapids/">Cedar Rapids</a></li>
+<li><a href="/locations/iowa/central-iowa/">Central Iowa</a></li>
+<li><a href="/locations/iowa/davenport/">Davenport</a></li>
+<li><a href="/locations/iowa/des-moines/">Des Moines</a></li>
+</ul>
+</div>
+<!-- Kansas -->
+<div class="state-group">
+<h4>Kansas</h4>
+<ul>
+<li><a href="/locations/kansas/kansas-city/">Kansas City</a></li>
+<li><a href="/locations/kansas/lawrence/">Lawrence</a></li>
+<li><a href="/locations/kansas/olathe/">Olathe</a></li>
+<li><a href="/locations/kansas/overland-park/">Overland Park</a></li>
+<li><a href="/locations/kansas/topeka/">Topeka</a></li>
+<li><a href="/locations/kansas/wichita/">Wichita</a></li>
+</ul>
+</div>
+<!-- Kentucky -->
+<div class="state-group">
+<h4>Kentucky</h4>
+<ul>
+<li><a href="/locations/kentucky/bowling-green/">Bowling Green</a></li>
+<li><a href="/locations/kentucky/greater-lexington/">Greater Lexington</a></li>
+<li><a href="/locations/kentucky/greater-louisville/">Greater Louisville</a></li>
+<li><a href="/locations/kentucky/lexington-fayette/">Lexington-Fayette</a></li>
+<li><a href="/locations/kentucky/louisville/">Louisville</a></li>
+<li><a href="/locations/kentucky/northern-kentucky/">Northern Kentucky</a></li>
+<li><a href="/locations/kentucky/owensboro/">Owensboro</a></li>
+</ul>
+</div>
+<!-- Louisiana -->
+<div class="state-group">
+<h4>Louisiana</h4>
+<ul>
+<li><a href="/locations/louisiana/baton-rouge/">Baton Rouge</a></li>
+<li><a href="/locations/louisiana/lafayette/">Lafayette</a></li>
+<li><a href="/locations/louisiana/metairie/">Metairie</a></li>
+<li><a href="/locations/louisiana/new-orleans/">New Orleans</a></li>
+<li><a href="/locations/louisiana/shreveport/">Shreveport</a></li>
+<li><a href="/locations/louisiana/southern-louisiana/">Southern Louisiana</a></li>
+</ul>
+</div>
+<!-- Maryland -->
+<div class="state-group">
+<h4>Maryland</h4>
+<ul>
+<li><a href="/locations/maryland/annapolis/">Annapolis</a></li>
+<li><a href="/locations/maryland/baltimore/">Baltimore</a></li>
+<li><a href="/locations/maryland/columbia/">Columbia</a></li>
+<li><a href="/locations/maryland/delaware-valley/">Delaware Valley</a></li>
+<li><a href="/locations/maryland/frederick/">Frederick</a></li>
+<li><a href="/locations/maryland/gaithersburg/">Gaithersburg</a></li>
+<li><a href="/locations/maryland/germantown/">Germantown</a></li>
+<li><a href="/locations/maryland/rockville/">Rockville</a></li>
+<li><a href="/locations/maryland/silver-spring/">Silver Spring</a></li>
+<li><a href="/locations/maryland/waldorf/">Waldorf</a></li>
+</ul>
+</div>
+<!-- Massachusetts -->
+<div class="state-group">
+<h4>Massachusetts</h4>
+<ul>
+<li><a href="/locations/massachusetts/boston/">Boston</a></li>
+<li><a href="/locations/massachusetts/brockton/">Brockton</a></li>
+<li><a href="/locations/massachusetts/cambridge/">Cambridge</a></li>
+<li><a href="/locations/massachusetts/central-massachusetts/">Central Massachusetts</a></li>
+<li><a href="/locations/massachusetts/fall-river/">Fall River</a></li>
+<li><a href="/locations/massachusetts/greater-boston/">Greater Boston</a></li>
+<li><a href="/locations/massachusetts/lowell/">Lowell</a></li>
+<li><a href="/locations/massachusetts/lynn/">Lynn</a></li>
+<li><a href="/locations/massachusetts/new-bedford/">New Bedford</a></li>
+<li><a href="/locations/massachusetts/newton/">Newton</a></li>
+<li><a href="/locations/massachusetts/north-shore/">North Shore</a></li>
+<li><a href="/locations/massachusetts/quincy/">Quincy</a></li>
+<li><a href="/locations/massachusetts/somerville/">Somerville</a></li>
+<li><a href="/locations/massachusetts/springfield/">Springfield</a></li>
+<li><a href="/locations/massachusetts/worcester/">Worcester</a></li>
+</ul>
+</div>
+<!-- Michigan -->
+<div class="state-group">
+<h4>Michigan</h4>
+<ul>
+<li><a href="/locations/michigan/ann-arbor/">Ann Arbor</a></li>
+<li><a href="/locations/michigan/clinton-charter-township/">Clinton Charter Township</a></li>
+<li><a href="/locations/michigan/dearborn/">Dearborn</a></li>
+<li><a href="/locations/michigan/detroit/">Detroit</a></li>
+<li><a href="/locations/michigan/flint/">Flint</a></li>
+<li><a href="/locations/michigan/grand-rapids/">Grand Rapids</a></li>
+<li><a href="/locations/michigan/lansing/">Lansing</a></li>
+<li><a href="/locations/michigan/livonia/">Livonia</a></li>
+<li><a href="/locations/michigan/southwest-michigan/">Southwest Michigan</a></li>
+<li><a href="/locations/michigan/sterling-heights/">Sterling Heights</a></li>
+<li><a href="/locations/michigan/warren/">Warren</a></li>
+<li><a href="/locations/michigan/west-michigan/">West Michigan</a></li>
+</ul>
+</div>
+<!-- Minnesota -->
+<div class="state-group">
+<h4>Minnesota</h4>
+<ul>
+<li><a href="/locations/minnesota/bloomington/">Bloomington</a></li>
+<li><a href="/locations/minnesota/brooklyn-park/">Brooklyn Park</a></li>
+<li><a href="/locations/minnesota/duluth/">Duluth</a></li>
+<li><a href="/locations/minnesota/minneapolis/">Minneapolis</a></li>
+<li><a href="/locations/minnesota/plymouth/">Plymouth</a></li>
+<li><a href="/locations/minnesota/rochester/">Rochester</a></li>
+<li><a href="/locations/minnesota/saint-paul/">Saint Paul</a></li>
+<li><a href="/locations/minnesota/twin-cities/">Twin Cities</a></li>
+<li><a href="/locations/minnesota/woodbury/">Woodbury</a></li>
+</ul>
+</div>
+<!-- Mississippi -->
+<div class="state-group">
+<h4>Mississippi</h4>
+<ul>
+<li><a href="/locations/mississippi/biloxi/">Biloxi</a></li>
+<li><a href="/locations/mississippi/gulfport/">Gulfport</a></li>
+<li><a href="/locations/mississippi/hattiesburg/">Hattiesburg</a></li>
+<li><a href="/locations/mississippi/jackson/">Jackson</a></li>
+<li><a href="/locations/mississippi/meridian/">Meridian</a></li>
+<li><a href="/locations/mississippi/north-shore/">North Shore</a></li>
+<li><a href="/locations/mississippi/southaven/">Southaven</a></li>
+<li><a href="/locations/mississippi/tupelo/">Tupelo</a></li>
+</ul>
+</div>
+<!-- Missouri -->
+<div class="state-group">
+<h4>Missouri</h4>
+<ul>
+<li><a href="/locations/missouri/columbia/">Columbia</a></li>
+<li><a href="/locations/missouri/independence/">Independence</a></li>
+<li><a href="/locations/missouri/kansas-city/">Kansas City</a></li>
+<li><a href="/locations/missouri/lees-summit/">Lee's Summit</a></li>
+<li><a href="/locations/missouri/ofallon/">O'Fallon</a></li>
+<li><a href="/locations/missouri/springfield/">Springfield</a></li>
+<li><a href="/locations/missouri/st-charles/">St. Charles</a></li>
+<li><a href="/locations/missouri/st-joseph/">St. Joseph</a></li>
+<li><a href="/locations/missouri/st-louis/">St. Louis</a></li>
+</ul>
+</div>
+<!-- Montana -->
+<div class="state-group">
+<h4>Montana</h4>
+<ul>
+<li><a href="/locations/montana/billings/">Billings</a></li>
+<li><a href="/locations/montana/bozeman/">Bozeman</a></li>
+<li><a href="/locations/montana/great-falls/">Great Falls</a></li>
+<li><a href="/locations/montana/helena/">Helena</a></li>
+<li><a href="/locations/montana/missoula/">Missoula</a></li>
+</ul>
+</div>
+<!-- Nebraska -->
+<div class="state-group">
+<h4>Nebraska</h4>
+<ul>
+<li><a href="/locations/nebraska/bellevue/">Bellevue</a></li>
+<li><a href="/locations/nebraska/grand-island/">Grand Island</a></li>
+<li><a href="/locations/nebraska/lincoln/">Lincoln</a></li>
+<li><a href="/locations/nebraska/omaha/">Omaha</a></li>
+</ul>
+</div>
+<!-- Nevada -->
+<div class="state-group">
+<h4>Nevada</h4>
+<ul>
+<li><a href="/locations/nevada/carson-city/">Carson City</a></li>
+<li><a href="/locations/nevada/henderson/">Henderson</a></li>
+<li><a href="/locations/nevada/las-vegas/">Las Vegas</a></li>
+<li><a href="/locations/nevada/north-las-vegas/">North Las Vegas</a></li>
+<li><a href="/locations/nevada/reno/">Reno</a></li>
+<li><a href="/locations/nevada/sparks/">Sparks</a></li>
+</ul>
+</div>
+<!-- New Hampshire -->
+<div class="state-group">
+<h4>New Hampshire</h4>
+<ul>
+<li><a href="/locations/new-hampshire/concord/">Concord</a></li>
+<li><a href="/locations/new-hampshire/derry/">Derry</a></li>
+<li><a href="/locations/new-hampshire/dover/">Dover</a></li>
+<li><a href="/locations/new-hampshire/manchester/">Manchester</a></li>
+<li><a href="/locations/new-hampshire/merrimack/">Merrimack</a></li>
+<li><a href="/locations/new-hampshire/nashua/">Nashua</a></li>
+<li><a href="/locations/new-hampshire/rochester/">Rochester</a></li>
+<li><a href="/locations/new-hampshire/salem/">Salem</a></li>
+</ul>
+</div>
+<!-- New Jersey -->
+<div class="state-group">
+<h4>New Jersey</h4>
+<ul>
+<li><a href="/locations/new-jersey/camden/">Camden</a></li>
+<li><a href="/locations/new-jersey/clifton/">Clifton</a></li>
+<li><a href="/locations/new-jersey/edison/">Edison</a></li>
+<li><a href="/locations/new-jersey/elizabeth/">Elizabeth</a></li>
+<li><a href="/locations/new-jersey/hamilton-township/">Hamilton Township</a></li>
+<li><a href="/locations/new-jersey/jersey-city/">Jersey City</a></li>
+<li><a href="/locations/new-jersey/lakewood/">Lakewood</a></li>
+<li><a href="/locations/new-jersey/newark/">Newark</a></li>
+<li><a href="/locations/new-jersey/paterson/">Paterson</a></li>
+<li><a href="/locations/new-jersey/toms-river/">Toms River</a></li>
+<li><a href="/locations/new-jersey/trenton/">Trenton</a></li>
+<li><a href="/locations/new-jersey/woodbridge/">Woodbridge</a></li>
+</ul>
+</div>
+<!-- New Mexico -->
+<div class="state-group">
+<h4>New Mexico</h4>
+<ul>
+<li><a href="/locations/new-mexico/albuquerque/">Albuquerque</a></li>
+<li><a href="/locations/new-mexico/las-cruces/">Las Cruces</a></li>
+<li><a href="/locations/new-mexico/rio-rancho/">Rio Rancho</a></li>
+<li><a href="/locations/new-mexico/roswell/">Roswell</a></li>
+<li><a href="/locations/new-mexico/santa-fe/">Santa Fe</a></li>
+</ul>
+</div>
+<!-- New York -->
+<div class="state-group">
+<h4>New York</h4>
+<ul>
+<li><a href="/locations/new-york/albany/">Albany</a></li>
+<li><a href="/locations/new-york/buffalo/">Buffalo</a></li>
+<li><a href="/locations/new-york/hudson-valley/">Hudson Valley</a></li>
+<li><a href="/locations/new-york/mount-vernon/">Mount Vernon</a></li>
+<li><a href="/locations/new-york/nassau-county/">Nassau County</a></li>
+<li><a href="/locations/new-york/new-rochelle/">New Rochelle</a></li>
+<li><a href="/locations/new-york/new-york-city/">New York City</a></li>
+<li><a href="/locations/new-york/niagara-falls/">Niagara Falls</a></li>
+<li><a href="/locations/new-york/rochester/">Rochester</a></li>
+<li><a href="/locations/new-york/schenectady/">Schenectady</a></li>
+<li><a href="/locations/new-york/suffolk-county/">Suffolk County</a></li>
+<li><a href="/locations/new-york/syracuse/">Syracuse</a></li>
+<li><a href="/locations/new-york/utica/">Utica</a></li>
+<li><a href="/locations/new-york/white-plains/">White Plains</a></li>
+<li><a href="/locations/new-york/yonkers/">Yonkers</a></li>
+</ul>
+</div>
+<!-- North Carolina -->
+<div class="state-group">
+<h4>North Carolina</h4>
+<ul>
+<li><a href="/locations/north-carolina/asheville/">Asheville</a></li>
+<li><a href="/locations/north-carolina/cary/">Cary</a></li>
+<li><a href="/locations/north-carolina/charlotte/">Charlotte</a></li>
+<li><a href="/locations/north-carolina/concord/">Concord</a></li>
+<li><a href="/locations/north-carolina/durham/">Durham</a></li>
+<li><a href="/locations/north-carolina/fayetteville/">Fayetteville</a></li>
+<li><a href="/locations/north-carolina/gastonia/">Gastonia</a></li>
+<li><a href="/locations/north-carolina/greensboro/">Greensboro</a></li>
+<li><a href="/locations/north-carolina/greenville/">Greenville</a></li>
+<li><a href="/locations/north-carolina/high-point/">High Point</a></li>
+<li><a href="/locations/north-carolina/huntersville/">Huntersville</a></li>
+<li><a href="/locations/north-carolina/jacksonville/">Jacksonville</a></li>
+<li><a href="/locations/north-carolina/kannapolis/">Kannapolis</a></li>
+<li><a href="/locations/north-carolina/monroe/">Monroe</a></li>
+<li><a href="/locations/north-carolina/raleigh/">Raleigh</a></li>
+<li><a href="/locations/north-carolina/rocky-mount/">Rocky Mount</a></li>
+<li><a href="/locations/north-carolina/wilmington/">Wilmington</a></li>
+<li><a href="/locations/north-carolina/wilson/">Wilson</a></li>
+<li><a href="/locations/north-carolina/winston-salem/">Winston-Salem</a></li>
+</ul>
+</div>
+<!-- North Dakota -->
+<div class="state-group">
+<h4>North Dakota</h4>
+<ul>
+<li><a href="/locations/north-dakota/bismarck/">Bismarck</a></li>
+<li><a href="/locations/north-dakota/fargo/">Fargo</a></li>
+<li><a href="/locations/north-dakota/grand-forks/">Grand Forks</a></li>
+<li><a href="/locations/north-dakota/minot/">Minot</a></li>
+<li><a href="/locations/north-dakota/west-fargo/">West Fargo</a></li>
+</ul>
+</div>
+<!-- Ohio -->
+<div class="state-group">
+<h4>Ohio</h4>
+<ul>
+<li><a href="/locations/ohio/akron/">Akron</a></li>
+<li><a href="/locations/ohio/canton/">Canton</a></li>
+<li><a href="/locations/ohio/cincinnati/">Cincinnati</a></li>
+<li><a href="/locations/ohio/cleveland/">Cleveland</a></li>
+<li><a href="/locations/ohio/columbus/">Columbus</a></li>
+<li><a href="/locations/ohio/dayton/">Dayton</a></li>
+<li><a href="/locations/ohio/elyria/">Elyria</a></li>
+<li><a href="/locations/ohio/hamilton/">Hamilton</a></li>
+<li><a href="/locations/ohio/kettering/">Kettering</a></li>
+<li><a href="/locations/ohio/lakewood/">Lakewood</a></li>
+<li><a href="/locations/ohio/lorain/">Lorain</a></li>
+<li><a href="/locations/ohio/parma/">Parma</a></li>
+<li><a href="/locations/ohio/springfield/">Springfield</a></li>
+<li><a href="/locations/ohio/toledo/">Toledo</a></li>
+<li><a href="/locations/ohio/youngstown/">Youngstown</a></li>
+</ul>
+</div>
+<!-- Oklahoma -->
+<div class="state-group">
+<h4>Oklahoma</h4>
+<ul>
+<li><a href="/locations/oklahoma/broken-arrow/">Broken Arrow</a></li>
+<li><a href="/locations/oklahoma/edmond/">Edmond</a></li>
+<li><a href="/locations/oklahoma/lawton/">Lawton</a></li>
+<li><a href="/locations/oklahoma/moore/">Moore</a></li>
+<li><a href="/locations/oklahoma/norman/">Norman</a></li>
+<li><a href="/locations/oklahoma/oklahoma-city/">Oklahoma City</a></li>
+<li><a href="/locations/oklahoma/tulsa/">Tulsa</a></li>
+</ul>
+</div>
+<!-- Oregon -->
+<div class="state-group">
+<h4>Oregon</h4>
+<ul>
+<li><a href="/locations/oregon/beaverton/">Beaverton</a></li>
+<li><a href="/locations/oregon/bend/">Bend</a></li>
+<li><a href="/locations/oregon/corvallis/">Corvallis</a></li>
+<li><a href="/locations/oregon/eugene/">Eugene</a></li>
+<li><a href="/locations/oregon/gresham/">Gresham</a></li>
+<li><a href="/locations/oregon/hillsboro/">Hillsboro</a></li>
+<li><a href="/locations/oregon/lake-oswego/">Lake Oswego</a></li>
+<li><a href="/locations/oregon/medford/">Medford</a></li>
+<li><a href="/locations/oregon/portland/">Portland</a></li>
+<li><a href="/locations/oregon/salem/">Salem</a></li>
+<li><a href="/locations/oregon/springfield/">Springfield</a></li>
+<li><a href="/locations/oregon/tigard/">Tigard</a></li>
+</ul>
+</div>
+<!-- Pennsylvania -->
+<div class="state-group">
+<h4>Pennsylvania</h4>
+<ul>
+<li><a href="/locations/pennsylvania/allentown/">Allentown</a></li>
+<li><a href="/locations/pennsylvania/bethlehem/">Bethlehem</a></li>
+<li><a href="/locations/pennsylvania/erie/">Erie</a></li>
+<li><a href="/locations/pennsylvania/harrisburg/">Harrisburg</a></li>
+<li><a href="/locations/pennsylvania/lancaster/">Lancaster</a></li>
+<li><a href="/locations/pennsylvania/philadelphia/">Philadelphia</a></li>
+<li><a href="/locations/pennsylvania/pittsburgh/">Pittsburgh</a></li>
+<li><a href="/locations/pennsylvania/reading/">Reading</a></li>
+<li><a href="/locations/pennsylvania/scranton/">Scranton</a></li>
+<li><a href="/locations/pennsylvania/southeast-pennsylvania/">Southeast Pennsylvania</a></li>
+<li><a href="/locations/pennsylvania/southern-pennsylvania/">Southern Pennsylvania</a></li>
+<li><a href="/locations/pennsylvania/upper-darby/">Upper Darby</a></li>
+<li><a href="/locations/pennsylvania/york/">York</a></li>
+</ul>
+</div>
+<!-- Rhode Island -->
+<div class="state-group">
+<h4>Rhode Island</h4>
+<ul>
+<li><a href="/locations/rhode-island/cranston/">Cranston</a></li>
+<li><a href="/locations/rhode-island/newport/">Newport</a></li>
+<li><a href="/locations/rhode-island/pawtucket/">Pawtucket</a></li>
+<li><a href="/locations/rhode-island/providence/">Providence</a></li>
+<li><a href="/locations/rhode-island/warwick/">Warwick</a></li>
+<li><a href="/locations/rhode-island/woonsocket/">Woonsocket</a></li>
+</ul>
+</div>
+<!-- South Carolina -->
+<div class="state-group">
+<h4>South Carolina</h4>
+<ul>
+<li><a href="/locations/south-carolina/charleston/">Charleston</a></li>
+<li><a href="/locations/south-carolina/columbia/">Columbia</a></li>
+<li><a href="/locations/south-carolina/florence/">Florence</a></li>
+<li><a href="/locations/south-carolina/greenville/">Greenville</a></li>
+<li><a href="/locations/south-carolina/mount-pleasant/">Mount Pleasant</a></li>
+<li><a href="/locations/south-carolina/north-charleston/">North Charleston</a></li>
+<li><a href="/locations/south-carolina/rock-hill/">Rock Hill</a></li>
+<li><a href="/locations/south-carolina/spartanburg/">Spartanburg</a></li>
+<li><a href="/locations/south-carolina/summerville/">Summerville</a></li>
+</ul>
+</div>
+<!-- South Dakota -->
+<div class="state-group">
+<h4>South Dakota</h4>
+<ul>
+<li><a href="/locations/south-dakota/aberdeen/">Aberdeen</a></li>
+<li><a href="/locations/south-dakota/brookings/">Brookings</a></li>
+<li><a href="/locations/south-dakota/pierre/">Pierre</a></li>
+<li><a href="/locations/south-dakota/rapid-city/">Rapid City</a></li>
+<li><a href="/locations/south-dakota/sioux-falls/">Sioux Falls</a></li>
+<li><a href="/locations/south-dakota/watertown/">Watertown</a></li>
+</ul>
+</div>
+<!-- Tennessee -->
+<div class="state-group">
+<h4>Tennessee</h4>
+<ul>
+<li><a href="/locations/tennessee/bartlett/">Bartlett</a></li>
+<li><a href="/locations/tennessee/chattanooga/">Chattanooga</a></li>
+<li><a href="/locations/tennessee/clarksville/">Clarksville</a></li>
+<li><a href="/locations/tennessee/franklin/">Franklin</a></li>
+<li><a href="/locations/tennessee/germantown/">Germantown</a></li>
+<li><a href="/locations/tennessee/hendersonville/">Hendersonville</a></li>
+<li><a href="/locations/tennessee/jackson/">Jackson</a></li>
+<li><a href="/locations/tennessee/johnson-city/">Johnson City</a></li>
+<li><a href="/locations/tennessee/kingsport/">Kingsport</a></li>
+<li><a href="/locations/tennessee/knoxville/">Knoxville</a></li>
+<li><a href="/locations/tennessee/memphis/">Memphis</a></li>
+<li><a href="/locations/tennessee/murfreesboro/">Murfreesboro</a></li>
+<li><a href="/locations/tennessee/nashville/">Nashville</a></li>
+</ul>
+</div>
+<!-- Texas -->
+<div class="state-group">
+<h4>Texas</h4>
+<ul>
+<li><a href="/locations/texas/abilene/">Abilene</a></li>
+<li><a href="/locations/texas/allen/">Allen</a></li>
+<li><a href="/locations/texas/amarillo/">Amarillo</a></li>
+<li><a href="/locations/texas/arlington/">Arlington</a></li>
+<li><a href="/locations/texas/austin/">Austin</a></li>
+<li><a href="/locations/texas/baytown/">Baytown</a></li>
+<li><a href="/locations/texas/beaumont/">Beaumont</a></li>
+<li><a href="/locations/texas/brownsville/">Brownsville</a></li>
+<li><a href="/locations/texas/carrollton/">Carrollton</a></li>
+<li><a href="/locations/texas/college-station/">College Station</a></li>
+<li><a href="/locations/texas/corpus-christi/">Corpus Christi</a></li>
+<li><a href="/locations/texas/dallas/">Dallas</a></li>
+<li><a href="/locations/texas/denton/">Denton</a></li>
+<li><a href="/locations/texas/east-texas/">East Texas</a></li>
+<li><a href="/locations/texas/edinburg/">Edinburg</a></li>
+<li><a href="/locations/texas/el-paso/">El Paso</a></li>
+<li><a href="/locations/texas/fort-worth/">Fort Worth</a></li>
+<li><a href="/locations/texas/frisco/">Frisco</a></li>
+<li><a href="/locations/texas/garland/">Garland</a></li>
+<li><a href="/locations/texas/grand-prairie/">Grand Prairie</a></li>
+<li><a href="/locations/texas/houston/">Houston</a></li>
+<li><a href="/locations/texas/irving/">Irving</a></li>
+<li><a href="/locations/texas/killeen/">Killeen</a></li>
+<li><a href="/locations/texas/laredo/">Laredo</a></li>
+<li><a href="/locations/texas/league-city/">League City</a></li>
+<li><a href="/locations/texas/lewisville/">Lewisville</a></li>
+<li><a href="/locations/texas/lubbock/">Lubbock</a></li>
+<li><a href="/locations/texas/mcallen/">McAllen</a></li>
+<li><a href="/locations/texas/mckinney/">McKinney</a></li>
+<li><a href="/locations/texas/mesquite/">Mesquite</a></li>
+<li><a href="/locations/texas/midland/">Midland</a></li>
+<li><a href="/locations/texas/north-richland-hills/">North Richland Hills</a></li>
+<li><a href="/locations/texas/odessa/">Odessa</a></li>
+<li><a href="/locations/texas/pasadena/">Pasadena</a></li>
+<li><a href="/locations/texas/pearland/">Pearland</a></li>
+<li><a href="/locations/texas/pflugerville/">Pflugerville</a></li>
+<li><a href="/locations/texas/plano/">Plano</a></li>
+<li><a href="/locations/texas/richardson/">Richardson</a></li>
+<li><a href="/locations/texas/round-rock/">Round Rock</a></li>
+<li><a href="/locations/texas/san-angelo/">San Angelo</a></li>
+<li><a href="/locations/texas/san-antonio/">San Antonio</a></li>
+<li><a href="/locations/texas/southeast-houston/">Southeast Houston</a></li>
+<li><a href="/locations/texas/southwest-houston/">Southwest Houston</a></li>
+<li><a href="/locations/texas/sugar-land/">Sugar Land</a></li>
+<li><a href="/locations/texas/the-woodlands/">The Woodlands</a></li>
+<li><a href="/locations/texas/tyler/">Tyler</a></li>
+<li><a href="/locations/texas/waco/">Waco</a></li>
+<li><a href="/locations/texas/west-houston/">West Houston</a></li>
+<li><a href="/locations/texas/wichita-falls/">Wichita Falls</a></li>
+</ul>
+</div>
+<!-- Utah -->
+<div class="state-group">
+<h4>Utah</h4>
+<ul>
+<li><a href="/locations/utah/layton/">Layton</a></li>
+<li><a href="/locations/utah/lehi/">Lehi</a></li>
+<li><a href="/locations/utah/logan/">Logan</a></li>
+<li><a href="/locations/utah/ogden/">Ogden</a></li>
+<li><a href="/locations/utah/orem/">Orem</a></li>
+<li><a href="/locations/utah/provo/">Provo</a></li>
+<li><a href="/locations/utah/salt-lake-city/">Salt Lake City</a></li>
+<li><a href="/locations/utah/sandy/">Sandy</a></li>
+<li><a href="/locations/utah/st-george/">St. George</a></li>
+<li><a href="/locations/utah/west-jordan/">West Jordan</a></li>
+<li><a href="/locations/utah/west-valley-city/">West Valley City</a></li>
+</ul>
+</div>
+<!-- Vermont -->
+<div class="state-group">
+<h4>Vermont</h4>
+<ul>
+<li><a href="/locations/vermont/burlington/">Burlington</a></li>
+<li><a href="/locations/vermont/essex/">Essex</a></li>
+<li><a href="/locations/vermont/montpelier/">Montpelier</a></li>
+<li><a href="/locations/vermont/rutland/">Rutland</a></li>
+<li><a href="/locations/vermont/south-burlington/">South Burlington</a></li>
+</ul>
+</div>
+<!-- Virginia -->
+<div class="state-group">
+<h4>Virginia</h4>
+<ul>
+<li><a href="/locations/virginia/alexandria/">Alexandria</a></li>
+<li><a href="/locations/virginia/arlington/">Arlington</a></li>
+<li><a href="/locations/virginia/chesapeake/">Chesapeake</a></li>
+<li><a href="/locations/virginia/hampton/">Hampton</a></li>
+<li><a href="/locations/virginia/newport-news/">Newport News</a></li>
+<li><a href="/locations/virginia/norfolk/">Norfolk</a></li>
+<li><a href="/locations/virginia/portsmouth/">Portsmouth</a></li>
+<li><a href="/locations/virginia/richmond/">Richmond</a></li>
+<li><a href="/locations/virginia/roanoke/">Roanoke</a></li>
+<li><a href="/locations/virginia/suffolk/">Suffolk</a></li>
+<li><a href="/locations/virginia/virginia-beach/">Virginia Beach</a></li>
+</ul>
+</div>
+<!-- Washington -->
+<div class="state-group">
+<h4>Washington</h4>
+<ul>
+<li><a href="/locations/washington/bellevue/">Bellevue</a></li>
+<li><a href="/locations/washington/bellingham/">Bellingham</a></li>
+<li><a href="/locations/washington/everett/">Everett</a></li>
+<li><a href="/locations/washington/federal-way/">Federal Way</a></li>
+<li><a href="/locations/washington/kent/">Kent</a></li>
+<li><a href="/locations/washington/kirkland/">Kirkland</a></li>
+<li><a href="/locations/washington/renton/">Renton</a></li>
+<li><a href="/locations/washington/seattle/">Seattle</a></li>
+<li><a href="/locations/washington/spokane/">Spokane</a></li>
+<li><a href="/locations/washington/spokane-valley/">Spokane Valley</a></li>
+<li><a href="/locations/washington/tacoma/">Tacoma</a></li>
+<li><a href="/locations/washington/vancouver/">Vancouver</a></li>
+<li><a href="/locations/washington/yakima/">Yakima</a></li>
+</ul>
+</div>
+<!-- West Virginia -->
+<div class="state-group">
+<h4>West Virginia</h4>
+<ul>
+<li><a href="/locations/west-virginia/charleston/">Charleston</a></li>
+<li><a href="/locations/west-virginia/huntington/">Huntington</a></li>
+<li><a href="/locations/west-virginia/morgantown/">Morgantown</a></li>
+<li><a href="/locations/west-virginia/parkersburg/">Parkersburg</a></li>
+<li><a href="/locations/west-virginia/wheeling/">Wheeling</a></li>
+</ul>
+</div>
+<!-- Wisconsin -->
+<div class="state-group">
+<h4>Wisconsin</h4>
+<ul>
+<li><a href="/locations/wisconsin/appleton/">Appleton</a></li>
+<li><a href="/locations/wisconsin/eau-claire/">Eau Claire</a></li>
+<li><a href="/locations/wisconsin/green-bay/">Green Bay</a></li>
+<li><a href="/locations/wisconsin/kenosha/">Kenosha</a></li>
+<li><a href="/locations/wisconsin/madison/">Madison</a></li>
+<li><a href="/locations/wisconsin/milwaukee/">Milwaukee</a></li>
+<li><a href="/locations/wisconsin/oshkosh/">Oshkosh</a></li>
+<li><a href="/locations/wisconsin/racine/">Racine</a></li>
+<li><a href="/locations/wisconsin/waukesha/">Waukesha</a></li>
+</ul>
+</div>
+<!-- Wyoming -->
+<div class="state-group">
+<h4>Wyoming</h4>
+<ul>
+<li><a href="/locations/wyoming/casper/">Casper</a></li>
+<li><a href="/locations/wyoming/cheyenne/">Cheyenne</a></li>
+<li><a href="/locations/wyoming/gillette/">Gillette</a></li>
+<li><a href="/locations/wyoming/laramie/">Laramie</a></li>
+<li><a href="/locations/wyoming/rock-springs/">Rock Springs</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div><script>
+    function toggleLocations() {
+      var dropdown = document.getElementById('locationsDropdown');
+      var icon = document.querySelector('.toggle-icon');
+      
+      if (dropdown.style.display === 'none' || dropdown.style.display === '') {
+        dropdown.style.display = 'block';
+        icon.textContent = '▲';
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        dropdown.style.display = 'none';
+        icon.textContent = '▼';
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+</script></body>
+</html>
